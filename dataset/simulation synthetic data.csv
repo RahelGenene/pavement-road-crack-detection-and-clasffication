@@ -1,0 +1,1001 @@
+timestamp,road,crack_type,crack_type_name,confidence_pct,crack_area_pct,vehicle_type,vehicle_speed_kmh,weather,tire_condition,temperature_c,humidity_pct,road_age_yr,traffic_volume,friction_coeff,gps_lat,gps_lon,severity,risk_score
+2024-01-01 00:33:27,A2 Addis-Adama,1,Longitudinal crack,60.1,5.68,Heavy Truck,10,rain,worn,31,30,15,7,0.306,9.0569,38.7374,LOW,0.27
+2024-01-01 18:06:37,A2 Addis-Adama,3,Transverse crack,52.5,9.31,Bicycle,18,snow,good,26,50,24,2,0.238,9.0651,38.7061,LOW,0.94
+2024-01-02 11:46:17,R2 Ring Road,2,Repair,82.9,2.87,Heavy Truck,22,snow,good,6,34,20,8,0.244,9.0311,38.7717,LOW,0.23
+2024-01-03 04:51:16,A2 Addis-Adama,3,Transverse crack,46.4,11.71,Bicycle,117,rain,worn,11,25,14,6,0.3,8.9962,38.7295,HIGH,6.93
+2024-01-03 22:27:32,A9 Addis-Bahir Dar,2,Repair,73.1,15.76,Truck,36,snow,good,23,85,24,9,0.234,9.2517,38.5721,LOW,1.26
+2024-01-04 16:29:54,A3 Addis-Jimma,0,Alligator crack,89.4,0.51,Minibus,13,fog,worn,38,68,4,3,0.453,8.5611,38.1235,LOW,0.17
+2024-01-05 09:57:48,A3 Addis-Jimma,2,Repair,65.0,0.96,Minibus,46,clear,bad,6,27,30,9,0.352,8.5734,38.1112,LOW,0.26
+2024-01-06 03:15:15,R2 Ring Road,2,Repair,47.5,10.85,Normal Car,8,night,bad,40,22,19,6,0.308,8.9954,38.7216,LOW,0.2
+2024-01-06 20:17:51,A3 Addis-Jimma,0,Alligator crack,51.8,11.59,Minibus,57,snow,good,-2,80,23,1,0.237,8.5405,38.1157,MODERATE,4.43
+2024-01-07 13:46:01,A2 Addis-Adama,0,Alligator crack,69.9,4.52,Motorcycle,95,fog,bad,42,34,17,7,0.285,9.0597,38.7425,MODERATE,3.49
+2024-01-08 07:19:58,A3 Addis-Jimma,0,Alligator crack,90.9,5.07,Normal Car,92,rain,good,19,91,8,6,0.44,8.598,38.1626,MODERATE,2.78
+2024-01-09 00:59:43,R2 Ring Road,2,Repair,45.4,3.52,Bicycle,16,rain,good,27,29,11,9,0.441,9.0166,38.7325,LOW,0.13
+2024-01-09 18:31:50,R2 Ring Road,3,Transverse crack,72.4,3.54,Normal Car,12,clear,worn,41,33,8,1,0.55,9.0224,38.7755,LOW,0.23
+2024-01-10 11:49:34,A9 Addis-Bahir Dar,3,Transverse crack,54.7,1.68,Bicycle,40,night,bad,38,16,30,3,0.316,9.2685,38.6314,LOW,0.74
+2024-01-11 05:38:55,A9 Addis-Bahir Dar,0,Alligator crack,71.8,15.27,Minibus,45,fog,bad,28,92,6,1,0.277,9.2463,38.6118,MODERATE,4.18
+2024-01-11 22:48:38,A3 Addis-Jimma,1,Longitudinal crack,88.3,14.39,Normal Car,50,rain,worn,20,32,27,7,0.294,8.5254,38.1012,MODERATE,2.76
+2024-01-12 16:48:43,A2 Addis-Adama,0,Alligator crack,95.6,13.05,Motorcycle,102,heavyrain,worn,19,48,10,8,0.2,9.0113,38.7467,CRITICAL,10
+2024-01-13 10:48:09,A2 Addis-Adama,1,Longitudinal crack,63.4,2.04,Heavy Truck,39,heavyrain,good,41,96,5,9,0.297,9.0037,38.7396,LOW,0.58
+2024-01-14 03:55:02,R2 Ring Road,2,Repair,75.5,11.10,Motorcycle,60,clear,bad,23,93,7,3,0.345,9.0296,38.7376,LOW,1.35
+2024-01-14 21:06:04,A9 Addis-Bahir Dar,1,Longitudinal crack,65.7,17.90,Motorcycle,39,heavyrain,worn,32,29,4,10,0.199,9.24,38.6105,MODERATE,3.4
+2024-01-15 14:48:17,A3 Addis-Jimma,0,Alligator crack,89.3,8.29,Truck,72,night,good,17,87,28,5,0.687,8.5557,38.1313,MODERATE,2.74
+2024-01-16 08:02:32,A1 Addis-Dire Dawa,2,Repair,51.1,15.92,Minibus,13,rain,worn,36,80,3,2,0.299,9.0908,39.1093,LOW,0.43
+2024-01-17 02:15:04,A3 Addis-Jimma,0,Alligator crack,95.3,0.69,Truck,97,snow,good,8,93,6,2,0.248,8.5207,38.1697,LOW,1.71
+2024-01-17 19:25:20,A9 Addis-Bahir Dar,2,Repair,52.5,2.12,Minibus,118,heavyrain,worn,10,74,18,2,0.206,9.2276,38.624,LOW,1.29
+2024-01-18 12:36:50,A2 Addis-Adama,2,Repair,62.7,10.26,Bicycle,31,heavyrain,bad,15,52,13,10,0.129,9.0087,38.7088,LOW,1.11
+2024-01-19 06:57:07,A3 Addis-Jimma,3,Transverse crack,63.4,11.57,Normal Car,15,fog,bad,41,91,14,5,0.279,8.5288,38.1277,LOW,0.89
+2024-01-20 00:20:25,A2 Addis-Adama,3,Transverse crack,97.8,11.25,Minibus,29,clear,good,12,52,4,9,0.768,9.0082,38.7463,LOW,0.98
+2024-01-20 17:04:51,A2 Addis-Adama,3,Transverse crack,57.6,14.93,Normal Car,32,fog,bad,25,20,11,5,0.276,8.9969,38.7734,LOW,2.35
+2024-01-21 10:39:38,A1 Addis-Dire Dawa,0,Alligator crack,68.6,13.22,Normal Car,102,fog,good,40,67,23,8,0.612,9.1145,39.1692,HIGH,5.41
+2024-01-22 04:58:44,A1 Addis-Dire Dawa,1,Longitudinal crack,90.9,16.40,Bicycle,118,rain,bad,13,35,13,2,0.191,9.1324,39.1401,CRITICAL,8.69
+2024-01-22 22:28:20,A1 Addis-Dire Dawa,3,Transverse crack,73.3,13.50,Bicycle,92,fog,worn,16,80,4,4,0.433,9.0896,39.1493,HIGH,5.19
+2024-01-23 15:44:30,A9 Addis-Bahir Dar,3,Transverse crack,73.4,2.82,Normal Car,18,clear,worn,43,44,2,2,0.554,9.249,38.6069,LOW,0.31
+2024-01-24 09:36:55,R2 Ring Road,0,Alligator crack,73.2,6.83,Bicycle,106,snow,worn,23,57,19,9,0.169,9.0098,38.7447,HIGH,7.1
+2024-01-25 02:49:37,A9 Addis-Bahir Dar,2,Repair,77.6,2.84,Motorcycle,22,rain,good,-3,38,5,2,0.444,9.2393,38.5759,LOW,0.16
+2024-01-25 19:54:33,R2 Ring Road,1,Longitudinal crack,96.2,2.54,Motorcycle,37,fog,worn,4,55,23,1,0.444,9.0572,38.7655,LOW,0.52
+2024-01-26 13:22:53,A3 Addis-Jimma,0,Alligator crack,91.2,4.70,Normal Car,39,night,good,39,35,25,7,0.697,8.5792,38.1013,LOW,0.99
+2024-01-27 07:11:58,A2 Addis-Adama,1,Longitudinal crack,82.2,2.45,Heavy Truck,86,rain,worn,-5,96,7,9,0.311,9.0674,38.7574,LOW,1.39
+2024-01-28 00:58:12,R2 Ring Road,1,Longitudinal crack,92.3,7.36,Heavy Truck,82,night,good,25,27,2,1,0.701,9.0014,38.7578,LOW,1.8
+2024-01-28 18:42:01,A2 Addis-Adama,1,Longitudinal crack,56.4,4.93,Truck,117,rain,bad,41,97,28,1,0.195,8.9987,38.7264,MODERATE,3.39
+2024-01-29 11:22:25,A3 Addis-Jimma,2,Repair,82.6,14.18,Normal Car,20,clear,bad,23,38,7,6,0.341,8.5744,38.1324,LOW,0.55
+2024-01-30 05:15:05,R2 Ring Road,2,Repair,85.5,1.70,Motorcycle,55,fog,good,38,80,22,5,0.637,9.0357,38.7525,LOW,0.27
+2024-01-30 23:03:46,A2 Addis-Adama,3,Transverse crack,75.7,10.69,Motorcycle,19,rain,worn,22,37,10,5,0.302,9.0052,38.7647,LOW,1.04
+2024-01-31 16:14:33,A1 Addis-Dire Dawa,2,Repair,89.7,17.86,Truck,113,clear,good,30,16,10,4,0.755,9.0941,39.1489,LOW,2.45
+2024-02-01 09:22:31,A1 Addis-Dire Dawa,0,Alligator crack,78.0,3.05,Heavy Truck,116,rain,worn,37,92,7,6,0.31,9.156,39.1218,MODERATE,3.34
+2024-02-02 03:41:11,A1 Addis-Dire Dawa,3,Transverse crack,91.4,13.87,Bicycle,6,heavyrain,worn,2,80,19,6,0.198,9.1277,39.1414,LOW,0.54
+2024-02-02 21:03:13,A1 Addis-Dire Dawa,1,Longitudinal crack,56.6,14.29,Motorcycle,34,fog,good,-3,46,4,6,0.617,9.1512,39.1207,LOW,1.21
+2024-02-03 14:41:15,A2 Addis-Adama,0,Alligator crack,54.6,0.86,Heavy Truck,113,heavyrain,worn,44,66,20,9,0.207,8.9915,38.7089,MODERATE,2.57
+2024-02-04 07:56:23,A9 Addis-Bahir Dar,3,Transverse crack,87.9,7.54,Minibus,82,rain,good,41,65,27,5,0.431,9.2681,38.6239,MODERATE,2.64
+2024-02-05 01:04:24,A9 Addis-Bahir Dar,3,Transverse crack,65.6,0.59,Truck,7,rain,worn,-4,82,13,10,0.312,9.2124,38.62,LOW,0.09
+2024-02-05 18:39:55,A9 Addis-Bahir Dar,0,Alligator crack,84.0,15.82,Minibus,13,snow,bad,12,45,10,7,0.106,9.2311,38.5917,LOW,2.04
+2024-02-06 12:15:52,A1 Addis-Dire Dawa,1,Longitudinal crack,84.5,13.44,Minibus,5,clear,good,39,33,5,1,0.762,9.1156,39.1276,LOW,0.15
+2024-02-07 06:03:14,A9 Addis-Bahir Dar,0,Alligator crack,53.4,6.74,Normal Car,41,snow,bad,-1,72,27,6,0.108,9.2267,38.5833,MODERATE,3.24
+2024-02-07 23:51:24,A2 Addis-Adama,3,Transverse crack,85.9,13.32,Heavy Truck,129,heavyrain,good,28,17,29,6,0.281,9.0278,38.746,CRITICAL,8.56
+2024-02-08 17:10:14,A2 Addis-Adama,0,Alligator crack,86.8,14.25,Truck,69,fog,worn,36,75,7,6,0.431,9.013,38.7396,HIGH,5.07
+2024-02-09 10:15:19,A9 Addis-Bahir Dar,2,Repair,48.2,5.39,Motorcycle,108,rain,worn,15,72,10,4,0.307,9.2324,38.5666,LOW,1.54
+2024-02-10 04:20:16,A2 Addis-Adama,2,Repair,80.2,13.38,Bicycle,40,night,bad,36,84,12,2,0.307,9.0574,38.7263,LOW,1.21
+2024-02-10 21:30:44,A9 Addis-Bahir Dar,0,Alligator crack,68.1,1.27,Heavy Truck,18,rain,good,4,83,29,5,0.439,9.2525,38.6035,LOW,0.27
+2024-02-11 14:41:30,R2 Ring Road,2,Repair,57.3,11.06,Truck,20,heavyrain,worn,7,63,26,8,0.199,8.988,38.7364,LOW,0.64
+2024-02-12 08:23:23,A3 Addis-Jimma,0,Alligator crack,87.1,14.10,Bicycle,120,fog,good,9,78,15,4,0.613,8.5304,38.0994,HIGH,6.72
+2024-02-13 02:15:26,A1 Addis-Dire Dawa,3,Transverse crack,60.2,3.55,Heavy Truck,60,fog,worn,43,54,13,3,0.446,9.1142,39.1185,LOW,1.28
+2024-02-13 19:28:46,A2 Addis-Adama,0,Alligator crack,54.9,7.30,Normal Car,95,night,worn,38,39,23,7,0.484,9.0322,38.778,MODERATE,4.27
+2024-02-14 13:09:34,A3 Addis-Jimma,1,Longitudinal crack,88.7,2.27,Truck,46,snow,good,37,82,17,7,0.245,8.5281,38.1257,LOW,0.76
+2024-02-15 06:52:45,A9 Addis-Bahir Dar,0,Alligator crack,75.3,17.49,Heavy Truck,96,night,good,28,51,14,4,0.678,9.2391,38.6205,HIGH,6.77
+2024-02-15 23:56:14,A3 Addis-Jimma,3,Transverse crack,46.6,4.16,Bicycle,31,night,good,34,48,25,3,0.698,8.5229,38.0919,LOW,0.59
+2024-02-16 17:24:07,A9 Addis-Bahir Dar,0,Alligator crack,71.4,2.07,Heavy Truck,127,fog,worn,14,93,30,10,0.443,9.2659,38.6303,MODERATE,2.55
+2024-02-17 11:04:16,A2 Addis-Adama,3,Transverse crack,47.5,5.97,Bicycle,72,rain,good,31,54,20,9,0.435,9.0179,38.735,LOW,1.96
+2024-02-18 04:34:47,A1 Addis-Dire Dawa,0,Alligator crack,73.6,11.64,Bicycle,82,fog,worn,34,67,12,5,0.434,9.1385,39.1716,HIGH,5.08
+2024-02-18 22:00:13,A2 Addis-Adama,0,Alligator crack,53.3,6.50,Bicycle,125,heavyrain,bad,-5,81,9,2,0.131,9.0223,38.737,CRITICAL,9.09
+2024-02-19 16:12:31,A1 Addis-Dire Dawa,2,Repair,93.6,9.84,Motorcycle,113,night,bad,-1,93,17,10,0.31,9.1381,39.1263,MODERATE,2.65
+2024-02-20 09:47:23,A3 Addis-Jimma,0,Alligator crack,97.1,17.53,Bicycle,39,night,good,40,27,7,5,0.681,8.5324,38.1265,MODERATE,2.75
+2024-02-21 02:26:29,A2 Addis-Adama,1,Longitudinal crack,82.6,13.87,Truck,52,clear,good,22,29,24,10,0.751,9.0009,38.7546,LOW,1.65
+2024-02-21 20:14:54,R2 Ring Road,3,Transverse crack,72.7,16.09,Motorcycle,24,fog,worn,40,91,3,8,0.431,8.9876,38.7582,LOW,1.57
+2024-02-22 14:13:25,A3 Addis-Jimma,0,Alligator crack,49.1,17.14,Truck,12,heavyrain,good,10,35,29,6,0.279,8.5437,38.0966,LOW,1.23
+2024-02-23 07:18:23,A2 Addis-Adama,2,Repair,96.9,5.00,Heavy Truck,121,night,worn,40,68,7,9,0.493,9.029,38.7334,LOW,1.45
+2024-02-24 00:51:32,A3 Addis-Jimma,2,Repair,89.1,1.21,Heavy Truck,94,snow,bad,40,69,24,4,0.11,8.5726,38.1457,LOW,1.04
+2024-02-24 18:53:12,A1 Addis-Dire Dawa,3,Transverse crack,74.1,5.64,Heavy Truck,49,clear,bad,0,38,14,10,0.35,9.1543,39.1689,LOW,1.52
+2024-02-25 11:55:53,A1 Addis-Dire Dawa,2,Repair,93.7,1.00,Truck,15,rain,worn,34,58,15,2,0.311,9.1269,39.122,LOW,0.09
+2024-02-26 05:59:51,A1 Addis-Dire Dawa,0,Alligator crack,72.0,7.68,Heavy Truck,34,heavyrain,bad,27,79,9,1,0.131,9.131,39.1238,MODERATE,2.8
+2024-02-26 22:37:43,A3 Addis-Jimma,1,Longitudinal crack,80.7,6.01,Heavy Truck,99,fog,worn,37,94,23,5,0.439,8.5249,38.1583,LOW,2.33
+2024-02-27 16:59:27,A2 Addis-Adama,0,Alligator crack,65.4,17.12,Heavy Truck,34,snow,bad,7,41,30,8,0.105,8.9992,38.7052,HIGH,5.71
+2024-02-28 09:53:47,A2 Addis-Adama,0,Alligator crack,50.2,11.32,Minibus,96,night,bad,18,64,25,8,0.307,9.0265,38.7338,HIGH,7.25
+2024-02-29 04:03:00,A2 Addis-Adama,1,Longitudinal crack,75.1,2.37,Motorcycle,81,night,bad,40,98,13,7,0.319,8.9931,38.7032,LOW,1.36
+2024-02-29 20:52:05,A9 Addis-Bahir Dar,0,Alligator crack,94.6,0.59,Heavy Truck,68,clear,good,30,27,29,4,0.783,9.2419,38.5908,LOW,0.64
+2024-03-01 15:00:10,R2 Ring Road,2,Repair,55.2,14.14,Heavy Truck,34,fog,good,31,38,19,10,0.612,9.007,38.7606,LOW,0.66
+2024-03-02 07:52:23,A1 Addis-Dire Dawa,2,Repair,62.8,10.05,Minibus,55,heavyrain,bad,25,97,18,4,0.129,9.1538,39.1402,LOW,1.94
+2024-03-03 01:54:40,A2 Addis-Adama,1,Longitudinal crack,45.6,8.10,Motorcycle,39,night,bad,0,63,21,5,0.311,9.0397,38.7727,LOW,1.42
+2024-03-03 19:36:46,A2 Addis-Adama,3,Transverse crack,60.4,8.82,Bicycle,18,fog,good,12,93,16,7,0.624,9.0426,38.7794,LOW,0.55
+2024-03-04 13:09:01,A1 Addis-Dire Dawa,3,Transverse crack,80.5,10.10,Heavy Truck,22,clear,good,44,18,30,2,0.758,9.0957,39.1758,LOW,0.68
+2024-03-05 05:49:20,A9 Addis-Bahir Dar,3,Transverse crack,82.6,4.70,Normal Car,48,rain,bad,-5,85,28,8,0.196,9.2486,38.5701,LOW,1.72
+2024-03-05 23:37:02,R2 Ring Road,2,Repair,79.3,0.85,Truck,68,night,worn,13,65,27,4,0.494,9.0361,38.729,LOW,0.36
+2024-03-06 16:51:19,R2 Ring Road,1,Longitudinal crack,71.8,5.26,Truck,46,night,bad,39,54,25,7,0.313,8.9828,38.7251,LOW,1.23
+2024-03-07 11:17:31,A3 Addis-Jimma,1,Longitudinal crack,96.9,0.91,Truck,17,snow,good,31,52,24,6,0.245,8.5283,38.0921,LOW,0.2
+2024-03-08 04:19:22,A9 Addis-Bahir Dar,3,Transverse crack,86.1,12.78,Heavy Truck,93,night,good,25,62,4,7,0.687,9.2473,38.6358,MODERATE,4.03
+2024-03-08 22:20:28,R2 Ring Road,3,Transverse crack,55.5,12.83,Bicycle,17,heavyrain,bad,43,23,18,5,0.128,9.0174,38.7826,LOW,1.69
+2024-03-09 15:36:03,A9 Addis-Bahir Dar,1,Longitudinal crack,86.5,5.07,Bicycle,35,fog,good,25,30,10,5,0.635,9.2107,38.5626,LOW,0.56
+2024-03-10 09:09:36,A2 Addis-Adama,1,Longitudinal crack,84.5,9.95,Minibus,40,night,good,22,30,20,2,0.687,9.026,38.7651,LOW,1.11
+2024-03-11 02:05:13,A9 Addis-Bahir Dar,1,Longitudinal crack,89.3,3.98,Normal Car,74,fog,bad,37,93,25,6,0.284,9.2162,38.5891,LOW,1.58
+2024-03-11 19:45:03,A9 Addis-Bahir Dar,1,Longitudinal crack,75.7,17.27,Normal Car,68,snow,bad,-2,71,11,2,0.106,9.2155,38.5815,HIGH,7.25
+2024-03-12 13:47:45,A1 Addis-Dire Dawa,2,Repair,48.8,14.04,Heavy Truck,44,night,good,7,48,7,4,0.683,9.1376,39.1543,LOW,0.89
+2024-03-13 06:39:36,A1 Addis-Dire Dawa,3,Transverse crack,61.9,14.25,Bicycle,51,rain,good,26,39,19,3,0.423,9.1591,39.1542,MODERATE,2.74
+2024-03-14 00:00:31,A1 Addis-Dire Dawa,1,Longitudinal crack,54.4,1.46,Truck,60,night,good,32,39,20,9,0.707,9.0857,39.1099,LOW,0.53
+2024-03-14 17:48:09,R2 Ring Road,0,Alligator crack,76.5,10.79,Minibus,51,night,bad,36,29,24,9,0.307,9.0321,38.7548,MODERATE,3.71
+2024-03-15 11:16:45,A2 Addis-Adama,1,Longitudinal crack,71.5,11.84,Truck,93,heavyrain,good,34,87,8,7,0.287,9.0092,38.7122,MODERATE,4.38
+2024-03-16 04:38:18,A1 Addis-Dire Dawa,2,Repair,94.0,2.74,Truck,43,heavyrain,bad,10,32,6,9,0.133,9.1137,39.1797,LOW,0.63
+2024-03-16 22:11:08,A3 Addis-Jimma,2,Repair,59.6,13.99,Truck,64,night,bad,13,67,24,10,0.304,8.5507,38.152,LOW,2.01
+2024-03-17 16:13:02,R2 Ring Road,0,Alligator crack,83.6,5.12,Minibus,42,rain,good,37,89,7,1,0.44,9.0179,38.7751,LOW,1.28
+2024-03-18 09:18:16,A1 Addis-Dire Dawa,1,Longitudinal crack,85.4,11.73,Minibus,103,clear,good,32,78,14,8,0.762,9.0817,39.1106,MODERATE,2.83
+2024-03-19 03:22:22,R2 Ring Road,1,Longitudinal crack,83.0,1.57,Motorcycle,7,clear,bad,4,73,6,7,0.357,9.0433,38.7459,LOW,0.09
+2024-03-19 20:35:56,R2 Ring Road,1,Longitudinal crack,71.7,13.59,Motorcycle,44,rain,worn,-2,48,21,2,0.297,9.0264,38.7763,LOW,2.31
+2024-03-20 14:10:27,A1 Addis-Dire Dawa,1,Longitudinal crack,98.0,9.52,Heavy Truck,7,night,worn,35,81,14,7,0.483,9.0901,39.1666,LOW,0.24
+2024-03-21 07:51:30,R2 Ring Road,1,Longitudinal crack,91.7,4.15,Bicycle,78,heavyrain,good,16,38,16,2,0.293,9.0264,38.7282,LOW,1.7
+2024-03-22 00:59:58,A9 Addis-Bahir Dar,0,Alligator crack,82.8,3.12,Minibus,15,night,bad,16,28,10,3,0.318,9.2737,38.5806,LOW,0.46
+2024-03-22 18:28:38,A2 Addis-Adama,2,Repair,75.7,11.37,Heavy Truck,111,night,good,6,40,3,10,0.691,9.005,38.7637,LOW,1.89
+2024-03-23 12:07:32,R2 Ring Road,2,Repair,58.1,16.90,Truck,5,clear,bad,32,19,30,5,0.335,8.9956,38.7798,LOW,0.16
+2024-03-24 05:40:06,A2 Addis-Adama,1,Longitudinal crack,89.7,13.69,Minibus,70,heavyrain,good,21,63,5,3,0.285,9.0238,38.7243,MODERATE,3.72
+2024-03-24 23:47:09,R2 Ring Road,1,Longitudinal crack,81.8,14.47,Bicycle,129,rain,worn,9,64,9,2,0.298,9.0403,38.725,HIGH,7.15
+2024-03-25 17:04:09,A1 Addis-Dire Dawa,2,Repair,91.6,8.91,Normal Car,79,night,good,11,65,19,2,0.69,9.1023,39.1184,LOW,1.11
+2024-03-26 10:45:33,A9 Addis-Bahir Dar,3,Transverse crack,86.0,6.13,Motorcycle,113,rain,good,33,57,17,1,0.436,9.2141,38.571,MODERATE,3.13
+2024-03-27 03:23:12,A9 Addis-Bahir Dar,3,Transverse crack,61.8,14.26,Bicycle,118,fog,worn,8,58,22,8,0.427,9.2722,38.5687,HIGH,6.98
+2024-03-27 21:29:12,A1 Addis-Dire Dawa,1,Longitudinal crack,59.6,8.34,Heavy Truck,97,clear,good,12,39,5,9,0.775,9.1222,39.1417,LOW,2.03
+2024-03-28 14:38:34,A2 Addis-Adama,1,Longitudinal crack,51.8,8.79,Truck,63,snow,bad,24,34,11,5,0.108,9.0244,38.7203,MODERATE,3.84
+2024-03-29 08:09:01,A1 Addis-Dire Dawa,2,Repair,55.8,17.76,Bicycle,61,clear,worn,30,66,3,3,0.531,9.1253,39.1552,LOW,1.71
+2024-03-30 02:15:00,A9 Addis-Bahir Dar,0,Alligator crack,68.1,10.68,Motorcycle,45,heavyrain,good,3,89,15,8,0.286,9.2422,38.6129,MODERATE,3.09
+2024-03-30 19:42:29,A2 Addis-Adama,3,Transverse crack,65.0,8.58,Minibus,89,clear,worn,1,80,15,1,0.539,9.0085,38.7663,MODERATE,3.16
+2024-03-31 13:28:13,A2 Addis-Adama,3,Transverse crack,88.8,16.18,Motorcycle,16,rain,bad,-5,38,16,3,0.19,9.0371,38.732,LOW,1.49
+2024-04-01 06:25:28,A1 Addis-Dire Dawa,3,Transverse crack,58.8,15.42,Normal Car,91,heavyrain,worn,7,31,29,3,0.196,9.157,39.1102,CRITICAL,8.89
+2024-04-01 23:54:10,A1 Addis-Dire Dawa,1,Longitudinal crack,85.7,10.98,Minibus,30,heavyrain,worn,34,28,26,1,0.199,9.136,39.1765,LOW,1.73
+2024-04-02 17:44:23,R2 Ring Road,1,Longitudinal crack,48.4,2.59,Bicycle,112,night,bad,26,46,15,9,0.318,9.0491,38.7668,LOW,1.96
+2024-04-03 10:55:48,A9 Addis-Bahir Dar,3,Transverse crack,86.0,6.15,Truck,124,night,good,5,73,5,5,0.703,9.2795,38.6011,MODERATE,3.04
+2024-04-04 05:00:54,R2 Ring Road,0,Alligator crack,51.1,4.90,Heavy Truck,101,heavyrain,worn,42,92,5,9,0.206,9.0587,38.765,HIGH,5.07
+2024-04-04 21:55:17,A3 Addis-Jimma,0,Alligator crack,89.9,14.54,Motorcycle,90,fog,worn,7,98,27,7,0.425,8.5253,38.1219,HIGH,6.73
+2024-04-05 15:34:18,R2 Ring Road,3,Transverse crack,93.8,11.72,Truck,88,snow,bad,43,52,4,5,0.108,9.056,38.7268,CRITICAL,8.61
+2024-04-06 09:17:30,A2 Addis-Adama,1,Longitudinal crack,55.2,9.71,Truck,95,clear,bad,25,42,26,9,0.342,9.0093,38.7636,MODERATE,3.48
+2024-04-07 02:38:08,A2 Addis-Adama,2,Repair,83.3,14.96,Bicycle,33,fog,worn,27,22,6,6,0.431,9.0696,38.7042,LOW,0.88
+2024-04-07 20:39:23,A3 Addis-Jimma,2,Repair,83.0,9.57,Bicycle,98,clear,bad,15,53,27,8,0.342,8.5802,38.1415,LOW,1.96
+2024-04-08 13:46:50,R2 Ring Road,0,Alligator crack,65.2,1.37,Minibus,123,fog,bad,-2,51,5,9,0.29,9.0322,38.7357,LOW,2.49
+2024-04-09 06:46:46,R2 Ring Road,2,Repair,87.0,9.02,Minibus,94,night,bad,13,32,20,3,0.31,9.0349,38.7294,LOW,2.06
+2024-04-10 00:35:31,A2 Addis-Adama,2,Repair,52.4,15.07,Bicycle,80,fog,worn,22,94,7,1,0.43,9.0382,38.7182,LOW,2.14
+2024-04-10 18:02:03,A3 Addis-Jimma,2,Repair,89.8,4.24,Minibus,103,snow,worn,-2,20,11,10,0.171,8.5977,38.157,LOW,1.73
+2024-04-11 11:54:01,A3 Addis-Jimma,0,Alligator crack,93.5,13.04,Bicycle,80,snow,worn,6,25,29,1,0.164,8.5304,38.1251,CRITICAL,8.92
+2024-04-12 05:39:52,A3 Addis-Jimma,3,Transverse crack,73.5,11.72,Normal Car,75,heavyrain,good,5,22,2,5,0.288,8.5447,38.1694,MODERATE,4.47
+2024-04-12 22:27:02,A3 Addis-Jimma,0,Alligator crack,81.5,1.57,Heavy Truck,85,snow,bad,6,23,19,10,0.11,8.5546,38.1365,MODERATE,2.96
+2024-04-13 16:21:58,R2 Ring Road,3,Transverse crack,98.4,15.31,Bicycle,69,heavyrain,worn,39,77,13,9,0.198,8.9973,38.7965,HIGH,6.7
+2024-04-14 09:27:01,R2 Ring Road,3,Transverse crack,67.9,13.58,Normal Car,126,rain,good,1,50,10,1,0.427,9.0561,38.7669,HIGH,6.5
+2024-04-15 03:47:13,A1 Addis-Dire Dawa,3,Transverse crack,52.5,11.65,Truck,87,rain,worn,0,56,11,2,0.301,9.1226,39.1043,HIGH,5.13
+2024-04-15 20:51:21,A3 Addis-Jimma,1,Longitudinal crack,94.2,2.89,Bicycle,32,night,good,2,86,11,2,0.708,8.5373,38.1669,LOW,0.38
+2024-04-16 14:55:02,A9 Addis-Bahir Dar,3,Transverse crack,56.7,11.82,Bicycle,61,night,worn,7,60,10,3,0.481,9.2553,38.5935,MODERATE,3.22
+2024-04-17 08:12:28,A2 Addis-Adama,0,Alligator crack,50.5,3.22,Normal Car,104,snow,worn,24,57,1,5,0.173,9.0152,38.7015,MODERATE,4.27
+2024-04-18 01:09:05,A3 Addis-Jimma,2,Repair,66.8,16.32,Bicycle,8,heavyrain,good,21,31,26,10,0.28,8.5531,38.104,LOW,0.27
+2024-04-18 19:03:08,A9 Addis-Bahir Dar,1,Longitudinal crack,56.4,2.41,Normal Car,58,heavyrain,worn,-5,52,15,5,0.206,9.2151,38.5682,LOW,1.22
+2024-04-19 12:43:40,A9 Addis-Bahir Dar,3,Transverse crack,60.6,12.28,Truck,116,clear,good,29,47,4,1,0.765,9.2263,38.6314,MODERATE,4.23
+2024-04-20 05:37:39,R2 Ring Road,2,Repair,67.4,14.10,Heavy Truck,78,rain,good,43,63,16,5,0.424,9.0062,38.762,LOW,1.8
+2024-04-20 23:38:57,A3 Addis-Jimma,2,Repair,91.9,8.97,Minibus,8,heavyrain,good,18,40,4,1,0.29,8.5415,38.1396,LOW,0.17
+2024-04-21 16:46:02,A9 Addis-Bahir Dar,0,Alligator crack,68.5,10.33,Bicycle,39,clear,good,5,88,26,9,0.759,9.2468,38.6398,LOW,1.53
+2024-04-22 10:46:46,A1 Addis-Dire Dawa,0,Alligator crack,52.1,5.34,Minibus,46,rain,good,22,71,23,8,0.435,9.1131,39.1266,LOW,1.44
+2024-04-23 04:05:59,R2 Ring Road,1,Longitudinal crack,73.9,15.23,Heavy Truck,67,rain,worn,30,80,5,6,0.298,9.0545,38.728,MODERATE,3.88
+2024-04-23 21:13:03,A3 Addis-Jimma,2,Repair,57.0,11.09,Minibus,92,rain,bad,17,92,2,6,0.195,8.5675,38.0926,MODERATE,2.69
+2024-04-24 15:19:17,A2 Addis-Adama,2,Repair,94.9,5.04,Motorcycle,73,heavyrain,worn,42,35,2,6,0.206,8.9985,38.7271,LOW,1.3
+2024-04-25 08:28:56,A3 Addis-Jimma,3,Transverse crack,67.6,3.57,Bicycle,31,clear,worn,40,29,11,5,0.549,8.5524,38.1387,LOW,0.6
+2024-04-26 02:09:54,A9 Addis-Bahir Dar,0,Alligator crack,87.2,6.87,Motorcycle,22,snow,good,21,59,12,6,0.242,9.2581,38.6169,LOW,1.14
+2024-04-26 20:07:02,R2 Ring Road,2,Repair,78.0,9.21,Motorcycle,77,night,worn,5,76,29,3,0.479,8.9901,38.7477,LOW,1.44
+2024-04-27 13:08:54,A9 Addis-Bahir Dar,0,Alligator crack,87.1,2.04,Normal Car,10,heavyrain,bad,32,72,19,8,0.132,9.2699,38.5791,LOW,0.37
+2024-04-28 06:44:39,A9 Addis-Bahir Dar,0,Alligator crack,92.5,13.44,Minibus,85,snow,good,40,55,10,6,0.237,9.2494,38.6047,HIGH,7.48
+2024-04-29 00:41:55,A2 Addis-Adama,1,Longitudinal crack,54.0,10.24,Heavy Truck,20,rain,good,24,63,22,7,0.428,8.9961,38.7418,LOW,0.64
+2024-04-29 17:40:31,R2 Ring Road,1,Longitudinal crack,64.9,9.67,Bicycle,120,night,good,34,56,11,7,0.692,8.9948,38.7523,MODERATE,3.25
+2024-04-30 10:55:17,A3 Addis-Jimma,2,Repair,63.6,16.60,Truck,106,rain,bad,22,25,29,2,0.189,8.5411,38.1474,MODERATE,4.35
+2024-05-01 04:48:28,A2 Addis-Adama,0,Alligator crack,87.0,11.50,Motorcycle,81,fog,worn,35,96,8,10,0.435,9.0239,38.7195,MODERATE,4.97
+2024-05-01 21:50:41,A2 Addis-Adama,1,Longitudinal crack,55.0,2.56,Minibus,6,rain,bad,5,35,4,9,0.2,9.055,38.7226,LOW,0.12
+2024-05-02 15:40:59,A1 Addis-Dire Dawa,0,Alligator crack,70.4,6.37,Minibus,54,clear,good,4,54,20,4,0.773,9.1509,39.1142,LOW,1.47
+2024-05-03 08:59:33,A2 Addis-Adama,2,Repair,84.4,15.03,Bicycle,40,snow,bad,17,74,2,4,0.107,8.9938,38.7587,LOW,2.09
+2024-05-04 03:13:12,R2 Ring Road,1,Longitudinal crack,46.5,17.86,Heavy Truck,121,rain,worn,4,98,19,5,0.295,9.005,38.7371,CRITICAL,8.05
+2024-05-04 20:33:36,A2 Addis-Adama,0,Alligator crack,97.2,2.35,Heavy Truck,52,clear,worn,17,34,4,8,0.554,9.0267,38.7017,LOW,1.01
+2024-05-05 13:34:31,A2 Addis-Adama,3,Transverse crack,81.2,9.43,Heavy Truck,105,rain,worn,42,92,11,6,0.303,9.011,38.7739,HIGH,5.22
+2024-05-06 07:41:36,R2 Ring Road,1,Longitudinal crack,71.4,1.74,Motorcycle,112,fog,worn,20,60,30,3,0.443,9.0121,38.771,LOW,1.31
+2024-05-07 01:28:10,A1 Addis-Dire Dawa,2,Repair,75.4,17.68,Truck,96,night,good,14,32,22,7,0.674,9.0903,39.1705,LOW,2.38
+2024-05-07 18:02:49,A9 Addis-Bahir Dar,0,Alligator crack,97.6,16.27,Normal Car,95,fog,worn,38,87,5,7,0.431,9.2358,38.5964,HIGH,7.82
+2024-05-08 12:15:00,A3 Addis-Jimma,2,Repair,84.6,1.42,Heavy Truck,72,night,worn,0,85,6,1,0.5,8.5708,38.168,LOW,0.45
+2024-05-09 05:32:19,A9 Addis-Bahir Dar,3,Transverse crack,74.1,3.48,Normal Car,55,snow,good,8,29,1,2,0.247,9.2622,38.6024,LOW,1.46
+2024-05-09 22:55:15,A9 Addis-Bahir Dar,0,Alligator crack,94.6,16.34,Bicycle,20,fog,worn,21,69,5,9,0.431,9.2277,38.5941,LOW,1.65
+2024-05-10 16:55:51,R2 Ring Road,0,Alligator crack,77.2,11.14,Minibus,50,snow,worn,31,44,12,8,0.167,9.0046,38.7418,MODERATE,4.89
+2024-05-11 09:38:06,R2 Ring Road,1,Longitudinal crack,72.5,5.38,Heavy Truck,11,rain,worn,29,73,24,6,0.304,9.0268,38.7407,LOW,0.28
+2024-05-12 03:48:08,A9 Addis-Bahir Dar,1,Longitudinal crack,47.4,14.85,Bicycle,91,rain,bad,30,97,20,8,0.19,9.2169,38.5965,HIGH,6.15
+2024-05-12 21:01:56,A3 Addis-Jimma,1,Longitudinal crack,98.3,6.62,Normal Car,65,heavyrain,good,-1,41,9,1,0.292,8.5351,38.1227,LOW,1.95
+2024-05-13 14:43:47,A1 Addis-Dire Dawa,0,Alligator crack,70.2,8.37,Normal Car,55,rain,worn,43,64,13,4,0.304,9.1565,39.1647,MODERATE,3.1
+2024-05-14 08:21:18,R2 Ring Road,2,Repair,58.4,2.00,Motorcycle,30,fog,bad,-2,95,9,3,0.289,8.9877,38.7629,LOW,0.25
+2024-05-15 01:18:23,A9 Addis-Bahir Dar,1,Longitudinal crack,51.0,15.70,Minibus,105,fog,worn,36,53,21,9,0.426,9.216,38.6143,HIGH,5.28
+2024-05-15 19:32:34,A1 Addis-Dire Dawa,1,Longitudinal crack,77.1,8.77,Motorcycle,86,rain,good,2,78,7,4,0.435,9.1461,39.1518,LOW,2.44
+2024-05-16 13:00:25,A3 Addis-Jimma,0,Alligator crack,94.0,9.12,Truck,111,rain,good,34,31,17,3,0.431,8.5833,38.0929,HIGH,5.14
+2024-05-17 06:23:42,A3 Addis-Jimma,2,Repair,69.1,9.22,Motorcycle,60,snow,bad,6,31,26,7,0.107,8.5822,38.0937,LOW,2.09
+2024-05-18 00:03:15,R2 Ring Road,3,Transverse crack,96.7,8.34,Normal Car,61,night,bad,-2,83,22,7,0.31,9.0198,38.7824,MODERATE,2.91
+2024-05-18 17:04:10,A1 Addis-Dire Dawa,3,Transverse crack,46.3,11.74,Minibus,82,clear,worn,20,29,17,9,0.532,9.082,39.1153,MODERATE,3.74
+2024-05-19 10:31:45,A9 Addis-Bahir Dar,2,Repair,83.8,4.54,Bicycle,74,night,good,22,37,5,6,0.707,9.2292,38.5649,LOW,0.64
+2024-05-20 04:39:41,R2 Ring Road,0,Alligator crack,59.1,5.57,Motorcycle,44,night,good,7,93,12,6,0.701,8.9917,38.7864,LOW,1.25
+2024-05-20 21:48:54,A2 Addis-Adama,1,Longitudinal crack,98.7,4.21,Motorcycle,61,rain,bad,36,78,29,9,0.196,9.0338,38.7434,LOW,1.59
+2024-05-21 15:36:56,A1 Addis-Dire Dawa,1,Longitudinal crack,78.7,11.23,Bicycle,82,fog,bad,1,38,10,10,0.28,9.1279,39.155,MODERATE,3.71
+2024-05-22 08:41:11,A9 Addis-Bahir Dar,0,Alligator crack,71.9,17.64,Normal Car,75,snow,worn,19,62,3,1,0.166,9.2461,38.5784,CRITICAL,10
+2024-05-23 02:19:14,A1 Addis-Dire Dawa,0,Alligator crack,94.9,12.55,Normal Car,120,night,worn,39,71,28,1,0.474,9.1592,39.1594,CRITICAL,8.28
+2024-05-23 19:37:12,A1 Addis-Dire Dawa,3,Transverse crack,49.5,12.79,Normal Car,25,heavyrain,good,20,32,13,9,0.285,9.1333,39.109,LOW,1.6
+2024-05-24 13:15:53,A9 Addis-Bahir Dar,3,Transverse crack,58.7,9.78,Motorcycle,98,rain,bad,6,43,21,5,0.193,9.2523,38.5818,HIGH,5.98
+2024-05-25 07:26:27,A3 Addis-Jimma,0,Alligator crack,70.6,5.44,Motorcycle,105,rain,bad,39,64,7,7,0.198,8.5698,38.1674,HIGH,5.15
+2024-05-26 00:29:39,A9 Addis-Bahir Dar,2,Repair,64.5,5.22,Minibus,78,clear,bad,29,49,10,10,0.351,9.2795,38.6247,LOW,1
+2024-05-26 17:39:06,A1 Addis-Dire Dawa,3,Transverse crack,53.0,7.40,Bicycle,72,night,good,-2,28,4,3,0.7,9.0824,39.139,LOW,2.02
+2024-05-27 12:02:11,A9 Addis-Bahir Dar,3,Transverse crack,59.4,12.80,Heavy Truck,25,snow,worn,15,92,16,4,0.166,9.2682,38.6137,LOW,2.21
+2024-05-28 05:32:36,A2 Addis-Adama,3,Transverse crack,97.8,10.65,Truck,7,night,good,33,20,25,2,0.683,9.0177,38.712,LOW,0.26
+2024-05-28 22:57:04,A2 Addis-Adama,1,Longitudinal crack,76.5,3.09,Heavy Truck,103,clear,good,15,81,26,8,0.778,9.057,38.7206,LOW,1.11
+2024-05-29 16:16:40,A1 Addis-Dire Dawa,0,Alligator crack,45.9,2.37,Heavy Truck,115,rain,good,0,22,21,2,0.44,9.0841,39.1598,LOW,2.23
+2024-05-30 09:39:43,A1 Addis-Dire Dawa,3,Transverse crack,49.2,1.00,Truck,68,fog,bad,35,60,11,10,0.289,9.1385,39.1078,LOW,1
+2024-05-31 03:32:01,A3 Addis-Jimma,1,Longitudinal crack,59.5,12.45,Heavy Truck,111,rain,bad,1,53,14,2,0.192,8.5826,38.1402,HIGH,6.46
+2024-05-31 21:00:42,A3 Addis-Jimma,3,Transverse crack,76.9,11.46,Bicycle,11,clear,bad,21,49,26,3,0.34,8.5795,38.0963,LOW,0.59
+2024-06-01 13:52:08,A1 Addis-Dire Dawa,3,Transverse crack,48.4,11.46,Motorcycle,18,night,good,18,26,3,1,0.691,9.0989,39.1626,LOW,0.71
+2024-06-02 07:20:43,R2 Ring Road,2,Repair,81.4,14.99,Truck,84,heavyrain,good,14,83,28,3,0.28,9.0116,38.7331,MODERATE,2.66
+2024-06-03 01:12:07,A3 Addis-Jimma,0,Alligator crack,62.2,17.23,Normal Car,114,clear,bad,23,92,15,1,0.339,8.5393,38.1192,CRITICAL,10
+2024-06-03 18:26:56,A9 Addis-Bahir Dar,0,Alligator crack,90.0,5.16,Heavy Truck,41,night,worn,44,74,4,6,0.494,9.2655,38.6212,LOW,1.44
+2024-06-04 12:00:06,A1 Addis-Dire Dawa,3,Transverse crack,98.0,10.00,Minibus,114,rain,worn,42,46,17,1,0.301,9.0864,39.1243,HIGH,5.94
+2024-06-05 05:50:02,A2 Addis-Adama,3,Transverse crack,62.0,1.18,Heavy Truck,40,heavyrain,good,40,23,7,10,0.297,9.0243,38.7474,LOW,0.62
+2024-06-05 23:11:12,A1 Addis-Dire Dawa,2,Repair,72.1,6.25,Motorcycle,54,rain,good,3,35,13,1,0.437,9.1214,39.1566,LOW,0.66
+2024-06-06 17:06:26,R2 Ring Road,0,Alligator crack,64.8,3.54,Truck,40,clear,worn,22,31,29,7,0.543,9.0528,38.7986,LOW,0.96
+2024-06-07 09:55:20,A1 Addis-Dire Dawa,0,Alligator crack,57.5,7.96,Normal Car,47,clear,good,9,59,4,1,0.777,9.1523,39.1626,LOW,1.51
+2024-06-08 03:25:16,A1 Addis-Dire Dawa,0,Alligator crack,96.2,14.75,Minibus,28,night,good,13,40,1,10,0.684,9.1295,39.1711,LOW,1.7
+2024-06-08 20:54:39,R2 Ring Road,0,Alligator crack,90.0,5.53,Bicycle,117,rain,good,3,69,9,4,0.439,9.0265,38.725,MODERATE,3.75
+2024-06-09 14:42:01,A2 Addis-Adama,1,Longitudinal crack,53.2,2.16,Normal Car,7,fog,good,14,67,3,9,0.644,9.0108,38.7142,LOW,0.07
+2024-06-10 08:52:13,A1 Addis-Dire Dawa,0,Alligator crack,79.2,14.79,Normal Car,35,fog,worn,35,55,28,7,0.424,9.1251,39.1197,MODERATE,2.65
+2024-06-11 01:56:24,A2 Addis-Adama,3,Transverse crack,76.5,6.88,Truck,75,fog,worn,15,37,1,1,0.444,9.0637,38.7354,LOW,2.48
+2024-06-11 19:04:45,A9 Addis-Bahir Dar,1,Longitudinal crack,58.3,15.05,Normal Car,115,fog,worn,36,21,13,2,0.429,9.2861,38.5766,HIGH,5.58
+2024-06-12 12:59:29,A3 Addis-Jimma,3,Transverse crack,95.4,12.19,Motorcycle,94,clear,bad,14,51,12,10,0.343,8.5863,38.1349,HIGH,5.28
+2024-06-13 06:16:46,R2 Ring Road,0,Alligator crack,46.0,16.86,Normal Car,118,snow,good,3,58,28,7,0.233,9.0446,38.7342,CRITICAL,10
+2024-06-14 00:29:40,A3 Addis-Jimma,2,Repair,84.3,12.05,Motorcycle,122,rain,good,15,58,16,4,0.427,8.5778,38.1484,LOW,2.46
+2024-06-14 18:01:42,R2 Ring Road,0,Alligator crack,96.0,3.67,Minibus,15,heavyrain,worn,11,28,8,6,0.206,9.0036,38.7902,LOW,0.63
+2024-06-15 11:31:46,A1 Addis-Dire Dawa,2,Repair,50.5,1.35,Motorcycle,56,night,bad,21,29,9,1,0.321,9.0877,39.145,LOW,0.41
+2024-06-16 04:11:16,A2 Addis-Adama,3,Transverse crack,92.6,9.30,Heavy Truck,28,snow,good,-4,98,25,5,0.238,9.0025,38.7692,LOW,1.47
+2024-06-16 21:41:47,R2 Ring Road,0,Alligator crack,53.6,11.35,Bicycle,10,night,bad,13,30,12,8,0.309,9.0314,38.7622,LOW,0.76
+2024-06-17 15:48:10,A2 Addis-Adama,3,Transverse crack,50.9,2.91,Heavy Truck,11,fog,bad,6,61,12,8,0.287,9.0414,38.7027,LOW,0.25
+2024-06-18 09:27:49,A1 Addis-Dire Dawa,1,Longitudinal crack,57.2,10.18,Bicycle,83,snow,good,-4,24,18,5,0.239,9.0832,39.131,MODERATE,3.66
+2024-06-19 02:24:45,A1 Addis-Dire Dawa,2,Repair,54.0,7.87,Normal Car,80,fog,worn,38,15,7,4,0.441,9.1372,39.1525,LOW,1.27
+2024-06-19 19:50:03,A9 Addis-Bahir Dar,3,Transverse crack,93.0,5.98,Normal Car,37,heavyrain,good,18,86,14,4,0.291,9.2765,38.5861,LOW,1.32
+2024-06-20 13:44:46,A2 Addis-Adama,0,Alligator crack,50.2,10.93,Minibus,104,heavyrain,bad,27,17,18,8,0.129,9.0444,38.7167,CRITICAL,10
+2024-06-21 07:05:08,A3 Addis-Jimma,1,Longitudinal crack,66.1,9.07,Heavy Truck,31,snow,worn,24,47,18,4,0.168,8.56,38.1657,LOW,1.62
+2024-06-22 01:11:18,A9 Addis-Bahir Dar,0,Alligator crack,91.3,1.91,Normal Car,98,fog,worn,7,95,22,2,0.445,9.2249,38.5801,LOW,1.9
+2024-06-22 18:38:06,A2 Addis-Adama,2,Repair,86.8,7.44,Normal Car,120,night,worn,4,64,4,9,0.49,9.0465,38.7505,LOW,1.9
+2024-06-23 11:52:40,A3 Addis-Jimma,3,Transverse crack,58.2,5.20,Motorcycle,106,heavyrain,good,28,71,20,6,0.291,8.546,38.137,MODERATE,3.42
+2024-06-24 05:26:21,R2 Ring Road,0,Alligator crack,97.7,15.73,Motorcycle,123,night,worn,39,47,30,8,0.469,9.0045,38.7921,CRITICAL,10
+2024-06-24 22:23:06,A9 Addis-Bahir Dar,3,Transverse crack,98.2,9.48,Motorcycle,129,night,good,34,34,17,7,0.689,9.2358,38.5931,MODERATE,4.38
+2024-06-25 16:38:23,A1 Addis-Dire Dawa,2,Repair,81.2,11.48,Bicycle,56,rain,good,22,42,21,7,0.427,9.1317,39.1792,LOW,1.09
+2024-06-26 09:32:09,A3 Addis-Jimma,2,Repair,59.5,6.37,Bicycle,91,rain,bad,-5,44,13,8,0.196,8.5701,38.1589,LOW,1.73
+2024-06-27 03:01:55,A1 Addis-Dire Dawa,0,Alligator crack,70.8,9.41,Heavy Truck,72,heavyrain,worn,24,93,27,4,0.2,9.1173,39.1561,HIGH,5.81
+2024-06-27 21:06:15,A9 Addis-Bahir Dar,0,Alligator crack,64.9,1.22,Normal Car,101,night,worn,16,86,20,4,0.495,9.2134,38.6388,LOW,1.72
+2024-06-28 14:40:44,R2 Ring Road,1,Longitudinal crack,90.8,3.11,Bicycle,61,fog,good,8,17,5,8,0.641,9.0046,38.7869,LOW,0.73
+2024-06-29 08:05:53,A2 Addis-Adama,0,Alligator crack,59.9,8.68,Truck,15,night,worn,12,59,24,8,0.482,9.0054,38.7622,LOW,0.77
+2024-06-30 01:07:36,R2 Ring Road,0,Alligator crack,83.9,7.40,Bicycle,81,snow,good,6,87,12,2,0.242,9.0514,38.7398,MODERATE,4.43
+2024-06-30 19:23:26,A3 Addis-Jimma,1,Longitudinal crack,76.5,10.81,Bicycle,67,snow,bad,14,45,30,7,0.106,8.5721,38.1355,MODERATE,4.81
+2024-07-01 12:15:19,R2 Ring Road,3,Transverse crack,86.3,6.70,Truck,15,heavyrain,good,26,64,3,9,0.293,9.0598,38.7575,LOW,0.58
+2024-07-02 06:23:48,A3 Addis-Jimma,3,Transverse crack,85.6,3.57,Motorcycle,112,clear,worn,34,79,4,4,0.552,8.5515,38.1098,LOW,2.18
+2024-07-02 23:13:00,A1 Addis-Dire Dawa,3,Transverse crack,83.2,3.39,Normal Car,112,snow,bad,38,73,27,8,0.109,9.0876,39.1005,MODERATE,4.54
+2024-07-03 17:31:57,A9 Addis-Bahir Dar,2,Repair,97.1,7.60,Normal Car,102,rain,bad,23,26,23,2,0.194,9.2417,38.6036,LOW,2.21
+2024-07-04 10:08:54,A2 Addis-Adama,2,Repair,64.9,9.50,Heavy Truck,42,clear,bad,26,97,12,8,0.346,9.0063,38.7537,LOW,0.83
+2024-07-05 03:46:40,R2 Ring Road,0,Alligator crack,56.0,8.67,Motorcycle,91,rain,bad,42,64,8,6,0.196,9.0378,38.7961,HIGH,6.28
+2024-07-05 21:54:23,A3 Addis-Jimma,3,Transverse crack,86.6,1.09,Truck,44,fog,good,12,62,14,10,0.642,8.5378,38.0999,LOW,0.43
+2024-07-06 14:59:30,A2 Addis-Adama,2,Repair,98.4,17.19,Heavy Truck,48,clear,worn,15,68,11,5,0.528,9.0631,38.7628,LOW,1.31
+2024-07-07 08:56:21,R2 Ring Road,0,Alligator crack,64.5,9.91,Motorcycle,111,snow,worn,1,51,5,10,0.169,9.0085,38.7533,CRITICAL,9.89
+2024-07-08 02:06:25,R2 Ring Road,2,Repair,70.3,13.74,Heavy Truck,77,clear,good,29,36,11,2,0.758,9.0153,38.7881,LOW,1.33
+2024-07-08 19:31:54,A9 Addis-Bahir Dar,1,Longitudinal crack,46.6,7.77,Normal Car,11,night,worn,26,73,15,7,0.486,9.218,38.5862,LOW,0.33
+2024-07-09 12:45:17,A9 Addis-Bahir Dar,2,Repair,87.8,1.89,Truck,58,snow,good,41,49,18,5,0.245,9.2882,38.5933,LOW,0.49
+2024-07-10 07:00:00,A2 Addis-Adama,2,Repair,87.8,14.67,Normal Car,102,rain,bad,26,87,21,6,0.19,9.0153,38.7629,MODERATE,3.76
+2024-07-10 23:47:05,A9 Addis-Bahir Dar,1,Longitudinal crack,55.9,17.47,Motorcycle,11,night,good,22,30,14,3,0.678,9.265,38.5938,LOW,0.49
+2024-07-11 17:34:14,A9 Addis-Bahir Dar,1,Longitudinal crack,75.2,4.92,Motorcycle,33,night,bad,11,78,17,5,0.315,9.2647,38.5691,LOW,0.84
+2024-07-12 11:26:47,A2 Addis-Adama,2,Repair,67.3,15.21,Bicycle,18,heavyrain,good,30,67,29,5,0.279,9.0407,38.7085,LOW,0.58
+2024-07-13 04:37:06,R2 Ring Road,0,Alligator crack,66.5,8.50,Minibus,60,night,bad,15,32,19,8,0.311,8.9971,38.7836,MODERATE,3.61
+2024-07-13 22:32:39,A3 Addis-Jimma,1,Longitudinal crack,93.7,9.78,Minibus,10,night,bad,30,24,3,7,0.313,8.5432,38.0903,LOW,0.42
+2024-07-14 16:06:51,A3 Addis-Jimma,0,Alligator crack,64.6,6.94,Truck,125,rain,worn,15,89,27,2,0.302,8.5319,38.1263,HIGH,6.12
+2024-07-15 09:40:33,A9 Addis-Bahir Dar,2,Repair,76.7,0.79,Minibus,30,heavyrain,good,8,79,1,10,0.299,9.2408,38.5996,LOW,0.18
+2024-07-16 02:40:02,A3 Addis-Jimma,3,Transverse crack,61.6,10.59,Bicycle,99,heavyrain,good,15,52,17,9,0.286,8.5524,38.1466,HIGH,5.43
+2024-07-16 20:28:33,A2 Addis-Adama,3,Transverse crack,88.8,11.49,Bicycle,31,clear,good,29,39,13,2,0.763,9.0174,38.7231,LOW,1.07
+2024-07-17 14:12:41,R2 Ring Road,2,Repair,81.6,16.53,Heavy Truck,99,snow,good,2,22,21,6,0.234,8.9899,38.7823,MODERATE,3.62
+2024-07-18 07:22:31,A1 Addis-Dire Dawa,0,Alligator crack,88.7,6.34,Heavy Truck,30,rain,good,14,27,24,1,0.433,9.1247,39.1186,LOW,1.06
+2024-07-19 00:38:13,A1 Addis-Dire Dawa,0,Alligator crack,93.6,9.84,Motorcycle,109,clear,worn,8,26,19,2,0.535,9.1473,39.1402,HIGH,5.36
+2024-07-19 18:17:20,R2 Ring Road,0,Alligator crack,57.5,5.30,Motorcycle,56,clear,worn,25,24,8,10,0.547,9.0497,38.761,LOW,1.74
+2024-07-20 12:24:35,A3 Addis-Jimma,1,Longitudinal crack,65.3,2.82,Truck,49,clear,good,6,17,29,1,0.777,8.5543,38.1249,LOW,0.5
+2024-07-21 05:33:49,A2 Addis-Adama,1,Longitudinal crack,62.4,6.96,Truck,118,fog,bad,10,92,8,3,0.284,9.0332,38.7252,MODERATE,3.68
+2024-07-21 22:49:52,R2 Ring Road,2,Repair,71.1,13.60,Truck,121,clear,worn,16,54,27,7,0.525,9.0368,38.7795,MODERATE,2.7
+2024-07-22 16:36:41,A1 Addis-Dire Dawa,2,Repair,83.3,2.75,Truck,38,rain,worn,13,87,15,10,0.309,9.1011,39.1734,LOW,0.36
+2024-07-23 09:42:26,A1 Addis-Dire Dawa,2,Repair,84.3,16.08,Normal Car,44,fog,worn,26,19,2,3,0.432,9.129,39.1301,LOW,1.25
+2024-07-24 03:12:10,A2 Addis-Adama,0,Alligator crack,67.5,17.53,Heavy Truck,106,night,bad,12,63,6,5,0.307,8.9952,38.722,CRITICAL,10
+2024-07-24 20:47:11,A3 Addis-Jimma,1,Longitudinal crack,67.1,10.50,Normal Car,113,snow,good,23,35,21,2,0.238,8.547,38.1029,HIGH,5.11
+2024-07-25 14:24:25,R2 Ring Road,0,Alligator crack,55.2,9.41,Motorcycle,63,heavyrain,bad,30,88,23,4,0.129,9.0129,38.7938,HIGH,6.06
+2024-07-26 08:03:48,R2 Ring Road,0,Alligator crack,62.8,8.41,Truck,66,snow,bad,40,60,24,8,0.108,9.0247,38.7572,HIGH,6.16
+2024-07-27 02:03:44,A3 Addis-Jimma,1,Longitudinal crack,47.0,3.84,Heavy Truck,25,rain,worn,-1,72,10,2,0.309,8.543,38.1211,LOW,0.52
+2024-07-27 19:29:50,R2 Ring Road,2,Repair,77.9,11.96,Minibus,122,fog,good,39,64,17,8,0.617,9.0105,38.7931,LOW,2.07
+2024-07-28 13:00:23,A9 Addis-Bahir Dar,0,Alligator crack,90.6,5.08,Normal Car,92,snow,bad,2,49,5,9,0.11,9.2312,38.5636,HIGH,5.97
+2024-07-29 05:48:58,A2 Addis-Adama,2,Repair,90.6,9.28,Truck,52,heavyrain,worn,28,78,16,5,0.201,9.0188,38.7662,LOW,1.44
+2024-07-29 23:29:48,A2 Addis-Adama,0,Alligator crack,91.9,13.13,Normal Car,20,rain,bad,30,78,10,9,0.192,9.0549,38.7779,LOW,1.93
+2024-07-30 17:14:25,A1 Addis-Dire Dawa,3,Transverse crack,81.5,6.85,Minibus,66,night,good,6,67,13,2,0.697,9.1479,39.1759,LOW,1.75
+2024-07-31 11:13:55,A2 Addis-Adama,2,Repair,47.0,1.29,Minibus,66,fog,worn,22,64,20,2,0.447,8.9919,38.776,LOW,0.38
+2024-08-01 04:21:51,R2 Ring Road,2,Repair,71.4,4.90,Heavy Truck,88,heavyrain,bad,25,26,26,6,0.13,9.0596,38.7243,LOW,1.83
+2024-08-01 21:36:47,A3 Addis-Jimma,1,Longitudinal crack,83.2,0.57,Bicycle,97,snow,good,31,61,18,3,0.247,8.5579,38.1632,LOW,1.04
+2024-08-02 15:12:28,A1 Addis-Dire Dawa,1,Longitudinal crack,84.8,1.13,Minibus,106,night,bad,11,74,13,1,0.32,9.0812,39.1081,LOW,1.33
+2024-08-03 08:25:14,R2 Ring Road,0,Alligator crack,83.5,1.17,Heavy Truck,129,fog,good,21,53,11,5,0.643,9.0319,38.7311,LOW,1.6
+2024-08-04 02:48:22,R2 Ring Road,1,Longitudinal crack,87.2,15.54,Truck,85,clear,bad,11,48,29,5,0.335,9.0003,38.7518,MODERATE,4.6
+2024-08-04 19:32:45,A3 Addis-Jimma,3,Transverse crack,88.0,3.93,Truck,95,rain,bad,37,21,26,9,0.196,8.5554,38.1033,MODERATE,3.04
+2024-08-05 13:07:33,A1 Addis-Dire Dawa,1,Longitudinal crack,70.4,6.09,Minibus,55,clear,good,11,35,21,3,0.773,9.1415,39.1468,LOW,0.91
+2024-08-06 06:48:28,A3 Addis-Jimma,1,Longitudinal crack,83.2,0.69,Minibus,84,snow,good,1,81,15,2,0.247,8.5673,38.0915,LOW,0.93
+2024-08-07 00:44:23,R2 Ring Road,2,Repair,89.2,3.70,Heavy Truck,74,heavyrain,good,41,34,7,2,0.295,9.0027,38.7316,LOW,0.83
+2024-08-07 17:45:14,A2 Addis-Adama,0,Alligator crack,79.6,10.77,Motorcycle,64,night,worn,-1,41,7,9,0.484,9.0194,38.7109,MODERATE,3.89
+2024-08-08 11:08:55,R2 Ring Road,3,Transverse crack,53.6,15.18,Truck,69,night,worn,13,44,2,2,0.478,8.9884,38.7353,MODERATE,4.5
+2024-08-09 04:59:32,A9 Addis-Bahir Dar,3,Transverse crack,92.6,8.72,Heavy Truck,54,night,good,-4,83,26,9,0.687,9.2755,38.596,LOW,1.72
+2024-08-09 22:32:44,A9 Addis-Bahir Dar,2,Repair,84.0,17.75,Bicycle,87,clear,bad,20,28,11,10,0.339,9.2898,38.6,MODERATE,2.91
+2024-08-10 16:01:00,A1 Addis-Dire Dawa,1,Longitudinal crack,85.0,0.96,Truck,97,heavyrain,bad,16,86,29,2,0.132,9.0993,39.1325,LOW,1.71
+2024-08-11 09:22:11,A9 Addis-Bahir Dar,0,Alligator crack,50.4,7.37,Normal Car,66,fog,worn,11,19,12,4,0.44,9.2365,38.6091,MODERATE,2.86
+2024-08-12 03:06:43,A2 Addis-Adama,3,Transverse crack,55.8,13.21,Bicycle,80,rain,bad,40,59,15,4,0.192,9.0131,38.7001,HIGH,6.25
+2024-08-12 21:06:34,A2 Addis-Adama,0,Alligator crack,60.6,11.62,Minibus,5,clear,bad,22,70,30,9,0.339,8.9989,38.7785,LOW,0.34
+2024-08-13 14:35:57,A2 Addis-Adama,3,Transverse crack,70.3,11.59,Heavy Truck,75,heavyrain,bad,24,64,23,10,0.128,8.9936,38.7587,HIGH,6.87
+2024-08-14 07:39:20,A9 Addis-Bahir Dar,3,Transverse crack,75.9,8.92,Heavy Truck,12,clear,good,32,67,17,4,0.767,9.2835,38.5926,LOW,0.34
+2024-08-15 01:06:47,A9 Addis-Bahir Dar,0,Alligator crack,97.3,12.47,Truck,40,fog,worn,16,88,19,5,0.431,9.2279,38.5939,MODERATE,2.63
+2024-08-15 18:25:09,R2 Ring Road,2,Repair,75.9,6.91,Truck,41,night,worn,14,17,15,9,0.487,9.007,38.7232,LOW,0.62
+2024-08-16 12:16:12,A3 Addis-Jimma,3,Transverse crack,48.5,11.17,Bicycle,33,night,good,37,68,25,5,0.682,8.57,38.1543,LOW,1.28
+2024-08-17 05:29:20,A1 Addis-Dire Dawa,1,Longitudinal crack,63.9,6.46,Motorcycle,29,snow,worn,15,34,14,7,0.17,9.1365,39.1449,LOW,1.18
+2024-08-17 23:45:45,A3 Addis-Jimma,0,Alligator crack,74.3,15.53,Bicycle,11,fog,bad,19,44,29,2,0.273,8.5866,38.1125,LOW,1.04
+2024-08-18 16:44:49,A1 Addis-Dire Dawa,0,Alligator crack,64.3,2.00,Motorcycle,23,rain,good,8,94,17,9,0.442,9.1457,39.153,LOW,0.41
+2024-08-19 10:26:30,A1 Addis-Dire Dawa,2,Repair,63.7,5.74,Normal Car,21,snow,bad,44,57,11,9,0.11,9.0881,39.176,LOW,0.51
+2024-08-20 03:26:17,A9 Addis-Bahir Dar,0,Alligator crack,90.6,15.08,Heavy Truck,64,clear,worn,16,62,19,7,0.525,9.289,38.6166,MODERATE,4.49
+2024-08-20 20:53:28,A9 Addis-Bahir Dar,1,Longitudinal crack,70.9,0.51,Heavy Truck,124,fog,good,24,94,2,2,0.648,9.2246,38.5971,LOW,0.79
+2024-08-21 15:05:02,A9 Addis-Bahir Dar,2,Repair,51.4,2.95,Motorcycle,60,rain,bad,34,72,8,4,0.199,9.2745,38.6374,LOW,0.7
+2024-08-22 08:50:23,A1 Addis-Dire Dawa,0,Alligator crack,59.1,3.31,Normal Car,107,night,worn,1,61,16,5,0.493,9.1475,39.1004,MODERATE,2.85
+2024-08-23 01:28:22,A1 Addis-Dire Dawa,1,Longitudinal crack,51.8,2.97,Bicycle,118,rain,bad,7,38,16,7,0.198,9.1583,39.1123,MODERATE,2.51
+2024-08-23 19:20:35,A9 Addis-Bahir Dar,3,Transverse crack,48.1,11.74,Truck,20,rain,bad,34,37,13,7,0.193,9.2889,38.6289,LOW,1.42
+2024-08-24 13:10:13,A1 Addis-Dire Dawa,1,Longitudinal crack,56.9,8.53,Bicycle,91,clear,good,22,70,25,9,0.764,9.1486,39.1241,LOW,1.94
+2024-08-25 06:19:32,A1 Addis-Dire Dawa,2,Repair,60.3,17.50,Truck,121,night,bad,40,70,10,1,0.306,9.1248,39.1587,MODERATE,4.6
+2024-08-26 00:21:57,A2 Addis-Adama,0,Alligator crack,96.8,9.36,Minibus,94,heavyrain,worn,8,92,4,3,0.203,9.0474,38.7433,HIGH,7.56
+2024-08-26 17:37:18,A1 Addis-Dire Dawa,0,Alligator crack,59.8,15.66,Heavy Truck,91,night,bad,32,67,7,5,0.306,9.1572,39.1017,CRITICAL,9.03
+2024-08-27 10:49:15,A2 Addis-Adama,1,Longitudinal crack,88.0,15.57,Truck,64,fog,good,11,62,28,4,0.606,9.0006,38.755,LOW,2.46
+2024-08-28 05:02:01,A9 Addis-Bahir Dar,2,Repair,71.9,3.73,Truck,86,rain,good,35,45,18,10,0.439,9.2282,38.5736,LOW,0.74
+2024-08-28 22:10:03,A3 Addis-Jimma,1,Longitudinal crack,73.5,11.16,Bicycle,24,rain,good,15,24,6,1,0.432,8.5827,38.166,LOW,0.82
+2024-08-29 15:33:35,R2 Ring Road,0,Alligator crack,66.7,12.55,Motorcycle,6,fog,good,15,86,10,6,0.619,9.0412,38.7865,LOW,0.3
+2024-08-30 08:42:24,A3 Addis-Jimma,0,Alligator crack,50.9,5.48,Motorcycle,63,heavyrain,good,10,33,24,9,0.29,8.587,38.1112,MODERATE,2.62
+2024-08-31 02:26:09,A1 Addis-Dire Dawa,3,Transverse crack,80.7,3.14,Minibus,67,clear,bad,-5,22,5,3,0.355,9.1262,39.1645,LOW,1.44
+2024-08-31 20:12:57,A2 Addis-Adama,2,Repair,89.6,8.73,Bicycle,80,night,bad,4,68,29,1,0.308,9.039,38.7741,LOW,1.71
+2024-09-01 13:27:59,A1 Addis-Dire Dawa,3,Transverse crack,75.9,16.28,Normal Car,96,night,bad,8,26,26,10,0.302,9.0996,39.1333,HIGH,7.93
+2024-09-02 07:38:59,A1 Addis-Dire Dawa,0,Alligator crack,55.6,4.84,Truck,103,rain,good,-3,82,27,4,0.435,9.1121,39.111,MODERATE,3.01
+2024-09-03 01:06:46,R2 Ring Road,0,Alligator crack,54.4,12.68,Bicycle,52,fog,good,43,50,9,1,0.619,9.0276,38.7865,MODERATE,2.66
+2024-09-03 18:21:11,A9 Addis-Bahir Dar,3,Transverse crack,95.7,9.11,Minibus,117,snow,worn,16,87,11,1,0.168,9.2416,38.6077,HIGH,7.84
+2024-09-04 12:12:20,A9 Addis-Bahir Dar,3,Transverse crack,87.1,6.39,Minibus,91,heavyrain,bad,29,31,9,10,0.131,9.2174,38.593,HIGH,5.26
+2024-09-05 05:21:54,A1 Addis-Dire Dawa,3,Transverse crack,60.2,2.39,Motorcycle,106,snow,bad,4,24,19,9,0.11,9.0934,39.1066,MODERATE,3.57
+2024-09-05 22:51:43,R2 Ring Road,2,Repair,88.7,6.35,Minibus,100,clear,bad,27,43,12,6,0.35,9.0024,38.7527,LOW,1.46
+2024-09-06 16:01:42,A9 Addis-Bahir Dar,0,Alligator crack,54.7,6.60,Bicycle,11,rain,bad,-3,80,9,2,0.197,9.2701,38.6272,LOW,0.62
+2024-09-07 09:57:16,A9 Addis-Bahir Dar,1,Longitudinal crack,86.6,16.86,Motorcycle,118,snow,bad,25,92,23,3,0.105,9.2643,38.6276,CRITICAL,10
+2024-09-08 03:14:26,A2 Addis-Adama,2,Repair,67.1,16.14,Motorcycle,25,clear,worn,39,67,18,2,0.526,8.995,38.7001,LOW,0.65
+2024-09-08 20:43:10,R2 Ring Road,3,Transverse crack,63.7,17.60,Motorcycle,65,fog,bad,14,39,25,6,0.273,8.9858,38.7842,HIGH,5.49
+2024-09-09 14:36:25,R2 Ring Road,1,Longitudinal crack,97.7,16.21,Heavy Truck,21,snow,good,14,44,5,9,0.237,9.0046,38.7573,LOW,1.37
+2024-09-10 07:35:06,A3 Addis-Jimma,1,Longitudinal crack,61.8,3.09,Heavy Truck,35,night,bad,37,81,17,10,0.317,8.5571,38.1422,LOW,0.67
+2024-09-11 01:27:33,R2 Ring Road,1,Longitudinal crack,66.2,3.03,Normal Car,96,rain,worn,10,67,28,2,0.306,9.049,38.7479,LOW,1.73
+2024-09-11 18:30:26,A1 Addis-Dire Dawa,0,Alligator crack,63.8,13.64,Truck,35,clear,good,34,38,30,4,0.748,9.1172,39.16,LOW,1.73
+2024-09-12 12:14:56,A2 Addis-Adama,1,Longitudinal crack,65.5,0.74,Truck,115,rain,bad,-4,98,24,6,0.199,9.0204,38.7034,LOW,1.45
+2024-09-13 05:39:51,A9 Addis-Bahir Dar,1,Longitudinal crack,50.7,5.98,Bicycle,18,night,good,21,18,27,6,0.693,9.2609,38.6226,LOW,0.34
+2024-09-13 23:48:21,A1 Addis-Dire Dawa,0,Alligator crack,55.5,1.81,Bicycle,69,snow,bad,-5,46,6,3,0.111,9.144,39.1062,MODERATE,2.54
+2024-09-14 17:30:27,A9 Addis-Bahir Dar,3,Transverse crack,59.5,11.03,Motorcycle,54,rain,bad,1,32,14,9,0.193,9.2334,38.6082,MODERATE,3.63
+2024-09-15 10:27:46,A9 Addis-Bahir Dar,3,Transverse crack,88.3,4.89,Minibus,83,rain,good,21,86,23,9,0.436,9.2305,38.567,LOW,1.97
+2024-09-16 04:28:38,A9 Addis-Bahir Dar,0,Alligator crack,74.2,9.23,Bicycle,64,night,worn,21,30,10,2,0.485,9.2851,38.6344,MODERATE,3.44
+2024-09-16 21:16:59,A2 Addis-Adama,0,Alligator crack,59.0,10.98,Truck,116,rain,good,15,63,12,8,0.43,9.0343,38.7457,HIGH,6.23
+2024-09-17 14:47:57,A3 Addis-Jimma,0,Alligator crack,64.9,5.32,Bicycle,85,heavyrain,good,29,17,1,5,0.294,8.5393,38.1026,MODERATE,3.47
+2024-09-18 08:30:26,R2 Ring Road,1,Longitudinal crack,63.7,8.24,Minibus,103,snow,good,31,81,24,5,0.239,9.0315,38.7968,MODERATE,3.85
+2024-09-19 02:20:17,A3 Addis-Jimma,3,Transverse crack,68.2,17.94,Heavy Truck,103,rain,bad,23,42,5,1,0.192,8.577,38.1314,CRITICAL,10
+2024-09-19 19:17:34,R2 Ring Road,3,Transverse crack,49.3,0.75,Heavy Truck,22,heavyrain,worn,38,26,3,5,0.209,9.0143,38.7814,LOW,0.39
+2024-09-20 13:37:47,R2 Ring Road,1,Longitudinal crack,88.4,17.96,Truck,114,fog,good,40,54,20,5,0.609,9.0268,38.7386,MODERATE,4.96
+2024-09-21 06:43:37,R2 Ring Road,2,Repair,89.7,8.69,Truck,121,fog,bad,25,84,4,5,0.283,9.0435,38.7779,LOW,2.46
+2024-09-22 00:06:04,A3 Addis-Jimma,3,Transverse crack,53.3,15.80,Bicycle,40,rain,bad,16,49,11,7,0.191,8.5999,38.1489,MODERATE,3.64
+2024-09-22 17:22:11,R2 Ring Road,2,Repair,56.0,1.83,Minibus,65,heavyrain,good,42,97,26,6,0.293,9.0151,38.7514,LOW,0.51
+2024-09-23 11:28:07,A9 Addis-Bahir Dar,3,Transverse crack,47.1,12.20,Bicycle,41,fog,bad,27,29,22,5,0.276,9.2711,38.6323,MODERATE,2.53
+2024-09-24 04:43:31,A1 Addis-Dire Dawa,2,Repair,47.6,11.81,Normal Car,26,snow,bad,32,75,12,8,0.107,9.1508,39.1689,LOW,1.11
+2024-09-24 22:26:25,A3 Addis-Jimma,1,Longitudinal crack,54.8,9.12,Truck,35,night,bad,-3,44,29,4,0.308,8.5269,38.1381,LOW,1.4
+2024-09-25 15:54:57,A3 Addis-Jimma,2,Repair,49.1,4.59,Truck,51,rain,worn,34,61,18,9,0.306,8.5593,38.0934,LOW,0.65
+2024-09-26 09:04:35,R2 Ring Road,3,Transverse crack,65.4,11.08,Minibus,61,snow,bad,25,63,9,1,0.108,8.9816,38.7298,HIGH,5.7
+2024-09-27 02:39:19,A3 Addis-Jimma,2,Repair,70.3,17.88,Heavy Truck,106,clear,worn,33,90,6,8,0.53,8.5828,38.1638,MODERATE,3
+2024-09-27 20:33:33,A1 Addis-Dire Dawa,2,Repair,72.2,3.56,Motorcycle,116,snow,worn,26,16,2,7,0.173,9.1372,39.1462,LOW,1.75
+2024-09-28 14:06:46,A3 Addis-Jimma,3,Transverse crack,95.7,16.20,Minibus,5,clear,bad,20,48,6,2,0.341,8.5481,38.1014,LOW,0.36
+2024-09-29 07:30:01,A9 Addis-Bahir Dar,3,Transverse crack,67.8,1.04,Bicycle,92,clear,good,19,98,1,3,0.797,9.2236,38.5785,LOW,0.8
+2024-09-30 00:34:48,A3 Addis-Jimma,3,Transverse crack,57.2,4.88,Minibus,40,heavyrain,bad,14,72,18,6,0.131,8.554,38.1229,LOW,1.92
+2024-09-30 18:31:46,A1 Addis-Dire Dawa,1,Longitudinal crack,47.9,2.36,Truck,14,clear,worn,7,62,29,3,0.545,9.1388,39.1486,LOW,0.17
+2024-10-01 11:34:19,A9 Addis-Bahir Dar,3,Transverse crack,96.3,1.00,Truck,93,rain,worn,32,30,3,9,0.313,9.2566,38.6024,LOW,1.36
+2024-10-02 05:22:12,A3 Addis-Jimma,3,Transverse crack,96.3,5.56,Motorcycle,49,night,worn,33,50,24,5,0.487,8.5465,38.1402,LOW,1.46
+2024-10-02 23:10:16,R2 Ring Road,1,Longitudinal crack,61.4,15.86,Bicycle,34,clear,worn,10,55,13,4,0.527,9.0168,38.7573,LOW,1.57
+2024-10-03 16:32:40,A2 Addis-Adama,0,Alligator crack,74.8,5.61,Truck,121,heavyrain,good,3,28,19,8,0.291,8.9961,38.7058,HIGH,5.12
+2024-10-04 09:39:07,R2 Ring Road,3,Transverse crack,76.6,15.65,Motorcycle,27,clear,worn,-4,93,29,5,0.522,9.0411,38.7802,LOW,1.57
+2024-10-05 03:21:13,A9 Addis-Bahir Dar,1,Longitudinal crack,64.4,5.83,Bicycle,127,clear,worn,33,42,18,7,0.543,9.2705,38.5621,MODERATE,2.66
+2024-10-05 21:16:51,A2 Addis-Adama,0,Alligator crack,65.6,2.30,Normal Car,88,fog,worn,20,25,25,8,0.444,9.0379,38.7735,LOW,1.85
+2024-10-06 14:10:29,A2 Addis-Adama,2,Repair,48.0,17.62,Bicycle,18,heavyrain,good,11,44,4,8,0.284,9.0336,38.7384,LOW,0.66
+2024-10-07 07:47:37,A1 Addis-Dire Dawa,1,Longitudinal crack,50.8,1.48,Minibus,101,fog,bad,44,77,20,10,0.287,9.1076,39.1723,LOW,1.33
+2024-10-08 02:01:03,A2 Addis-Adama,0,Alligator crack,95.8,12.10,Truck,8,heavyrain,bad,42,43,24,7,0.127,9.0053,38.7368,LOW,0.94
+2024-10-08 19:30:01,A9 Addis-Bahir Dar,2,Repair,98.1,7.52,Heavy Truck,17,heavyrain,worn,0,37,14,10,0.203,9.2587,38.6378,LOW,0.4
+2024-10-09 12:14:53,A3 Addis-Jimma,3,Transverse crack,80.5,0.83,Heavy Truck,82,rain,worn,33,35,27,9,0.308,8.5612,38.12,LOW,1.14
+2024-10-10 06:24:08,A3 Addis-Jimma,1,Longitudinal crack,81.2,11.56,Truck,29,night,good,15,54,24,1,0.681,8.5967,38.1683,LOW,0.91
+2024-10-11 00:08:05,A2 Addis-Adama,1,Longitudinal crack,72.8,6.73,Motorcycle,39,clear,bad,37,43,16,8,0.348,9.0022,38.7711,LOW,1.08
+2024-10-11 16:48:23,A9 Addis-Bahir Dar,1,Longitudinal crack,85.5,11.05,Truck,24,fog,bad,41,63,6,1,0.281,9.2423,38.6374,LOW,1.07
+2024-10-12 11:06:47,A3 Addis-Jimma,3,Transverse crack,89.3,5.44,Normal Car,71,heavyrain,bad,3,77,12,5,0.131,8.5693,38.1537,MODERATE,3.66
+2024-10-13 04:26:36,A2 Addis-Adama,1,Longitudinal crack,62.3,5.33,Normal Car,54,night,worn,1,55,6,5,0.493,8.9981,38.7168,LOW,1.22
+2024-10-13 21:55:18,A1 Addis-Dire Dawa,3,Transverse crack,60.7,2.99,Heavy Truck,15,snow,bad,12,48,28,6,0.109,9.153,39.1394,LOW,0.57
+2024-10-14 15:36:55,A3 Addis-Jimma,3,Transverse crack,69.8,3.81,Truck,49,night,bad,32,63,5,10,0.319,8.5674,38.1287,LOW,1.36
+2024-10-15 08:42:22,R2 Ring Road,3,Transverse crack,88.8,9.46,Minibus,45,heavyrain,worn,36,81,3,8,0.203,9.0059,38.7267,MODERATE,2.93
+2024-10-16 02:31:05,A1 Addis-Dire Dawa,3,Transverse crack,59.5,14.12,Motorcycle,48,snow,bad,9,96,21,6,0.106,9.1595,39.1298,HIGH,5.49
+2024-10-16 19:46:10,A1 Addis-Dire Dawa,1,Longitudinal crack,45.5,9.52,Minibus,115,night,good,11,97,26,3,0.685,9.1182,39.1799,MODERATE,3.07
+2024-10-17 13:50:11,A3 Addis-Jimma,1,Longitudinal crack,47.7,15.56,Bicycle,46,fog,good,3,39,14,7,0.612,8.552,38.1338,LOW,1.77
+2024-10-18 06:39:40,A1 Addis-Dire Dawa,2,Repair,49.9,16.51,Truck,19,clear,good,7,89,10,10,0.755,9.1181,39.1787,LOW,0.39
+2024-10-19 00:06:23,A3 Addis-Jimma,3,Transverse crack,49.5,7.75,Heavy Truck,81,fog,bad,29,76,28,5,0.28,8.5737,38.1074,MODERATE,3.49
+2024-10-19 17:42:07,A2 Addis-Adama,3,Transverse crack,91.4,11.18,Motorcycle,58,fog,bad,36,20,10,9,0.28,9.0544,38.7172,MODERATE,3.34
+2024-10-20 11:51:45,A3 Addis-Jimma,2,Repair,64.3,3.09,Normal Car,110,clear,bad,0,45,19,1,0.352,8.59,38.0926,LOW,1.02
+2024-10-21 05:08:44,A9 Addis-Bahir Dar,2,Repair,58.7,3.38,Minibus,119,fog,bad,6,37,23,1,0.285,9.2459,38.6138,LOW,1.27
+2024-10-21 22:42:56,A9 Addis-Bahir Dar,3,Transverse crack,91.3,6.38,Truck,42,clear,worn,31,42,20,2,0.541,9.2777,38.589,LOW,1.2
+2024-10-22 16:34:22,A9 Addis-Bahir Dar,2,Repair,77.7,5.71,Truck,92,night,good,39,87,27,7,0.694,9.234,38.6071,LOW,0.93
+2024-10-23 09:20:46,A3 Addis-Jimma,1,Longitudinal crack,46.4,11.48,Truck,111,fog,good,20,98,8,8,0.622,8.5288,38.11,MODERATE,3.3
+2024-10-24 03:23:52,A1 Addis-Dire Dawa,3,Transverse crack,92.2,15.45,Truck,115,fog,worn,5,86,27,2,0.424,9.1477,39.1546,HIGH,7.28
+2024-10-24 20:24:22,R2 Ring Road,0,Alligator crack,56.5,1.78,Bicycle,114,rain,bad,37,79,3,6,0.201,9.0568,38.7342,MODERATE,3.02
+2024-10-25 14:16:45,A2 Addis-Adama,2,Repair,55.5,2.12,Minibus,28,clear,bad,0,17,24,3,0.352,9.0588,38.7153,LOW,0.21
+2024-10-26 07:23:54,A1 Addis-Dire Dawa,2,Repair,67.5,15.79,Motorcycle,7,night,bad,34,73,29,8,0.302,9.1213,39.1135,LOW,0.24
+2024-10-27 00:48:30,A9 Addis-Bahir Dar,2,Repair,92.5,6.07,Normal Car,43,heavyrain,worn,22,32,6,5,0.205,9.2698,38.6029,LOW,0.87
+2024-10-27 19:02:27,A1 Addis-Dire Dawa,0,Alligator crack,49.7,17.25,Motorcycle,33,clear,worn,21,17,27,5,0.522,9.0932,39.1434,MODERATE,2.6
+2024-10-28 11:47:15,R2 Ring Road,3,Transverse crack,55.0,3.51,Motorcycle,38,night,worn,-4,57,29,3,0.488,9.0471,38.7826,LOW,0.84
+2024-10-29 05:52:54,A1 Addis-Dire Dawa,3,Transverse crack,70.9,4.78,Bicycle,121,night,worn,21,63,24,1,0.488,9.1324,39.1731,MODERATE,3.25
+2024-10-29 22:55:43,R2 Ring Road,1,Longitudinal crack,85.8,2.03,Normal Car,25,night,worn,5,98,4,6,0.499,9.0514,38.7236,LOW,0.33
+2024-10-30 17:16:12,A3 Addis-Jimma,2,Repair,70.7,7.97,Normal Car,78,night,worn,44,64,22,8,0.483,8.5805,38.107,LOW,1.3
+2024-10-31 10:27:33,A2 Addis-Adama,3,Transverse crack,86.7,5.76,Minibus,100,snow,bad,20,54,22,7,0.109,9.0694,38.7249,HIGH,5.68
+2024-11-01 03:59:36,A2 Addis-Adama,0,Alligator crack,76.6,9.98,Bicycle,34,rain,good,-1,37,20,7,0.429,9.0603,38.7194,LOW,1.69
+2024-11-01 21:39:01,R2 Ring Road,2,Repair,86.4,1.35,Truck,22,rain,worn,40,50,4,7,0.313,8.9997,38.7417,LOW,0.15
+2024-11-02 14:33:52,A9 Addis-Bahir Dar,2,Repair,58.2,16.04,Bicycle,6,clear,good,10,25,19,8,0.75,9.2619,38.5773,LOW,0.12
+2024-11-03 08:50:48,A3 Addis-Jimma,1,Longitudinal crack,78.2,14.88,Heavy Truck,39,night,good,39,54,25,6,0.673,8.5532,38.1504,LOW,1.51
+2024-11-04 02:00:05,A2 Addis-Adama,3,Transverse crack,51.2,9.99,Truck,12,heavyrain,worn,42,96,9,10,0.202,8.9931,38.7417,LOW,0.82
+2024-11-04 19:55:28,R2 Ring Road,1,Longitudinal crack,47.8,12.89,Bicycle,59,rain,worn,20,89,28,1,0.296,9.0088,38.7519,MODERATE,2.97
+2024-11-05 12:50:28,A3 Addis-Jimma,2,Repair,54.3,3.43,Normal Car,67,snow,good,36,21,1,1,0.247,8.5377,38.1645,LOW,0.76
+2024-11-06 06:37:39,A2 Addis-Adama,1,Longitudinal crack,83.4,7.72,Truck,12,heavyrain,bad,8,30,12,8,0.13,9.0275,38.737,LOW,0.62
+2024-11-07 00:17:21,A2 Addis-Adama,3,Transverse crack,81.5,6.84,Heavy Truck,75,fog,bad,-1,75,20,4,0.282,9.057,38.732,MODERATE,2.95
+2024-11-07 17:34:21,A1 Addis-Dire Dawa,1,Longitudinal crack,73.9,7.93,Truck,114,fog,worn,28,22,3,3,0.442,9.0835,39.148,MODERATE,3.29
+2024-11-08 10:35:26,A1 Addis-Dire Dawa,2,Repair,49.2,10.42,Bicycle,28,clear,bad,-3,75,11,3,0.345,9.1025,39.1616,LOW,0.6
+2024-11-09 04:32:54,A2 Addis-Adama,0,Alligator crack,96.9,2.80,Minibus,73,rain,bad,0,74,1,5,0.2,9.0671,38.7487,LOW,2.39
+2024-11-09 22:11:23,A3 Addis-Jimma,1,Longitudinal crack,59.1,9.18,Bicycle,116,fog,good,11,60,24,4,0.62,8.552,38.1196,MODERATE,2.88
+2024-11-10 15:45:37,A1 Addis-Dire Dawa,3,Transverse crack,95.4,10.30,Heavy Truck,41,snow,worn,5,95,27,1,0.166,9.1191,39.1338,MODERATE,3.03
+2024-11-11 08:50:55,R2 Ring Road,1,Longitudinal crack,94.1,4.15,Normal Car,66,rain,good,40,69,17,4,0.439,9.0302,38.7446,LOW,1.1
+2024-11-12 03:00:36,R2 Ring Road,2,Repair,86.5,14.82,Bicycle,106,snow,good,11,42,28,5,0.233,9.0557,38.7947,MODERATE,3.52
+2024-11-12 19:55:03,A3 Addis-Jimma,3,Transverse crack,76.7,5.37,Truck,65,night,bad,4,90,8,7,0.317,8.5226,38.0901,LOW,2.25
+2024-11-13 13:14:20,R2 Ring Road,2,Repair,95.2,3.85,Normal Car,9,clear,good,34,20,15,8,0.782,8.9887,38.7845,LOW,0.06
+2024-11-14 07:04:50,R2 Ring Road,3,Transverse crack,64.1,12.51,Normal Car,20,heavyrain,worn,23,27,28,7,0.197,9.0351,38.73,LOW,1.64
+2024-11-15 00:24:05,A3 Addis-Jimma,1,Longitudinal crack,63.2,3.57,Truck,60,snow,worn,7,36,3,8,0.173,8.5365,38.1103,LOW,1.65
+2024-11-15 18:07:42,A3 Addis-Jimma,0,Alligator crack,62.5,9.64,Normal Car,65,rain,bad,25,90,4,6,0.195,8.593,38.1699,MODERATE,4.88
+2024-11-16 12:12:39,R2 Ring Road,2,Repair,72.3,16.92,Minibus,35,rain,worn,33,19,16,3,0.296,9.0505,38.7267,LOW,1.23
+2024-11-17 05:39:22,R2 Ring Road,1,Longitudinal crack,86.2,10.13,Minibus,83,fog,good,1,24,23,7,0.618,8.9804,38.763,LOW,2.23
+2024-11-17 22:29:20,A9 Addis-Bahir Dar,1,Longitudinal crack,62.1,16.63,Motorcycle,92,clear,bad,12,37,3,2,0.341,9.2866,38.5847,HIGH,5.27
+2024-11-18 16:24:44,A1 Addis-Dire Dawa,1,Longitudinal crack,48.3,5.69,Heavy Truck,56,snow,good,29,70,28,8,0.241,9.0911,39.1689,LOW,1.6
+2024-11-19 09:36:12,A1 Addis-Dire Dawa,2,Repair,85.4,8.06,Truck,62,snow,worn,4,34,16,6,0.168,9.0969,39.1155,LOW,1.63
+2024-11-20 02:57:25,A9 Addis-Bahir Dar,1,Longitudinal crack,51.2,10.47,Bicycle,13,rain,good,44,90,19,4,0.429,9.2669,38.6297,LOW,0.42
+2024-11-20 21:03:56,A2 Addis-Adama,3,Transverse crack,97.7,14.00,Motorcycle,125,snow,worn,27,39,17,8,0.165,9.0014,38.7543,CRITICAL,10
+2024-11-21 13:57:51,A1 Addis-Dire Dawa,1,Longitudinal crack,45.7,4.18,Truck,9,rain,worn,40,94,24,3,0.306,9.138,39.1469,LOW,0.2
+2024-11-22 07:28:59,A3 Addis-Jimma,3,Transverse crack,81.5,0.74,Normal Car,24,night,good,20,23,25,6,0.706,8.5505,38.1581,LOW,0.22
+2024-11-23 01:11:08,A9 Addis-Bahir Dar,0,Alligator crack,63.3,1.50,Normal Car,55,fog,bad,20,93,20,6,0.287,9.2636,38.5828,LOW,1.15
+2024-11-23 19:17:44,A3 Addis-Jimma,0,Alligator crack,47.9,17.34,Normal Car,87,snow,good,39,25,30,5,0.233,8.576,38.1491,CRITICAL,9.53
+2024-11-24 12:14:28,R2 Ring Road,3,Transverse crack,98.8,1.69,Heavy Truck,65,rain,good,13,38,8,4,0.445,8.9813,38.7864,LOW,0.87
+2024-11-25 06:18:32,A1 Addis-Dire Dawa,2,Repair,66.2,12.26,Heavy Truck,56,rain,worn,2,69,4,6,0.301,9.0917,39.1183,LOW,1.49
+2024-11-25 23:21:55,A1 Addis-Dire Dawa,0,Alligator crack,68.3,9.02,Minibus,45,night,good,37,55,25,3,0.687,9.1122,39.1251,LOW,1.83
+2024-11-26 16:36:16,A2 Addis-Adama,3,Transverse crack,63.3,16.44,Truck,81,snow,bad,20,70,17,4,0.106,9.0043,38.7432,CRITICAL,10
+2024-11-27 10:27:09,A2 Addis-Adama,2,Repair,60.8,7.92,Heavy Truck,113,clear,good,22,60,1,4,0.778,9.0118,38.7456,LOW,1.26
+2024-11-28 04:14:55,A1 Addis-Dire Dawa,2,Repair,75.0,5.61,Heavy Truck,10,fog,bad,-4,48,17,7,0.284,9.1028,39.1074,LOW,0.15
+2024-11-28 21:22:46,A2 Addis-Adama,1,Longitudinal crack,88.4,9.06,Bicycle,121,clear,good,7,48,28,2,0.761,9.0516,38.7323,MODERATE,2.7
+2024-11-29 15:28:39,R2 Ring Road,1,Longitudinal crack,48.1,2.95,Minibus,16,snow,bad,6,57,24,3,0.11,8.9929,38.7504,LOW,0.47
+2024-11-30 08:42:04,R2 Ring Road,1,Longitudinal crack,94.9,15.39,Truck,11,rain,bad,22,78,15,10,0.19,9.0319,38.7928,LOW,0.77
+2024-12-01 02:11:57,A3 Addis-Jimma,0,Alligator crack,51.4,13.71,Minibus,57,heavyrain,worn,30,55,6,7,0.2,8.5644,38.0984,HIGH,6.26
+2024-12-01 19:18:39,A1 Addis-Dire Dawa,1,Longitudinal crack,53.6,16.47,Bicycle,14,night,bad,43,89,6,5,0.307,9.1366,39.1179,LOW,0.92
+2024-12-02 13:38:08,A9 Addis-Bahir Dar,1,Longitudinal crack,92.7,2.72,Truck,43,snow,bad,41,52,25,5,0.11,9.2543,38.5866,LOW,1.21
+2024-12-03 06:36:21,A9 Addis-Bahir Dar,1,Longitudinal crack,65.6,5.04,Truck,87,clear,good,41,34,30,9,0.771,9.2548,38.5716,LOW,1.27
+2024-12-04 00:05:59,A3 Addis-Jimma,0,Alligator crack,63.4,6.22,Heavy Truck,29,night,good,13,39,5,2,0.703,8.5635,38.0947,LOW,0.89
+2024-12-04 18:13:38,A3 Addis-Jimma,0,Alligator crack,82.8,14.29,Truck,75,clear,bad,30,62,3,7,0.342,8.5382,38.1517,HIGH,5.99
+2024-12-05 11:02:18,A1 Addis-Dire Dawa,2,Repair,95.7,16.19,Heavy Truck,80,night,good,29,48,30,5,0.67,9.159,39.1757,LOW,1.83
+2024-12-06 05:18:59,A3 Addis-Jimma,2,Repair,60.6,14.20,Motorcycle,114,rain,good,32,84,10,7,0.426,8.5608,38.1684,MODERATE,2.64
+2024-12-06 22:44:52,R2 Ring Road,1,Longitudinal crack,81.9,5.45,Minibus,37,rain,bad,30,38,6,7,0.198,9.0456,38.7455,LOW,1.15
+2024-12-07 16:19:04,A9 Addis-Bahir Dar,0,Alligator crack,51.7,13.23,Normal Car,69,fog,good,15,63,18,7,0.614,9.2421,38.5846,MODERATE,3.66
+2024-12-08 09:21:37,R2 Ring Road,1,Longitudinal crack,52.6,4.16,Bicycle,82,clear,good,6,64,2,6,0.788,8.9915,38.7465,LOW,1.06
+2024-12-09 02:43:35,A3 Addis-Jimma,2,Repair,93.3,5.78,Minibus,71,night,bad,1,48,13,2,0.315,8.5919,38.0989,LOW,1.12
+2024-12-09 20:28:19,A3 Addis-Jimma,3,Transverse crack,57.6,13.59,Minibus,90,heavyrain,good,44,53,8,9,0.285,8.5602,38.1243,HIGH,6.07
+2024-12-10 13:56:10,A1 Addis-Dire Dawa,2,Repair,89.3,15.23,Bicycle,81,night,bad,-4,22,9,4,0.306,9.082,39.1497,MODERATE,2.73
+2024-12-11 07:28:23,A9 Addis-Bahir Dar,2,Repair,98.9,0.76,Truck,92,night,good,38,59,23,10,0.707,9.2776,38.5773,LOW,0.37
+2024-12-12 01:20:42,R2 Ring Road,2,Repair,74.4,15.51,Heavy Truck,93,heavyrain,good,23,93,21,8,0.281,8.9969,38.7263,MODERATE,3.04
+2024-12-12 18:42:51,A9 Addis-Bahir Dar,3,Transverse crack,49.2,2.24,Bicycle,104,fog,bad,-5,28,16,5,0.287,9.2387,38.5676,LOW,2.07
+2024-12-13 11:35:44,A1 Addis-Dire Dawa,3,Transverse crack,90.7,15.19,Bicycle,81,heavyrain,good,44,68,6,5,0.284,9.1169,39.1096,HIGH,6.01
+2024-12-14 05:59:13,A9 Addis-Bahir Dar,1,Longitudinal crack,45.5,10.29,Minibus,120,heavyrain,good,26,62,27,6,0.284,9.2788,38.6368,HIGH,5.04
+2024-12-14 22:36:44,A1 Addis-Dire Dawa,0,Alligator crack,72.4,4.77,Normal Car,17,heavyrain,worn,-3,53,23,3,0.203,9.1466,39.1357,LOW,0.84
+2024-12-15 16:15:51,A1 Addis-Dire Dawa,3,Transverse crack,55.5,8.39,Bicycle,15,fog,worn,10,57,19,5,0.437,9.1408,39.1717,LOW,0.58
+2024-12-16 09:40:34,A9 Addis-Bahir Dar,2,Repair,79.0,8.62,Motorcycle,62,rain,bad,-1,54,15,10,0.195,9.2591,38.6397,LOW,1.48
+2024-12-17 03:16:38,R2 Ring Road,0,Alligator crack,91.6,16.29,Truck,12,heavyrain,good,29,85,12,3,0.283,9.0406,38.7942,LOW,1.18
+2024-12-17 21:36:54,A3 Addis-Jimma,2,Repair,63.4,12.00,Minibus,72,snow,bad,13,25,25,10,0.106,8.5918,38.1279,MODERATE,3.11
+2024-12-18 14:59:49,A9 Addis-Bahir Dar,0,Alligator crack,76.7,2.12,Motorcycle,126,snow,bad,43,44,21,3,0.11,9.2218,38.5832,MODERATE,4.98
+2024-12-19 08:25:59,A1 Addis-Dire Dawa,1,Longitudinal crack,66.9,9.03,Heavy Truck,42,night,good,38,75,12,6,0.693,9.1599,39.1375,LOW,1.08
+2024-12-20 01:57:03,A3 Addis-Jimma,3,Transverse crack,92.9,5.35,Motorcycle,48,fog,bad,2,77,7,7,0.286,8.5514,38.1253,LOW,1.58
+2024-12-20 19:10:34,A2 Addis-Adama,3,Transverse crack,55.4,5.78,Bicycle,85,rain,worn,33,78,22,5,0.304,9.0135,38.7097,MODERATE,2.93
+2024-12-21 12:51:01,A2 Addis-Adama,2,Repair,78.0,6.04,Heavy Truck,119,rain,good,21,17,22,9,0.434,9.0228,38.7505,LOW,1.41
+2024-12-22 06:21:00,A2 Addis-Adama,3,Transverse crack,65.9,2.78,Normal Car,24,night,bad,19,64,25,3,0.316,9.0519,38.7049,LOW,0.56
+2024-12-22 23:59:45,A9 Addis-Bahir Dar,2,Repair,74.5,6.99,Normal Car,117,snow,good,14,48,5,2,0.243,9.2417,38.6216,LOW,2.13
+2024-12-23 16:58:02,A1 Addis-Dire Dawa,1,Longitudinal crack,61.3,7.87,Normal Car,86,snow,worn,30,93,3,5,0.17,9.1141,39.1109,MODERATE,4.03
+2024-12-24 10:35:19,A2 Addis-Adama,2,Repair,80.1,10.11,Normal Car,42,night,bad,20,59,25,3,0.308,9.0033,38.7607,LOW,1.01
+2024-12-25 04:08:46,R2 Ring Road,2,Repair,89.7,14.46,Normal Car,126,clear,bad,38,56,23,10,0.337,8.9919,38.7465,MODERATE,3.53
+2024-12-25 21:26:20,A9 Addis-Bahir Dar,2,Repair,59.2,7.24,Minibus,63,heavyrain,bad,17,65,28,9,0.129,9.2891,38.5799,LOW,1.72
+2024-12-26 15:15:37,R2 Ring Road,1,Longitudinal crack,98.0,17.11,Truck,125,night,good,1,22,15,7,0.677,8.9908,38.7837,HIGH,5.45
+2024-12-27 08:42:10,A9 Addis-Bahir Dar,0,Alligator crack,84.0,2.97,Normal Car,56,fog,worn,9,23,22,8,0.444,9.261,38.6357,LOW,1.34
+2024-12-28 02:15:17,A9 Addis-Bahir Dar,2,Repair,91.7,12.04,Minibus,71,clear,good,35,76,10,3,0.763,9.2712,38.5717,LOW,1.1
+2024-12-28 19:35:43,A9 Addis-Bahir Dar,3,Transverse crack,85.3,2.71,Heavy Truck,79,snow,worn,30,91,4,6,0.173,9.2145,38.5937,LOW,2.38
+2024-12-29 13:02:40,A9 Addis-Bahir Dar,3,Transverse crack,87.9,10.08,Bicycle,89,heavyrain,good,43,29,9,3,0.288,9.2404,38.5662,MODERATE,4.69
+2024-12-30 06:57:54,A2 Addis-Adama,0,Alligator crack,74.7,4.44,Truck,103,heavyrain,good,32,49,8,3,0.294,9.057,38.7279,MODERATE,3.73
+2024-12-31 00:29:32,A9 Addis-Bahir Dar,3,Transverse crack,94.7,3.09,Motorcycle,87,fog,worn,32,32,20,7,0.444,9.262,38.6024,LOW,1.72
+2024-12-31 17:38:09,A2 Addis-Adama,0,Alligator crack,59.0,15.38,Bicycle,77,clear,worn,10,30,12,1,0.528,9.0588,38.7146,HIGH,5.49
+2025-01-01 11:42:07,A3 Addis-Jimma,3,Transverse crack,83.1,15.22,Minibus,53,fog,good,27,24,6,8,0.615,8.5945,38.1049,MODERATE,2.55
+2025-01-02 05:02:19,A3 Addis-Jimma,1,Longitudinal crack,81.9,17.30,Minibus,83,fog,good,17,50,2,6,0.617,8.5886,38.1054,MODERATE,3.49
+2025-01-02 22:06:06,R2 Ring Road,3,Transverse crack,77.0,1.76,Bicycle,37,snow,worn,-1,32,8,6,0.173,9.0454,38.7435,LOW,0.91
+2025-01-03 15:47:41,R2 Ring Road,0,Alligator crack,91.0,9.66,Bicycle,112,night,worn,14,93,18,1,0.482,8.9958,38.7648,HIGH,6.24
+2025-01-04 09:30:41,A1 Addis-Dire Dawa,1,Longitudinal crack,60.4,6.03,Normal Car,112,clear,bad,41,31,12,8,0.35,9.1018,39.1343,MODERATE,2.86
+2025-01-05 03:32:50,R2 Ring Road,1,Longitudinal crack,60.7,1.36,Truck,33,clear,bad,34,27,28,3,0.352,9.0382,38.7856,LOW,0.38
+2025-01-05 20:24:32,R2 Ring Road,1,Longitudinal crack,93.7,13.31,Heavy Truck,72,rain,good,38,63,19,3,0.425,9.0332,38.7721,MODERATE,2.86
+2025-01-06 13:48:39,R2 Ring Road,0,Alligator crack,72.7,14.01,Motorcycle,34,clear,worn,-3,87,1,7,0.533,9.0458,38.7257,LOW,2.24
+2025-01-07 07:18:51,A1 Addis-Dire Dawa,3,Transverse crack,75.2,6.55,Heavy Truck,20,snow,bad,43,38,3,9,0.11,9.0955,39.159,LOW,1.25
+2025-01-08 01:12:52,A3 Addis-Jimma,1,Longitudinal crack,97.0,4.33,Heavy Truck,123,heavyrain,good,-5,87,13,8,0.293,8.5829,38.1386,MODERATE,2.76
+2025-01-08 18:38:38,A3 Addis-Jimma,1,Longitudinal crack,48.0,2.12,Motorcycle,85,rain,worn,41,52,21,1,0.308,8.55,38.1582,LOW,1.28
+2025-01-09 11:53:26,A1 Addis-Dire Dawa,0,Alligator crack,66.3,17.78,Bicycle,70,clear,bad,11,22,23,6,0.337,9.1466,39.1781,HIGH,6.75
+2025-01-10 05:53:21,A2 Addis-Adama,0,Alligator crack,57.8,12.63,Truck,111,night,bad,38,98,7,7,0.309,9.0466,38.7088,CRITICAL,9.18
+2025-01-10 23:30:24,A9 Addis-Bahir Dar,1,Longitudinal crack,70.7,0.91,Heavy Truck,86,clear,worn,34,93,7,5,0.556,9.2232,38.6343,LOW,0.74
+2025-01-11 17:02:52,R2 Ring Road,0,Alligator crack,50.2,0.62,Heavy Truck,107,fog,worn,19,81,14,4,0.45,9.0531,38.7649,LOW,1.46
+2025-01-12 10:23:56,A1 Addis-Dire Dawa,3,Transverse crack,78.0,3.40,Heavy Truck,121,clear,good,38,22,27,6,0.777,9.0829,39.1468,LOW,1.76
+2025-01-13 03:59:55,A2 Addis-Adama,2,Repair,63.5,9.18,Bicycle,9,rain,good,4,74,13,3,0.432,9.0191,38.7453,LOW,0.15
+2025-01-13 21:09:40,A2 Addis-Adama,1,Longitudinal crack,48.7,5.66,Heavy Truck,99,rain,good,20,62,20,9,0.436,9.0376,38.7338,LOW,2.03
+2025-01-14 15:19:13,A9 Addis-Bahir Dar,2,Repair,89.3,16.23,Bicycle,48,rain,bad,44,25,27,4,0.189,9.2178,38.6061,LOW,1.93
+2025-01-15 08:51:35,A9 Addis-Bahir Dar,0,Alligator crack,67.5,13.44,Heavy Truck,6,snow,bad,14,35,28,5,0.105,9.23,38.6216,LOW,0.82
+2025-01-16 02:22:26,A3 Addis-Jimma,0,Alligator crack,56.1,0.86,Heavy Truck,71,night,bad,39,94,22,4,0.318,8.5804,38.1348,LOW,1.3
+2025-01-16 19:32:16,A3 Addis-Jimma,3,Transverse crack,70.4,15.71,Truck,65,night,good,33,85,18,5,0.676,8.5278,38.1436,MODERATE,3.36
+2025-01-17 13:05:09,A2 Addis-Adama,1,Longitudinal crack,56.3,6.52,Truck,50,heavyrain,worn,28,90,6,3,0.205,9.0658,38.7144,LOW,1.93
+2025-01-18 06:10:08,A2 Addis-Adama,3,Transverse crack,88.7,13.91,Motorcycle,109,heavyrain,worn,16,94,20,1,0.198,9.0473,38.748,CRITICAL,9.75
+2025-01-19 00:23:16,A1 Addis-Dire Dawa,3,Transverse crack,94.0,3.33,Normal Car,78,snow,good,26,77,20,9,0.244,9.1156,39.1084,LOW,2.02
+2025-01-19 17:47:17,A3 Addis-Jimma,3,Transverse crack,62.9,1.51,Heavy Truck,15,rain,good,10,48,8,4,0.445,8.5243,38.1617,LOW,0.19
+2025-01-20 11:29:06,A3 Addis-Jimma,0,Alligator crack,85.3,12.85,Bicycle,64,heavyrain,bad,16,16,30,4,0.127,8.5694,38.1156,HIGH,7.94
+2025-01-21 04:21:28,A1 Addis-Dire Dawa,3,Transverse crack,76.2,14.82,Motorcycle,8,clear,good,17,69,22,5,0.749,9.1411,39.1213,LOW,0.34
+2025-01-21 22:01:29,A9 Addis-Bahir Dar,3,Transverse crack,51.0,1.36,Heavy Truck,50,clear,good,23,42,18,3,0.787,9.2608,38.6142,LOW,0.48
+2025-01-22 15:22:31,R2 Ring Road,3,Transverse crack,86.7,17.39,Motorcycle,72,rain,good,-4,34,5,7,0.426,8.9846,38.7903,MODERATE,4.59
+2025-01-23 09:03:59,A3 Addis-Jimma,2,Repair,50.4,9.67,Minibus,16,rain,worn,12,18,11,2,0.303,8.5633,38.122,LOW,0.35
+2025-01-24 02:52:57,R2 Ring Road,0,Alligator crack,50.0,1.34,Heavy Truck,32,fog,good,10,74,11,4,0.642,8.9825,38.7212,LOW,0.41
+2025-01-24 20:26:18,A1 Addis-Dire Dawa,0,Alligator crack,69.6,6.75,Motorcycle,32,rain,bad,14,49,15,7,0.196,9.118,39.1617,LOW,1.83
+2025-01-25 13:54:42,A3 Addis-Jimma,1,Longitudinal crack,71.9,1.79,Minibus,63,night,bad,37,34,18,5,0.318,8.5847,38.123,LOW,0.93
+2025-01-26 07:24:55,A2 Addis-Adama,3,Transverse crack,73.2,11.10,Normal Car,34,rain,worn,1,48,1,8,0.303,9.0428,38.7315,LOW,1.93
+2025-01-27 00:49:17,A2 Addis-Adama,0,Alligator crack,59.6,4.96,Motorcycle,43,fog,bad,18,43,22,10,0.283,9.0468,38.7672,LOW,1.68
+2025-01-27 18:32:54,R2 Ring Road,1,Longitudinal crack,84.4,9.53,Heavy Truck,56,fog,good,18,64,28,10,0.618,9.0331,38.7262,LOW,1.43
+2025-01-28 11:34:55,A9 Addis-Bahir Dar,2,Repair,83.4,17.92,Minibus,31,heavyrain,good,29,32,3,7,0.284,9.246,38.5861,LOW,1.15
+2025-01-29 05:04:58,A1 Addis-Dire Dawa,0,Alligator crack,45.7,13.98,Truck,30,heavyrain,worn,34,66,9,3,0.199,9.0951,39.1659,MODERATE,3.35
+2025-01-29 22:57:11,A1 Addis-Dire Dawa,2,Repair,76.1,14.67,Normal Car,56,rain,bad,17,21,29,7,0.189,9.111,39.1402,LOW,2.07
+2025-01-30 16:03:41,A3 Addis-Jimma,3,Transverse crack,97.5,1.88,Motorcycle,69,clear,bad,26,40,12,7,0.355,8.52,38.0933,LOW,1.16
+2025-01-31 09:58:35,A3 Addis-Jimma,0,Alligator crack,56.0,2.44,Bicycle,95,heavyrain,worn,44,87,25,3,0.205,8.5528,38.1011,MODERATE,3.18
+2025-02-01 03:09:25,A2 Addis-Adama,3,Transverse crack,65.8,10.15,Minibus,80,clear,bad,9,21,15,1,0.344,9.0537,38.7404,MODERATE,3.87
+2025-02-01 21:09:32,R2 Ring Road,3,Transverse crack,75.6,2.11,Motorcycle,15,rain,bad,-3,30,13,3,0.199,8.9845,38.7689,LOW,0.34
+2025-02-02 14:18:56,R2 Ring Road,2,Repair,74.2,4.34,Minibus,129,clear,bad,33,81,29,4,0.348,9.0118,38.7368,LOW,1.46
+2025-02-03 08:10:24,A1 Addis-Dire Dawa,1,Longitudinal crack,57.2,8.68,Heavy Truck,14,snow,worn,37,33,23,9,0.167,9.0853,39.1695,LOW,0.71
+2025-02-04 01:12:42,A9 Addis-Bahir Dar,0,Alligator crack,68.0,9.86,Bicycle,39,snow,worn,10,81,14,10,0.168,9.2785,38.5857,MODERATE,3.46
+2025-02-04 18:50:25,A3 Addis-Jimma,3,Transverse crack,92.5,10.66,Motorcycle,14,snow,bad,31,20,26,8,0.107,8.5958,38.129,LOW,1.27
+2025-02-05 12:53:24,A9 Addis-Bahir Dar,1,Longitudinal crack,47.0,16.66,Heavy Truck,103,rain,worn,18,21,8,1,0.298,9.2217,38.6042,HIGH,6.45
+2025-02-06 06:19:43,A1 Addis-Dire Dawa,0,Alligator crack,46.7,1.83,Heavy Truck,17,heavyrain,bad,31,28,27,5,0.132,9.1563,39.1668,LOW,0.59
+2025-02-06 23:55:27,A9 Addis-Bahir Dar,2,Repair,46.0,3.11,Motorcycle,116,snow,bad,5,67,9,2,0.111,9.2149,38.6305,LOW,1.94
+2025-02-07 17:00:04,A2 Addis-Adama,0,Alligator crack,60.3,1.90,Normal Car,119,night,worn,38,93,3,8,0.5,9.0625,38.7453,LOW,2.4
+2025-02-08 10:19:52,A2 Addis-Adama,0,Alligator crack,65.3,15.43,Heavy Truck,45,snow,worn,25,52,6,8,0.166,9.0205,38.7498,HIGH,5.79
+2025-02-09 04:19:59,R2 Ring Road,2,Repair,67.0,2.42,Truck,22,clear,good,35,37,11,7,0.788,9.0403,38.7947,LOW,0.12
+2025-02-09 22:00:35,R2 Ring Road,2,Repair,55.0,7.05,Heavy Truck,51,snow,good,-1,28,23,7,0.24,9.0243,38.7795,LOW,0.94
+2025-02-10 15:20:22,A9 Addis-Bahir Dar,2,Repair,95.9,7.68,Heavy Truck,48,fog,bad,23,96,21,7,0.281,9.2536,38.6245,LOW,0.89
+2025-02-11 09:00:40,A1 Addis-Dire Dawa,0,Alligator crack,59.8,11.31,Motorcycle,111,heavyrain,good,10,15,7,8,0.287,9.1218,39.1602,HIGH,7.99
+2025-02-12 02:06:51,A2 Addis-Adama,1,Longitudinal crack,46.7,13.25,Truck,96,snow,bad,33,85,8,2,0.107,8.9902,38.7152,CRITICAL,8.16
+2025-02-12 20:05:59,A3 Addis-Jimma,3,Transverse crack,75.0,11.54,Normal Car,104,fog,bad,41,49,17,1,0.278,8.5317,38.1292,HIGH,6.14
+2025-02-13 13:12:05,A9 Addis-Bahir Dar,3,Transverse crack,52.5,14.08,Heavy Truck,34,rain,worn,-5,90,23,6,0.296,9.244,38.6006,LOW,2.35
+2025-02-14 06:50:18,A3 Addis-Jimma,1,Longitudinal crack,49.9,14.29,Motorcycle,25,snow,worn,5,88,10,2,0.166,8.5955,38.114,LOW,1.9
+2025-02-14 23:57:24,A1 Addis-Dire Dawa,3,Transverse crack,56.1,9.67,Minibus,125,heavyrain,bad,1,25,15,1,0.129,9.1459,39.1109,CRITICAL,9.89
+2025-02-15 17:41:41,A3 Addis-Jimma,2,Repair,49.5,8.55,Minibus,53,night,worn,28,33,4,9,0.488,8.5972,38.1312,LOW,0.93
+2025-02-16 11:42:08,A9 Addis-Bahir Dar,3,Transverse crack,92.0,11.89,Motorcycle,98,clear,worn,35,51,26,8,0.528,9.28,38.6343,MODERATE,4.52
+2025-02-17 04:24:01,A3 Addis-Jimma,2,Repair,83.7,8.83,Normal Car,29,clear,worn,4,82,5,4,0.542,8.5463,38.1463,LOW,0.46
+2025-02-17 21:52:24,A2 Addis-Adama,3,Transverse crack,53.4,15.38,Motorcycle,26,heavyrain,good,26,50,22,7,0.281,8.9974,38.7543,LOW,1.95
+2025-02-18 15:39:34,A2 Addis-Adama,1,Longitudinal crack,49.0,5.26,Truck,106,fog,bad,-4,28,14,3,0.285,9.0284,38.7721,MODERATE,2.71
+2025-02-19 09:31:11,A3 Addis-Jimma,0,Alligator crack,51.4,6.65,Normal Car,43,snow,good,22,57,27,9,0.24,8.5638,38.0968,LOW,2.17
+2025-02-20 02:28:50,A1 Addis-Dire Dawa,1,Longitudinal crack,96.7,17.23,Minibus,35,heavyrain,worn,21,26,4,3,0.199,9.1016,39.1078,MODERATE,2.95
+2025-02-20 20:43:26,A3 Addis-Jimma,1,Longitudinal crack,82.7,4.40,Truck,15,rain,good,-5,51,3,8,0.443,8.5894,38.1576,LOW,0.26
+2025-02-21 13:54:42,A3 Addis-Jimma,3,Transverse crack,55.7,11.91,Heavy Truck,84,clear,good,9,44,20,8,0.758,8.5631,38.1491,MODERATE,2.99
+2025-02-22 07:06:33,A3 Addis-Jimma,0,Alligator crack,98.2,14.70,Normal Car,7,snow,worn,5,53,6,1,0.166,8.5483,38.146,LOW,0.86
+2025-02-23 01:25:31,A9 Addis-Bahir Dar,2,Repair,47.8,7.25,Minibus,5,fog,worn,32,58,4,5,0.443,9.224,38.6176,LOW,0.07
+2025-02-23 18:03:40,A1 Addis-Dire Dawa,0,Alligator crack,57.0,6.85,Truck,15,fog,good,43,40,26,5,0.624,9.1319,39.175,LOW,0.47
+2025-02-24 11:33:17,A3 Addis-Jimma,2,Repair,78.9,4.18,Bicycle,21,fog,worn,-4,81,5,10,0.447,8.5849,38.1083,LOW,0.21
+2025-02-25 05:43:47,A1 Addis-Dire Dawa,1,Longitudinal crack,70.7,16.50,Bicycle,75,night,good,6,40,26,4,0.672,9.0805,39.1282,MODERATE,3.17
+2025-02-25 22:54:07,A9 Addis-Bahir Dar,3,Transverse crack,95.1,15.24,Heavy Truck,94,clear,bad,34,81,20,9,0.337,9.2666,38.5788,HIGH,6.38
+2025-02-26 16:43:15,A3 Addis-Jimma,2,Repair,76.7,0.57,Truck,107,snow,bad,11,15,5,2,0.112,8.5373,38.101,LOW,0.98
+2025-02-27 10:33:58,A9 Addis-Bahir Dar,1,Longitudinal crack,75.5,1.24,Truck,99,fog,good,7,55,2,6,0.646,9.2648,38.5991,LOW,0.79
+2025-02-28 03:25:18,R2 Ring Road,0,Alligator crack,84.6,12.15,Normal Car,22,heavyrain,worn,11,92,21,4,0.199,9.0345,38.7695,LOW,2.18
+2025-02-28 21:37:46,A3 Addis-Jimma,3,Transverse crack,74.3,2.41,Motorcycle,54,rain,worn,7,61,8,6,0.311,8.5974,38.1067,LOW,1.11
+2025-03-01 14:55:45,A3 Addis-Jimma,0,Alligator crack,61.2,2.53,Heavy Truck,38,snow,good,19,48,23,8,0.244,8.5561,38.0999,LOW,1.06
+2025-03-02 08:16:09,A9 Addis-Bahir Dar,1,Longitudinal crack,88.0,7.36,Truck,115,snow,worn,13,26,4,2,0.17,9.2616,38.6054,HIGH,5.13
+2025-03-03 01:13:13,A2 Addis-Adama,2,Repair,74.8,17.45,Minibus,112,heavyrain,worn,14,33,10,8,0.198,9.0004,38.7386,HIGH,5.27
+2025-03-03 19:09:51,A3 Addis-Jimma,2,Repair,84.9,9.18,Motorcycle,91,clear,good,22,96,27,9,0.762,8.5206,38.1148,LOW,1.13
+2025-03-04 12:19:33,A1 Addis-Dire Dawa,3,Transverse crack,60.2,6.53,Motorcycle,77,snow,worn,7,36,26,10,0.168,9.1143,39.1126,MODERATE,4.01
+2025-03-05 06:08:49,A9 Addis-Bahir Dar,1,Longitudinal crack,86.7,16.38,Truck,20,heavyrain,bad,-5,15,11,5,0.127,9.2758,38.6166,LOW,1.92
+2025-03-05 23:24:56,A2 Addis-Adama,1,Longitudinal crack,47.7,16.92,Heavy Truck,118,snow,worn,31,60,6,4,0.166,9.0026,38.7599,CRITICAL,10
+2025-03-06 17:26:49,A3 Addis-Jimma,0,Alligator crack,98.9,7.25,Truck,65,heavyrain,worn,12,26,29,6,0.201,8.5355,38.1675,MODERATE,4.3
+2025-03-07 11:16:46,A2 Addis-Adama,3,Transverse crack,53.0,5.87,Motorcycle,81,night,good,39,78,28,6,0.693,9.0603,38.7267,LOW,1.92
+2025-03-08 04:07:16,R2 Ring Road,0,Alligator crack,59.1,17.42,Truck,82,heavyrain,worn,32,62,3,3,0.199,9.0161,38.7937,CRITICAL,10
+2025-03-08 22:16:14,R2 Ring Road,2,Repair,61.4,13.12,Motorcycle,33,heavyrain,good,23,89,14,4,0.284,9.0085,38.764,LOW,0.93
+2025-03-09 15:40:33,A1 Addis-Dire Dawa,3,Transverse crack,81.7,3.98,Minibus,60,snow,good,26,96,10,10,0.245,9.1434,39.1066,LOW,1.73
+2025-03-10 08:38:09,A9 Addis-Bahir Dar,2,Repair,72.3,14.75,Minibus,66,rain,good,1,58,2,10,0.427,9.2363,38.5612,LOW,1.58
+2025-03-11 02:37:16,A9 Addis-Bahir Dar,1,Longitudinal crack,70.5,1.90,Motorcycle,70,night,bad,20,32,10,6,0.32,9.2551,38.6144,LOW,1.06
+2025-03-11 19:52:13,R2 Ring Road,1,Longitudinal crack,70.9,4.74,Heavy Truck,97,night,worn,0,64,28,6,0.487,8.9892,38.7882,LOW,2.03
+2025-03-12 13:22:15,A9 Addis-Bahir Dar,1,Longitudinal crack,65.2,3.69,Truck,20,snow,bad,13,70,16,1,0.11,9.2636,38.5897,LOW,0.67
+2025-03-13 07:17:03,A3 Addis-Jimma,1,Longitudinal crack,71.7,5.82,Bicycle,39,snow,good,27,66,5,1,0.244,8.5206,38.0999,LOW,1.13
+2025-03-14 00:05:37,A9 Addis-Bahir Dar,3,Transverse crack,85.9,2.01,Bicycle,28,heavyrain,bad,26,72,29,6,0.132,9.2431,38.5963,LOW,0.82
+2025-03-14 17:42:02,A1 Addis-Dire Dawa,1,Longitudinal crack,59.7,7.06,Truck,15,snow,good,19,29,1,4,0.244,9.133,39.1163,LOW,0.5
+2025-03-15 11:57:31,A3 Addis-Jimma,2,Repair,79.1,16.74,Heavy Truck,99,night,worn,18,95,14,2,0.474,8.539,38.1105,MODERATE,3.04
+2025-03-16 05:09:47,R2 Ring Road,0,Alligator crack,85.5,3.29,Bicycle,76,heavyrain,good,14,96,21,9,0.293,8.992,38.7922,LOW,2.29
+2025-03-16 22:52:03,A9 Addis-Bahir Dar,1,Longitudinal crack,54.7,15.40,Heavy Truck,75,night,bad,14,76,8,7,0.306,9.2588,38.6149,MODERATE,4.63
+2025-03-17 15:51:30,A1 Addis-Dire Dawa,0,Alligator crack,76.6,5.43,Minibus,75,clear,worn,39,18,6,3,0.548,9.1223,39.1399,LOW,2.37
+2025-03-18 09:46:50,A9 Addis-Bahir Dar,0,Alligator crack,48.7,4.65,Bicycle,128,heavyrain,bad,23,59,11,7,0.132,9.2361,38.6307,HIGH,7.4
+2025-03-19 02:58:52,A9 Addis-Bahir Dar,0,Alligator crack,85.3,8.14,Motorcycle,30,rain,bad,32,38,29,2,0.193,9.269,38.6073,LOW,1.97
+2025-03-19 21:07:09,A3 Addis-Jimma,3,Transverse crack,51.9,3.31,Minibus,91,night,good,15,66,7,10,0.709,8.56,38.1079,LOW,1.5
+2025-03-20 14:04:29,A1 Addis-Dire Dawa,0,Alligator crack,78.6,12.48,Heavy Truck,124,night,good,6,22,5,5,0.688,9.1053,39.1725,HIGH,6.55
+2025-03-21 07:37:24,A2 Addis-Adama,0,Alligator crack,82.4,13.36,Truck,84,clear,worn,39,84,24,6,0.527,9.0158,38.7038,HIGH,5.31
+2025-03-22 01:28:05,A3 Addis-Jimma,1,Longitudinal crack,82.8,15.69,Heavy Truck,79,fog,bad,30,42,28,8,0.273,8.5578,38.1417,MODERATE,4.74
+2025-03-22 18:41:55,A2 Addis-Adama,2,Repair,80.5,3.25,Motorcycle,85,clear,worn,14,53,4,1,0.552,9.0139,38.736,LOW,0.68
+2025-03-23 12:34:50,A3 Addis-Jimma,3,Transverse crack,49.1,4.15,Motorcycle,49,snow,worn,14,34,1,10,0.172,8.5497,38.1531,LOW,1.88
+2025-03-24 05:54:02,A2 Addis-Adama,1,Longitudinal crack,88.6,16.60,Bicycle,64,heavyrain,bad,1,37,11,8,0.127,9.0413,38.707,HIGH,6.23
+2025-03-24 23:25:46,A2 Addis-Adama,3,Transverse crack,75.6,1.18,Motorcycle,46,snow,good,-5,32,9,6,0.248,9.0677,38.7086,LOW,0.75
+2025-03-25 16:24:23,A3 Addis-Jimma,3,Transverse crack,47.2,1.89,Normal Car,35,rain,worn,6,35,1,7,0.313,8.5269,38.1463,LOW,0.64
+2025-03-26 10:16:14,R2 Ring Road,0,Alligator crack,64.2,17.45,Normal Car,43,rain,good,-2,25,1,4,0.427,9.03,38.7306,MODERATE,3.42
+2025-03-27 04:00:28,A1 Addis-Dire Dawa,0,Alligator crack,61.6,17.88,Minibus,102,rain,worn,32,72,30,2,0.293,9.0923,39.1727,CRITICAL,10
+2025-03-27 21:30:11,R2 Ring Road,1,Longitudinal crack,60.6,10.52,Normal Car,74,fog,bad,12,51,27,10,0.277,9.0145,38.7218,MODERATE,3.18
+2025-03-28 15:14:59,A2 Addis-Adama,1,Longitudinal crack,61.3,10.53,Truck,78,rain,bad,10,96,28,6,0.192,9.0599,38.7407,MODERATE,3.96
+2025-03-29 07:59:04,A3 Addis-Jimma,3,Transverse crack,75.2,13.43,Truck,59,clear,worn,41,71,22,3,0.527,8.5937,38.1243,MODERATE,3.01
+2025-03-30 02:13:04,A3 Addis-Jimma,0,Alligator crack,73.9,1.57,Motorcycle,88,fog,good,22,34,10,1,0.642,8.5658,38.1333,LOW,1.21
+2025-03-30 19:02:10,A3 Addis-Jimma,0,Alligator crack,53.8,11.85,Heavy Truck,20,night,worn,42,65,27,2,0.475,8.5482,38.1422,LOW,1.32
+2025-03-31 13:28:39,A1 Addis-Dire Dawa,3,Transverse crack,94.5,2.27,Bicycle,99,clear,worn,3,88,27,10,0.546,9.1097,39.1512,LOW,1.51
+2025-04-01 06:35:09,A2 Addis-Adama,1,Longitudinal crack,77.2,1.01,Minibus,44,snow,bad,21,23,30,6,0.11,8.9904,38.7783,LOW,0.83
+2025-04-01 23:59:16,R2 Ring Road,1,Longitudinal crack,47.4,15.09,Truck,122,heavyrain,bad,-2,17,7,1,0.128,9.0244,38.7709,CRITICAL,10
+2025-04-02 17:55:41,A9 Addis-Bahir Dar,1,Longitudinal crack,88.1,2.13,Minibus,112,snow,worn,28,97,11,10,0.172,9.2702,38.6363,LOW,2.35
+2025-04-03 11:21:50,A3 Addis-Jimma,2,Repair,62.5,15.59,Heavy Truck,16,heavyrain,bad,8,22,4,5,0.128,8.5667,38.1547,LOW,0.81
+2025-04-04 04:14:56,A3 Addis-Jimma,3,Transverse crack,48.6,3.75,Normal Car,11,fog,good,24,22,30,8,0.629,8.5981,38.1136,LOW,0.19
+2025-04-04 21:46:23,R2 Ring Road,3,Transverse crack,56.2,10.43,Truck,105,heavyrain,bad,1,81,22,8,0.128,8.9894,38.7536,CRITICAL,8.82
+2025-04-05 16:06:27,A1 Addis-Dire Dawa,1,Longitudinal crack,77.9,8.15,Motorcycle,55,clear,worn,43,38,5,1,0.543,9.1386,39.1214,LOW,1.47
+2025-04-06 08:42:35,A2 Addis-Adama,0,Alligator crack,69.9,17.81,Bicycle,125,fog,bad,5,82,6,6,0.277,9.0556,38.7114,CRITICAL,10
+2025-04-07 02:48:22,A9 Addis-Bahir Dar,3,Transverse crack,49.6,14.59,Motorcycle,69,fog,bad,16,74,7,9,0.277,9.2311,38.6098,MODERATE,4.96
+2025-04-07 20:29:21,A2 Addis-Adama,3,Transverse crack,71.6,0.97,Bicycle,60,fog,good,25,32,1,3,0.647,9.0201,38.7327,LOW,0.56
+2025-04-08 14:01:58,A1 Addis-Dire Dawa,3,Transverse crack,81.0,4.74,Minibus,99,clear,worn,39,92,8,9,0.548,9.1191,39.1277,LOW,2.3
+2025-04-09 06:59:51,A3 Addis-Jimma,2,Repair,68.9,16.61,Truck,96,night,bad,34,82,17,2,0.304,8.5848,38.092,MODERATE,3.49
+2025-04-10 00:47:14,A3 Addis-Jimma,1,Longitudinal crack,65.8,12.98,Heavy Truck,30,snow,worn,24,16,24,5,0.165,8.5976,38.1591,LOW,2.1
+2025-04-10 18:30:48,R2 Ring Road,3,Transverse crack,50.5,15.02,Normal Car,104,heavyrain,worn,8,81,27,6,0.196,9.0329,38.7619,CRITICAL,9.93
+2025-04-11 11:57:28,A2 Addis-Adama,3,Transverse crack,95.5,0.65,Normal Car,59,rain,worn,28,67,4,5,0.313,8.9954,38.7108,LOW,0.77
+2025-04-12 05:30:56,A9 Addis-Bahir Dar,3,Transverse crack,63.0,13.61,Minibus,63,snow,worn,5,19,6,9,0.166,9.2452,38.562,HIGH,5.86
+2025-04-12 23:08:58,A3 Addis-Jimma,3,Transverse crack,52.4,5.34,Minibus,79,rain,worn,26,56,29,4,0.303,8.5544,38.0927,MODERATE,2.58
+2025-04-13 16:18:36,A2 Addis-Adama,2,Repair,68.2,11.94,Bicycle,99,rain,bad,19,87,4,10,0.194,9.0287,38.7029,MODERATE,3.07
+2025-04-14 09:40:14,A2 Addis-Adama,3,Transverse crack,56.0,7.92,Motorcycle,32,fog,bad,11,75,8,7,0.283,9.0607,38.7426,LOW,1.4
+2025-04-15 03:13:54,A1 Addis-Dire Dawa,1,Longitudinal crack,84.4,3.40,Minibus,21,fog,bad,23,45,16,2,0.286,9.1189,39.1019,LOW,0.41
+2025-04-15 20:47:13,A2 Addis-Adama,1,Longitudinal crack,79.5,13.06,Truck,68,snow,good,2,46,24,3,0.235,9.0594,38.7704,MODERATE,3.68
+2025-04-16 14:51:04,R2 Ring Road,3,Transverse crack,89.3,17.77,Motorcycle,108,rain,good,8,85,29,9,0.419,8.9898,38.7591,HIGH,7.02
+2025-04-17 07:40:04,A9 Addis-Bahir Dar,0,Alligator crack,87.7,11.64,Normal Car,73,heavyrain,bad,17,91,25,6,0.128,9.2347,38.6096,CRITICAL,8.34
+2025-04-18 01:10:22,A1 Addis-Dire Dawa,0,Alligator crack,52.1,3.62,Heavy Truck,109,night,worn,-1,38,7,2,0.496,9.0999,39.1612,MODERATE,3.06
+2025-04-18 19:08:49,A2 Addis-Adama,2,Repair,55.8,8.59,Bicycle,64,snow,good,43,16,7,4,0.242,9.0307,38.7435,LOW,1.36
+2025-04-19 12:19:52,A2 Addis-Adama,0,Alligator crack,81.3,6.74,Bicycle,59,night,bad,36,91,17,7,0.313,9.0055,38.7419,MODERATE,2.98
+2025-04-20 05:56:12,A2 Addis-Adama,2,Repair,68.9,15.33,Normal Car,76,heavyrain,good,42,43,5,4,0.284,8.9902,38.7653,LOW,2.46
+2025-04-20 23:16:48,A3 Addis-Jimma,2,Repair,80.1,2.80,Heavy Truck,69,night,good,15,70,8,3,0.709,8.5512,38.1526,LOW,0.45
+2025-04-21 16:42:46,A9 Addis-Bahir Dar,0,Alligator crack,84.2,7.63,Heavy Truck,78,rain,bad,6,30,11,3,0.196,9.2572,38.6213,MODERATE,4.88
+2025-04-22 10:54:01,A9 Addis-Bahir Dar,2,Repair,63.8,5.31,Minibus,117,snow,bad,17,52,24,3,0.109,9.2601,38.5863,MODERATE,2.72
+2025-04-23 04:20:33,A3 Addis-Jimma,0,Alligator crack,72.0,15.86,Motorcycle,118,fog,good,8,44,4,3,0.616,8.5573,38.111,HIGH,7.31
+2025-04-23 21:19:10,A3 Addis-Jimma,2,Repair,95.6,15.27,Normal Car,94,night,good,0,59,27,8,0.672,8.5499,38.115,LOW,2.05
+2025-04-24 15:34:30,A3 Addis-Jimma,2,Repair,82.6,9.10,Minibus,8,clear,good,34,51,16,4,0.767,8.5536,38.1524,LOW,0.1
+2025-04-25 08:16:03,A1 Addis-Dire Dawa,1,Longitudinal crack,49.2,14.75,Truck,32,fog,worn,4,72,1,5,0.432,9.0927,39.1301,LOW,1.53
+2025-04-26 02:03:43,A2 Addis-Adama,1,Longitudinal crack,57.6,17.03,Motorcycle,47,snow,good,26,85,29,9,0.233,9.0685,38.7372,MODERATE,3.19
+2025-04-26 19:25:08,A3 Addis-Jimma,0,Alligator crack,60.2,14.98,Normal Car,108,fog,worn,5,64,17,2,0.427,8.5934,38.1058,CRITICAL,8.28
+2025-04-27 13:06:54,A2 Addis-Adama,0,Alligator crack,57.4,14.00,Minibus,56,fog,worn,29,31,13,1,0.43,9.0687,38.7546,MODERATE,4.05
+2025-04-28 06:58:19,A2 Addis-Adama,0,Alligator crack,59.4,11.04,Heavy Truck,13,snow,worn,27,75,7,10,0.168,9.0345,38.7461,LOW,1.26
+2025-04-29 00:21:07,A3 Addis-Jimma,0,Alligator crack,65.1,14.54,Heavy Truck,74,snow,bad,20,44,20,8,0.106,8.5736,38.1028,CRITICAL,10
+2025-04-29 18:14:48,A2 Addis-Adama,0,Alligator crack,52.1,7.48,Motorcycle,32,fog,bad,3,74,14,10,0.283,8.9936,38.7353,LOW,1.67
+2025-04-30 11:31:52,A1 Addis-Dire Dawa,3,Transverse crack,54.2,11.47,Heavy Truck,10,snow,good,37,41,13,8,0.238,9.1393,39.1504,LOW,0.62
+2025-05-01 04:40:16,A9 Addis-Bahir Dar,3,Transverse crack,60.7,5.99,Heavy Truck,125,clear,worn,16,41,17,6,0.543,9.2402,38.5935,MODERATE,3.4
+2025-05-01 22:48:57,A3 Addis-Jimma,0,Alligator crack,53.2,12.37,Normal Car,95,clear,good,13,89,16,1,0.759,8.549,38.1446,MODERATE,4.33
+2025-05-02 15:38:02,R2 Ring Road,3,Transverse crack,94.2,16.17,Heavy Truck,117,snow,worn,11,80,7,3,0.165,8.9834,38.7209,CRITICAL,10
+2025-05-03 09:12:16,A1 Addis-Dire Dawa,2,Repair,89.7,17.41,Bicycle,92,rain,good,25,60,27,2,0.42,9.0805,39.1509,MODERATE,2.54
+2025-05-04 02:34:18,A9 Addis-Bahir Dar,2,Repair,64.7,13.45,Heavy Truck,102,snow,bad,26,35,15,5,0.106,9.2851,38.6081,MODERATE,4.84
+2025-05-04 20:29:39,A1 Addis-Dire Dawa,2,Repair,46.3,10.21,Motorcycle,126,heavyrain,good,16,95,8,4,0.288,9.1213,39.1674,MODERATE,2.9
+2025-05-05 13:35:42,A2 Addis-Adama,1,Longitudinal crack,85.6,4.06,Bicycle,128,night,bad,-2,94,26,10,0.314,9.0523,38.7358,MODERATE,2.89
+2025-05-06 07:00:08,R2 Ring Road,0,Alligator crack,56.5,1.68,Truck,118,heavyrain,worn,44,46,2,8,0.209,8.9923,38.7601,MODERATE,3.34
+2025-05-07 00:34:42,A1 Addis-Dire Dawa,3,Transverse crack,69.6,15.95,Truck,25,clear,bad,10,87,25,4,0.336,9.1367,39.1038,LOW,1.76
+2025-05-07 18:20:28,A3 Addis-Jimma,0,Alligator crack,84.4,7.15,Motorcycle,46,heavyrain,worn,8,97,20,7,0.202,8.5796,38.1043,MODERATE,3.01
+2025-05-08 12:03:12,A3 Addis-Jimma,3,Transverse crack,51.7,4.66,Minibus,74,night,worn,39,21,29,4,0.487,8.5632,38.1216,LOW,1.95
+2025-05-09 05:59:51,A2 Addis-Adama,0,Alligator crack,91.7,14.23,Heavy Truck,89,heavyrain,good,29,76,6,9,0.285,9.0354,38.7397,HIGH,7.76
+2025-05-09 23:32:00,A9 Addis-Bahir Dar,3,Transverse crack,66.5,11.56,Heavy Truck,37,clear,good,1,15,20,6,0.759,9.2242,38.6247,LOW,1.28
+2025-05-10 16:56:21,A9 Addis-Bahir Dar,3,Transverse crack,90.7,3.17,Truck,118,fog,good,0,85,23,4,0.633,9.2173,38.6202,LOW,1.82
+2025-05-11 09:49:12,A3 Addis-Jimma,0,Alligator crack,65.2,17.45,Motorcycle,47,rain,bad,12,56,10,10,0.191,8.5315,38.0928,HIGH,5.79
+2025-05-12 03:38:55,A9 Addis-Bahir Dar,1,Longitudinal crack,51.6,9.13,Heavy Truck,65,clear,bad,40,72,13,5,0.346,9.2178,38.6317,LOW,2.27
+2025-05-12 20:48:43,A2 Addis-Adama,2,Repair,97.8,5.46,Heavy Truck,28,fog,good,18,76,26,5,0.627,9.0079,38.708,LOW,0.26
+2025-05-13 14:16:55,A9 Addis-Bahir Dar,3,Transverse crack,47.6,17.40,Normal Car,10,fog,good,28,48,13,5,0.612,9.2129,38.5811,LOW,0.54
+2025-05-14 08:26:55,A2 Addis-Adama,2,Repair,53.3,12.36,Motorcycle,126,fog,good,21,89,28,6,0.612,9.0589,38.7673,LOW,2.2
+2025-05-15 02:11:30,A2 Addis-Adama,3,Transverse crack,88.1,13.97,Minibus,129,snow,bad,32,94,23,9,0.106,9.0296,38.7765,CRITICAL,10
+2025-05-15 18:45:59,A2 Addis-Adama,2,Repair,76.7,17.43,Minibus,36,clear,good,18,23,4,2,0.758,9.0184,38.7371,LOW,0.77
+2025-05-16 12:51:23,A2 Addis-Adama,3,Transverse crack,77.2,8.82,Minibus,93,fog,bad,7,70,16,3,0.281,9.0251,38.7717,MODERATE,4.43
+2025-05-17 06:15:21,R2 Ring Road,1,Longitudinal crack,73.7,1.20,Motorcycle,37,night,bad,26,62,27,5,0.317,9.0234,38.7552,LOW,0.47
+2025-05-18 00:06:21,A3 Addis-Jimma,1,Longitudinal crack,51.3,11.33,Motorcycle,89,snow,worn,35,95,29,4,0.165,8.587,38.146,HIGH,5.57
+2025-05-18 17:25:44,A3 Addis-Jimma,3,Transverse crack,71.5,2.93,Bicycle,77,heavyrain,worn,-1,29,5,5,0.207,8.5513,38.1175,LOW,2.28
+2025-05-19 10:20:29,A3 Addis-Jimma,2,Repair,68.3,11.72,Bicycle,48,heavyrain,good,24,69,3,7,0.288,8.5428,38.1698,LOW,1.24
+2025-05-20 04:46:53,A2 Addis-Adama,1,Longitudinal crack,79.9,5.22,Bicycle,15,clear,bad,2,24,2,1,0.353,9.0442,38.7209,LOW,0.35
+2025-05-20 22:09:22,A2 Addis-Adama,1,Longitudinal crack,87.4,15.22,Heavy Truck,124,snow,good,13,96,3,6,0.237,9.0117,38.7264,HIGH,7.65
+2025-05-21 15:03:18,A1 Addis-Dire Dawa,1,Longitudinal crack,97.9,15.42,Bicycle,44,heavyrain,bad,16,78,12,4,0.127,9.1442,39.153,MODERATE,4.02
+2025-05-22 08:25:01,A2 Addis-Adama,2,Repair,47.1,14.92,Normal Car,68,clear,bad,31,93,9,10,0.34,8.9952,38.7491,LOW,1.96
+2025-05-23 02:10:52,A1 Addis-Dire Dawa,0,Alligator crack,67.9,2.31,Minibus,124,clear,worn,-3,21,25,2,0.546,9.1194,39.1504,LOW,2.38
+2025-05-23 20:17:54,A1 Addis-Dire Dawa,3,Transverse crack,56.7,10.93,Bicycle,105,snow,worn,-1,34,15,4,0.167,9.0942,39.1278,CRITICAL,8.14
+2025-05-24 13:56:26,A3 Addis-Jimma,1,Longitudinal crack,46.9,4.12,Heavy Truck,65,snow,good,10,53,5,8,0.246,8.5392,38.0923,LOW,1.5
+2025-05-25 06:51:29,A2 Addis-Adama,2,Repair,79.8,7.21,Normal Car,20,rain,bad,35,69,16,5,0.196,9.0264,38.7171,LOW,0.42
+2025-05-26 00:51:19,A3 Addis-Jimma,2,Repair,89.4,12.51,Bicycle,94,snow,good,16,32,27,9,0.235,8.5885,38.1123,MODERATE,2.71
+2025-05-26 17:48:11,A9 Addis-Bahir Dar,2,Repair,62.0,9.73,Truck,11,rain,good,-3,19,28,9,0.427,9.2435,38.6091,LOW,0.19
+2025-05-27 11:41:59,R2 Ring Road,1,Longitudinal crack,56.4,9.97,Motorcycle,33,clear,worn,7,71,28,4,0.531,8.9901,38.7769,LOW,1.03
+2025-05-28 05:03:38,A9 Addis-Bahir Dar,1,Longitudinal crack,49.4,12.19,Heavy Truck,114,rain,good,14,41,6,3,0.43,9.2157,38.5857,MODERATE,4.21
+2025-05-28 22:10:00,A9 Addis-Bahir Dar,3,Transverse crack,82.4,16.26,Bicycle,92,heavyrain,bad,35,37,10,2,0.127,9.2369,38.5973,CRITICAL,10
+2025-05-29 16:22:38,A3 Addis-Jimma,0,Alligator crack,51.7,14.71,Motorcycle,84,heavyrain,worn,12,36,9,3,0.199,8.5622,38.1474,CRITICAL,9.8
+2025-05-30 09:19:55,A9 Addis-Bahir Dar,0,Alligator crack,89.9,1.26,Heavy Truck,67,snow,bad,21,62,11,5,0.111,9.2311,38.6041,LOW,2.16
+2025-05-31 02:56:01,A9 Addis-Bahir Dar,2,Repair,85.8,6.32,Motorcycle,40,snow,worn,-1,73,13,4,0.17,9.2348,38.5617,LOW,0.88
+2025-05-31 20:21:17,A9 Addis-Bahir Dar,3,Transverse crack,56.0,5.30,Bicycle,101,rain,bad,42,84,17,4,0.197,9.2806,38.5763,MODERATE,3.92
+2025-06-01 14:37:13,A2 Addis-Adama,0,Alligator crack,62.9,16.33,Heavy Truck,125,night,good,29,40,12,1,0.679,9.0698,38.7732,CRITICAL,8.3
+2025-06-02 08:03:21,A1 Addis-Dire Dawa,1,Longitudinal crack,82.6,2.48,Normal Car,29,snow,bad,39,54,11,1,0.111,9.1474,39.1523,LOW,0.78
+2025-06-03 01:09:01,A9 Addis-Bahir Dar,1,Longitudinal crack,90.3,12.18,Minibus,53,heavyrain,worn,25,62,8,7,0.2,9.26,38.6332,MODERATE,3.32
+2025-06-03 18:30:53,A2 Addis-Adama,3,Transverse crack,57.2,12.29,Motorcycle,9,snow,good,7,30,24,10,0.236,9.0416,38.7339,LOW,0.59
+2025-06-04 12:15:31,A1 Addis-Dire Dawa,2,Repair,47.4,10.59,Normal Car,126,heavyrain,good,40,58,27,4,0.284,9.1416,39.1327,MODERATE,2.99
+2025-06-05 05:54:54,A9 Addis-Bahir Dar,1,Longitudinal crack,54.4,10.66,Bicycle,35,heavyrain,worn,35,83,24,7,0.199,9.2758,38.5715,LOW,1.97
+2025-06-05 22:58:10,R2 Ring Road,2,Repair,48.3,11.13,Bicycle,32,fog,bad,-2,38,12,1,0.279,8.9825,38.7884,LOW,0.79
+2025-06-06 16:47:00,A3 Addis-Jimma,3,Transverse crack,87.7,15.90,Normal Car,73,fog,worn,30,56,21,9,0.426,8.5884,38.1064,MODERATE,4.74
+2025-06-07 10:45:05,A2 Addis-Adama,0,Alligator crack,47.7,0.66,Minibus,115,clear,good,22,32,2,2,0.797,9.0045,38.7034,LOW,1.11
+2025-06-08 04:05:42,A3 Addis-Jimma,1,Longitudinal crack,80.1,7.46,Truck,91,fog,worn,17,19,29,4,0.435,8.5898,38.1488,MODERATE,2.51
+2025-06-08 21:40:11,A9 Addis-Bahir Dar,2,Repair,94.7,15.48,Truck,29,fog,worn,44,82,27,3,0.424,9.2769,38.5775,LOW,0.8
+2025-06-09 14:48:43,A2 Addis-Adama,0,Alligator crack,69.7,13.59,Truck,99,night,worn,20,16,22,7,0.474,9.0036,38.7378,HIGH,7.3
+2025-06-10 08:00:56,R2 Ring Road,3,Transverse crack,49.9,1.00,Normal Car,42,clear,good,2,58,8,1,0.793,8.9863,38.7763,LOW,0.36
+2025-06-11 02:04:27,R2 Ring Road,0,Alligator crack,94.0,17.71,Normal Car,67,fog,worn,21,56,16,10,0.428,8.9893,38.7865,HIGH,5.94
+2025-06-11 19:47:34,A1 Addis-Dire Dawa,2,Repair,56.3,7.36,Bicycle,72,heavyrain,worn,6,42,23,8,0.202,9.095,39.1433,LOW,1.67
+2025-06-12 12:47:17,A9 Addis-Bahir Dar,2,Repair,63.6,1.15,Truck,34,rain,worn,39,48,4,8,0.313,9.2243,38.5623,LOW,0.22
+2025-06-13 06:09:33,R2 Ring Road,2,Repair,73.1,4.78,Truck,10,heavyrain,worn,6,32,17,7,0.204,8.987,38.7321,LOW,0.17
+2025-06-13 23:33:25,A3 Addis-Jimma,1,Longitudinal crack,66.2,12.08,Motorcycle,63,rain,bad,23,91,19,10,0.192,8.581,38.1441,MODERATE,3.58
+2025-06-14 17:19:19,A9 Addis-Bahir Dar,3,Transverse crack,85.8,11.60,Bicycle,10,night,worn,40,19,13,7,0.48,9.2229,38.5947,LOW,0.52
+2025-06-15 10:35:54,A2 Addis-Adama,2,Repair,92.6,10.96,Minibus,69,heavyrain,good,40,64,23,1,0.285,9.0363,38.7364,LOW,1.68
+2025-06-16 04:20:44,A2 Addis-Adama,3,Transverse crack,46.0,3.03,Heavy Truck,66,night,bad,9,64,3,3,0.32,9.0017,38.7325,LOW,1.6
+2025-06-16 21:39:59,A2 Addis-Adama,0,Alligator crack,60.8,11.92,Motorcycle,60,heavyrain,worn,19,98,5,10,0.201,9.0318,38.7062,HIGH,5.86
+2025-06-17 15:38:46,A2 Addis-Adama,3,Transverse crack,59.9,16.34,Bicycle,70,rain,bad,-4,36,30,9,0.189,9.0045,38.7032,HIGH,6.55
+2025-06-18 09:31:57,R2 Ring Road,2,Repair,85.8,11.77,Heavy Truck,125,clear,good,3,67,18,4,0.759,9.046,38.769,LOW,1.9
+2025-06-19 02:52:18,A1 Addis-Dire Dawa,3,Transverse crack,55.1,16.78,Motorcycle,28,rain,good,13,85,13,6,0.424,9.1527,39.164,LOW,1.73
+2025-06-19 19:45:09,A9 Addis-Bahir Dar,2,Repair,58.8,15.63,Truck,8,heavyrain,good,11,43,21,3,0.281,9.2359,38.6156,LOW,0.26
+2025-06-20 13:31:55,R2 Ring Road,0,Alligator crack,95.1,0.78,Normal Car,111,snow,worn,24,20,17,8,0.173,9.014,38.7871,MODERATE,2.61
+2025-06-21 07:00:51,A2 Addis-Adama,3,Transverse crack,53.4,8.42,Heavy Truck,89,snow,good,15,49,4,1,0.242,9.0507,38.7233,MODERATE,4.32
+2025-06-22 00:45:13,A9 Addis-Bahir Dar,3,Transverse crack,53.0,7.18,Bicycle,57,snow,bad,-3,87,6,1,0.109,9.2122,38.6123,MODERATE,3.8
+2025-06-22 18:29:58,A2 Addis-Adama,1,Longitudinal crack,64.7,15.00,Truck,12,fog,bad,-3,97,10,5,0.276,9.0004,38.7579,LOW,0.69
+2025-06-23 11:25:45,R2 Ring Road,3,Transverse crack,85.4,17.17,Heavy Truck,52,fog,worn,31,44,20,9,0.426,9.017,38.7585,MODERATE,3.61
+2025-06-24 04:59:24,A1 Addis-Dire Dawa,0,Alligator crack,72.1,11.75,Motorcycle,120,fog,bad,11,54,28,6,0.276,9.1291,39.1374,CRITICAL,8.94
+2025-06-24 22:28:12,A9 Addis-Bahir Dar,0,Alligator crack,62.4,14.30,Truck,82,rain,good,31,77,18,1,0.423,9.2868,38.6396,HIGH,5.49
+2025-06-25 16:03:20,A1 Addis-Dire Dawa,2,Repair,96.8,8.14,Heavy Truck,6,fog,good,-5,39,15,6,0.626,9.0922,39.173,LOW,0.07
+2025-06-26 10:05:52,A9 Addis-Bahir Dar,1,Longitudinal crack,89.4,11.49,Normal Car,93,fog,worn,6,17,3,9,0.437,9.2323,38.5751,MODERATE,3.6
+2025-06-27 03:50:09,R2 Ring Road,0,Alligator crack,67.8,15.27,Heavy Truck,89,fog,good,30,23,27,10,0.606,9.0121,38.7885,HIGH,5.34
+2025-06-27 21:13:54,A3 Addis-Jimma,2,Repair,73.7,9.61,Normal Car,81,rain,worn,41,35,13,4,0.302,8.5518,38.1478,LOW,1.77
+2025-06-28 14:28:42,A2 Addis-Adama,1,Longitudinal crack,71.5,11.26,Heavy Truck,11,fog,worn,29,52,14,1,0.434,9.0628,38.7733,LOW,0.42
+2025-06-29 08:10:41,A9 Addis-Bahir Dar,2,Repair,85.1,1.34,Normal Car,70,night,good,8,92,21,6,0.707,9.2686,38.6167,LOW,0.33
+2025-06-30 01:10:03,A9 Addis-Bahir Dar,3,Transverse crack,65.6,8.19,Minibus,111,night,good,23,39,26,8,0.688,9.2668,38.6225,MODERATE,3.37
+2025-06-30 19:02:24,R2 Ring Road,3,Transverse crack,51.5,4.15,Heavy Truck,104,heavyrain,bad,41,35,13,7,0.132,8.9985,38.7396,MODERATE,4.5
+2025-07-01 12:25:57,A9 Addis-Bahir Dar,3,Transverse crack,80.9,12.45,Minibus,25,snow,good,39,36,29,6,0.235,9.2691,38.5687,LOW,1.66
+2025-07-02 06:06:13,A9 Addis-Bahir Dar,0,Alligator crack,48.5,8.54,Heavy Truck,92,heavyrain,bad,10,86,28,3,0.129,9.2466,38.5882,CRITICAL,8.21
+2025-07-02 23:55:39,A9 Addis-Bahir Dar,0,Alligator crack,91.3,7.82,Normal Car,81,fog,worn,-1,37,6,5,0.441,9.2725,38.6117,MODERATE,3.67
+2025-07-03 16:56:48,R2 Ring Road,3,Transverse crack,69.2,16.67,Bicycle,62,night,bad,26,63,10,6,0.306,9.049,38.7847,HIGH,5.23
+2025-07-04 10:36:02,A3 Addis-Jimma,3,Transverse crack,71.5,3.04,Heavy Truck,66,night,good,1,82,1,9,0.712,8.5519,38.1015,LOW,1.04
+2025-07-05 04:22:34,A1 Addis-Dire Dawa,2,Repair,75.2,2.23,Normal Car,46,night,good,6,18,25,1,0.703,9.1048,39.1566,LOW,0.27
+2025-07-05 21:39:35,A2 Addis-Adama,1,Longitudinal crack,70.0,1.73,Truck,21,night,good,37,32,26,4,0.703,9.0268,38.7176,LOW,0.2
+2025-07-06 15:36:10,A9 Addis-Bahir Dar,3,Transverse crack,66.8,1.17,Minibus,99,fog,bad,16,48,19,3,0.288,9.218,38.5635,LOW,1.53
+2025-07-07 08:47:06,A3 Addis-Jimma,2,Repair,85.7,12.40,Minibus,59,night,worn,-4,74,15,10,0.478,8.5323,38.1579,LOW,1.4
+2025-07-08 02:38:42,A2 Addis-Adama,0,Alligator crack,60.0,3.87,Normal Car,76,snow,bad,10,31,2,3,0.111,9.0157,38.7047,MODERATE,4.14
+2025-07-08 19:32:11,A2 Addis-Adama,3,Transverse crack,86.8,1.50,Minibus,43,heavyrain,bad,2,28,11,5,0.133,9.0127,38.7588,LOW,1.12
+2025-07-09 13:15:36,A1 Addis-Dire Dawa,3,Transverse crack,70.0,13.93,Motorcycle,22,rain,worn,21,28,30,2,0.294,9.1398,39.124,LOW,1.51
+2025-07-10 06:29:45,A2 Addis-Adama,3,Transverse crack,45.1,5.40,Minibus,114,fog,worn,34,88,19,1,0.441,9.0356,38.7756,MODERATE,3.18
+2025-07-11 00:20:02,A3 Addis-Jimma,2,Repair,53.2,5.11,Truck,22,snow,bad,-2,52,12,8,0.11,8.5322,38.1385,LOW,0.5
+2025-07-11 17:24:12,A9 Addis-Bahir Dar,0,Alligator crack,92.7,11.07,Heavy Truck,59,clear,worn,4,77,27,7,0.53,9.2444,38.611,MODERATE,3.19
+2025-07-12 10:59:45,A1 Addis-Dire Dawa,1,Longitudinal crack,49.1,13.55,Motorcycle,72,fog,worn,37,47,19,2,0.429,9.1022,39.1079,MODERATE,3.19
+2025-07-13 04:54:30,A9 Addis-Bahir Dar,2,Repair,84.3,7.32,Normal Car,72,rain,bad,-1,83,6,9,0.197,9.2616,38.6304,LOW,1.52
+2025-07-13 22:05:05,A3 Addis-Jimma,0,Alligator crack,72.1,2.97,Bicycle,38,night,worn,29,21,24,2,0.491,8.588,38.1647,LOW,0.95
+2025-07-14 15:40:00,A9 Addis-Bahir Dar,1,Longitudinal crack,55.3,11.81,Truck,57,rain,worn,36,63,28,8,0.297,9.25,38.6243,MODERATE,2.67
+2025-07-15 09:10:09,A3 Addis-Jimma,2,Repair,63.0,7.51,Truck,89,night,bad,8,90,26,3,0.31,8.5684,38.1191,LOW,1.69
+2025-07-16 02:29:45,R2 Ring Road,2,Repair,86.6,10.21,Motorcycle,101,heavyrain,worn,24,64,2,7,0.203,8.9936,38.7742,MODERATE,3.03
+2025-07-16 20:34:02,A3 Addis-Jimma,0,Alligator crack,45.2,9.92,Heavy Truck,17,night,worn,41,81,17,1,0.482,8.5389,38.129,LOW,0.97
+2025-07-17 13:56:49,A1 Addis-Dire Dawa,0,Alligator crack,92.3,17.22,Heavy Truck,27,heavyrain,bad,8,45,14,9,0.127,9.1306,39.1226,MODERATE,4.3
+2025-07-18 07:25:57,A3 Addis-Jimma,2,Repair,65.6,16.19,Truck,110,rain,worn,27,34,2,2,0.299,8.5671,38.1101,MODERATE,3.71
+2025-07-19 01:24:22,A9 Addis-Bahir Dar,3,Transverse crack,57.3,2.51,Minibus,68,snow,bad,0,75,25,2,0.11,9.2449,38.6267,LOW,2.34
+2025-07-19 18:04:52,A1 Addis-Dire Dawa,0,Alligator crack,87.8,1.66,Bicycle,110,snow,good,0,35,21,10,0.245,9.1515,39.1105,MODERATE,2.53
+2025-07-20 11:45:56,R2 Ring Road,3,Transverse crack,92.4,1.63,Bicycle,114,fog,good,6,70,20,5,0.638,9.0148,38.7804,LOW,1.28
+2025-07-21 05:41:43,A1 Addis-Dire Dawa,3,Transverse crack,55.5,14.25,Bicycle,25,fog,good,37,72,8,5,0.616,9.1409,39.1072,LOW,1.14
+2025-07-21 23:07:08,A9 Addis-Bahir Dar,3,Transverse crack,68.1,17.70,Heavy Truck,86,heavyrain,bad,4,58,9,5,0.127,9.2452,38.6267,CRITICAL,10
+2025-07-22 16:44:53,A1 Addis-Dire Dawa,1,Longitudinal crack,62.8,2.38,Truck,12,night,bad,38,61,29,3,0.315,9.1476,39.1285,LOW,0.2
+2025-07-23 10:08:53,A9 Addis-Bahir Dar,1,Longitudinal crack,64.7,4.48,Heavy Truck,44,fog,bad,41,61,13,6,0.286,9.2552,38.6363,LOW,1.01
+2025-07-24 03:56:14,A2 Addis-Adama,2,Repair,59.9,2.84,Minibus,97,rain,bad,15,46,13,2,0.199,8.9953,38.7505,LOW,1.11
+2025-07-24 20:56:23,A9 Addis-Bahir Dar,2,Repair,92.9,15.19,Bicycle,6,heavyrain,worn,19,58,14,6,0.198,9.2727,38.6164,LOW,0.25
+2025-07-25 14:29:26,R2 Ring Road,3,Transverse crack,92.0,6.30,Motorcycle,33,clear,worn,8,50,28,7,0.538,8.9964,38.7212,LOW,0.93
+2025-07-26 08:00:04,R2 Ring Road,1,Longitudinal crack,94.3,2.78,Minibus,59,rain,worn,36,19,18,1,0.308,9.0476,38.7317,LOW,1.02
+2025-07-27 02:08:58,A1 Addis-Dire Dawa,1,Longitudinal crack,51.2,17.03,Minibus,88,heavyrain,bad,37,97,13,7,0.127,9.1053,39.1162,CRITICAL,8.76
+2025-07-27 19:24:54,R2 Ring Road,0,Alligator crack,93.2,1.74,Normal Car,62,heavyrain,good,36,34,4,7,0.297,9.0504,38.7305,LOW,1.37
+2025-07-28 12:52:25,A9 Addis-Bahir Dar,3,Transverse crack,78.5,5.54,Heavy Truck,6,heavyrain,worn,39,66,6,1,0.205,9.2605,38.6262,LOW,0.26
+2025-07-29 06:41:37,A9 Addis-Bahir Dar,2,Repair,85.4,12.83,Normal Car,15,heavyrain,good,5,36,18,2,0.284,9.2532,38.5886,LOW,0.42
+2025-07-29 23:20:10,A2 Addis-Adama,1,Longitudinal crack,58.0,13.76,Bicycle,34,clear,bad,-4,45,4,7,0.343,9.0394,38.731,LOW,1.66
+2025-07-30 16:48:43,A1 Addis-Dire Dawa,1,Longitudinal crack,56.9,16.77,Bicycle,15,heavyrain,good,35,45,15,10,0.282,9.1221,39.1637,LOW,0.95
+2025-07-31 10:54:35,A1 Addis-Dire Dawa,1,Longitudinal crack,64.1,1.90,Normal Car,59,night,bad,41,74,14,2,0.319,9.0912,39.1638,LOW,0.89
+2025-08-01 04:38:43,A9 Addis-Bahir Dar,2,Repair,76.2,17.10,Minibus,13,heavyrain,bad,6,96,26,4,0.126,9.278,38.6165,LOW,0.72
+2025-08-01 21:30:45,A9 Addis-Bahir Dar,2,Repair,64.0,6.80,Minibus,18,fog,bad,11,69,26,7,0.281,9.2128,38.6084,LOW,0.3
+2025-08-02 14:54:00,A3 Addis-Jimma,2,Repair,59.6,8.99,Motorcycle,27,rain,bad,1,54,28,2,0.193,8.566,38.1516,LOW,0.67
+2025-08-03 09:17:22,A3 Addis-Jimma,3,Transverse crack,91.9,14.53,Truck,122,night,worn,0,76,13,7,0.475,8.5589,38.164,HIGH,7.66
+2025-08-04 02:11:47,A9 Addis-Bahir Dar,3,Transverse crack,76.3,0.65,Motorcycle,45,fog,worn,20,54,27,7,0.446,9.2632,38.6181,LOW,0.5
+2025-08-04 19:53:45,A2 Addis-Adama,1,Longitudinal crack,47.6,10.14,Truck,13,fog,worn,12,93,4,10,0.438,9.0295,38.7667,LOW,0.45
+2025-08-05 13:42:15,A2 Addis-Adama,1,Longitudinal crack,46.1,7.12,Truck,101,clear,bad,14,63,18,2,0.347,9.042,38.7032,MODERATE,2.91
+2025-08-06 06:41:41,A1 Addis-Dire Dawa,1,Longitudinal crack,93.0,8.11,Bicycle,90,night,bad,26,81,11,7,0.313,9.1188,39.1314,MODERATE,3.29
+2025-08-07 00:52:13,R2 Ring Road,1,Longitudinal crack,51.4,16.82,Truck,89,fog,good,7,85,1,7,0.617,9.0305,38.7237,MODERATE,3.66
+2025-08-07 18:21:31,A3 Addis-Jimma,2,Repair,79.6,2.48,Minibus,8,clear,bad,30,89,24,8,0.351,8.5374,38.1147,LOW,0.07
+2025-08-08 11:20:14,A1 Addis-Dire Dawa,1,Longitudinal crack,86.4,7.04,Bicycle,16,night,bad,33,92,28,1,0.31,9.0963,39.1714,LOW,0.53
+2025-08-09 05:12:04,A9 Addis-Bahir Dar,3,Transverse crack,83.7,11.83,Motorcycle,63,fog,worn,2,37,28,10,0.429,9.2866,38.6035,MODERATE,3.18
+2025-08-09 22:35:12,A1 Addis-Dire Dawa,3,Transverse crack,65.4,12.53,Bicycle,114,heavyrain,good,6,59,28,10,0.282,9.1014,39.1179,HIGH,7.18
+2025-08-10 15:47:52,A3 Addis-Jimma,2,Repair,81.8,1.43,Minibus,81,heavyrain,worn,22,65,7,4,0.208,8.5673,38.0943,LOW,0.75
+2025-08-11 09:15:44,A2 Addis-Adama,0,Alligator crack,60.4,3.64,Truck,49,rain,worn,43,93,24,7,0.306,8.9987,38.7399,LOW,1.56
+2025-08-12 03:34:50,A3 Addis-Jimma,3,Transverse crack,98.8,16.81,Heavy Truck,30,night,worn,14,61,21,9,0.472,8.5466,38.1461,LOW,2.14
+2025-08-12 20:47:06,A9 Addis-Bahir Dar,3,Transverse crack,74.5,14.00,Normal Car,122,heavyrain,good,13,40,29,5,0.28,9.2548,38.5669,CRITICAL,8.44
+2025-08-13 14:10:38,A9 Addis-Bahir Dar,2,Repair,48.0,3.35,Heavy Truck,125,fog,worn,18,16,28,2,0.442,9.2641,38.5872,LOW,1.12
+2025-08-14 07:16:23,A9 Addis-Bahir Dar,0,Alligator crack,46.6,8.12,Motorcycle,116,heavyrain,worn,30,50,12,8,0.203,9.2379,38.5606,CRITICAL,8.35
+2025-08-15 01:36:37,A9 Addis-Bahir Dar,2,Repair,98.2,9.26,Truck,121,fog,worn,14,54,21,2,0.435,9.245,38.6213,LOW,2.17
+2025-08-15 18:46:50,A9 Addis-Bahir Dar,2,Repair,78.1,2.48,Motorcycle,18,heavyrain,worn,24,41,15,7,0.206,9.2791,38.5883,LOW,0.21
+2025-08-16 12:11:54,A1 Addis-Dire Dawa,0,Alligator crack,65.7,11.67,Normal Car,15,heavyrain,bad,0,25,9,4,0.129,9.0833,39.1171,LOW,1.72
+2025-08-17 05:34:02,A3 Addis-Jimma,1,Longitudinal crack,63.4,12.40,Normal Car,46,night,good,40,16,12,8,0.685,8.5575,38.1345,LOW,1.52
+2025-08-17 22:49:03,A2 Addis-Adama,1,Longitudinal crack,97.3,6.77,Motorcycle,29,clear,worn,21,39,2,8,0.547,8.9981,38.7288,LOW,0.68
+2025-08-18 16:42:37,A9 Addis-Bahir Dar,0,Alligator crack,83.1,13.43,Normal Car,24,night,worn,41,35,17,4,0.476,9.2101,38.5834,LOW,1.75
+2025-08-19 10:04:09,R2 Ring Road,0,Alligator crack,63.6,7.56,Truck,83,fog,worn,22,91,28,10,0.435,9.0233,38.7911,MODERATE,3.66
+2025-08-20 03:37:38,A2 Addis-Adama,2,Repair,81.5,0.55,Minibus,9,heavyrain,bad,16,42,18,3,0.133,9.0178,38.7445,LOW,0.08
+2025-08-20 21:06:58,A1 Addis-Dire Dawa,2,Repair,92.1,2.00,Bicycle,51,heavyrain,bad,38,38,21,5,0.132,9.1065,39.1402,LOW,0.65
+2025-08-21 14:34:41,A2 Addis-Adama,1,Longitudinal crack,71.3,16.07,Bicycle,124,heavyrain,good,13,81,25,6,0.28,9.0587,38.7321,HIGH,7.57
+2025-08-22 08:13:32,A2 Addis-Adama,1,Longitudinal crack,91.9,7.97,Minibus,121,snow,bad,27,69,22,10,0.108,9.0334,38.752,HIGH,6.83
+2025-08-23 01:49:44,A1 Addis-Dire Dawa,2,Repair,61.8,3.13,Minibus,15,clear,worn,9,20,24,2,0.545,9.1154,39.1182,LOW,0.12
+2025-08-23 19:08:34,A9 Addis-Bahir Dar,0,Alligator crack,71.4,4.47,Normal Car,89,fog,bad,32,24,6,7,0.287,9.2234,38.6051,MODERATE,3.24
+2025-08-24 12:52:43,A2 Addis-Adama,3,Transverse crack,83.6,8.07,Heavy Truck,84,night,good,33,21,3,8,0.699,9.0126,38.7415,MODERATE,2.52
+2025-08-25 06:50:33,A3 Addis-Jimma,0,Alligator crack,66.0,11.21,Motorcycle,109,heavyrain,worn,36,33,24,6,0.199,8.5783,38.1556,CRITICAL,10
+2025-08-25 23:46:31,R2 Ring Road,3,Transverse crack,49.8,8.78,Normal Car,68,rain,worn,34,41,2,8,0.305,9.0093,38.7421,MODERATE,3.2
+2025-08-26 17:48:16,A9 Addis-Bahir Dar,2,Repair,84.2,6.52,Heavy Truck,22,heavyrain,worn,16,75,7,10,0.204,9.2104,38.6315,LOW,0.47
+2025-08-27 10:44:55,A1 Addis-Dire Dawa,3,Transverse crack,64.4,16.27,Motorcycle,39,night,good,34,55,7,4,0.681,9.1137,39.1226,LOW,2.08
+2025-08-28 04:37:04,R2 Ring Road,0,Alligator crack,63.6,1.14,Bicycle,124,night,worn,13,43,28,4,0.493,8.9937,38.7234,LOW,2.07
+2025-08-28 21:52:52,R2 Ring Road,3,Transverse crack,45.7,16.10,Bicycle,13,snow,good,-5,86,27,9,0.233,9.028,38.7971,LOW,1.07
+2025-08-29 15:30:00,A2 Addis-Adama,1,Longitudinal crack,45.1,14.91,Heavy Truck,125,clear,bad,18,64,4,4,0.341,9.0012,38.7643,HIGH,6.52
+2025-08-30 09:07:12,A9 Addis-Bahir Dar,3,Transverse crack,81.4,4.05,Minibus,47,snow,bad,2,69,30,7,0.109,9.2757,38.5777,LOW,2.12
+2025-08-31 02:46:19,R2 Ring Road,1,Longitudinal crack,49.7,1.63,Motorcycle,105,heavyrain,worn,27,55,11,9,0.207,9.0297,38.752,LOW,1.85
+2025-08-31 20:25:24,A2 Addis-Adama,1,Longitudinal crack,48.1,1.43,Truck,65,snow,good,20,82,18,7,0.246,9.0495,38.7368,LOW,0.89
+2025-09-01 13:25:58,A9 Addis-Bahir Dar,0,Alligator crack,95.8,1.67,Truck,70,clear,good,42,29,3,8,0.794,9.2373,38.5857,LOW,0.9
+2025-09-02 07:27:24,A1 Addis-Dire Dawa,0,Alligator crack,70.6,5.58,Normal Car,51,clear,worn,30,83,9,2,0.546,9.1519,39.1325,LOW,1.64
+2025-09-03 00:17:25,A2 Addis-Adama,3,Transverse crack,64.9,13.82,Normal Car,50,snow,bad,20,63,6,1,0.107,8.9935,38.7536,HIGH,5.62
+2025-09-03 18:04:31,A2 Addis-Adama,0,Alligator crack,98.6,17.12,Truck,61,heavyrain,good,16,36,5,2,0.284,9.0577,38.7132,HIGH,6.24
+2025-09-04 12:02:32,A2 Addis-Adama,3,Transverse crack,83.9,13.12,Motorcycle,56,snow,bad,40,64,17,1,0.106,8.998,38.7334,HIGH,6.02
+2025-09-05 05:33:40,A9 Addis-Bahir Dar,1,Longitudinal crack,78.7,11.56,Motorcycle,72,clear,bad,43,69,29,9,0.339,9.2819,38.6376,MODERATE,3.03
+2025-09-05 22:29:22,A9 Addis-Bahir Dar,2,Repair,82.1,5.42,Bicycle,104,fog,bad,42,35,22,8,0.283,9.2372,38.5729,LOW,1.5
+2025-09-06 16:50:06,R2 Ring Road,2,Repair,92.0,8.45,Truck,72,rain,bad,10,50,6,5,0.196,9.0297,38.7224,LOW,1.69
+2025-09-07 10:01:25,A3 Addis-Jimma,3,Transverse crack,56.1,1.34,Minibus,59,clear,worn,2,56,9,5,0.554,8.5681,38.1544,LOW,0.73
+2025-09-08 03:13:35,A3 Addis-Jimma,0,Alligator crack,86.6,0.91,Heavy Truck,104,night,worn,22,96,11,2,0.499,8.5821,38.1349,LOW,1.63
+2025-09-08 20:34:23,R2 Ring Road,3,Transverse crack,69.4,8.80,Minibus,64,fog,bad,32,41,4,2,0.283,9.0172,38.7965,MODERATE,3.04
+2025-09-09 14:48:43,A2 Addis-Adama,3,Transverse crack,83.4,10.74,Truck,59,night,worn,34,61,4,4,0.485,9.0337,38.7169,MODERATE,2.88
+2025-09-10 08:22:02,A2 Addis-Adama,0,Alligator crack,94.9,12.08,Normal Car,6,night,bad,34,89,3,5,0.31,9.0156,38.7467,LOW,0.48
+2025-09-11 01:33:30,A3 Addis-Jimma,1,Longitudinal crack,85.7,7.12,Truck,86,heavyrain,worn,-4,78,27,8,0.201,8.5878,38.102,MODERATE,3.53
+2025-09-11 18:54:19,A2 Addis-Adama,0,Alligator crack,55.1,1.32,Normal Car,44,heavyrain,good,13,77,24,7,0.294,9.0421,38.7166,LOW,0.88
+2025-09-12 12:58:08,A9 Addis-Bahir Dar,3,Transverse crack,77.7,8.47,Bicycle,50,fog,good,5,84,7,8,0.629,9.2662,38.5819,LOW,1.49
+2025-09-13 05:45:22,A2 Addis-Adama,3,Transverse crack,61.9,16.43,Bicycle,113,snow,worn,21,15,12,5,0.165,9.0661,38.7188,CRITICAL,10
+2025-09-13 23:48:41,A3 Addis-Jimma,2,Repair,76.3,10.70,Bicycle,65,snow,worn,0,93,17,1,0.167,8.5475,38.1431,LOW,2.14
+2025-09-14 16:33:47,A2 Addis-Adama,2,Repair,90.4,4.73,Normal Car,107,clear,worn,18,26,9,5,0.548,9.0077,38.7639,LOW,1.07
+2025-09-15 10:36:49,R2 Ring Road,3,Transverse crack,61.6,9.98,Bicycle,27,night,good,-3,80,20,5,0.687,8.9906,38.7563,LOW,0.96
+2025-09-16 03:36:49,R2 Ring Road,0,Alligator crack,66.4,15.76,Normal Car,26,snow,worn,12,59,30,10,0.163,9.0099,38.7719,MODERATE,3.41
+2025-09-16 22:03:49,A3 Addis-Jimma,0,Alligator crack,89.3,4.96,Normal Car,117,fog,bad,3,51,26,5,0.283,8.5441,38.0923,MODERATE,4.56
+2025-09-17 14:53:15,A2 Addis-Adama,0,Alligator crack,68.1,14.62,Normal Car,109,snow,bad,21,49,11,2,0.106,9,38.7017,CRITICAL,10
+2025-09-18 08:29:47,A2 Addis-Adama,2,Repair,70.9,7.39,Motorcycle,120,rain,good,33,70,17,4,0.434,9.0298,38.7451,LOW,1.65
+2025-09-19 02:04:53,A2 Addis-Adama,3,Transverse crack,57.2,3.13,Minibus,119,heavyrain,bad,30,60,8,4,0.133,9.0656,38.7055,MODERATE,4.35
+2025-09-19 20:06:11,R2 Ring Road,2,Repair,83.3,2.22,Heavy Truck,83,night,bad,0,22,29,10,0.315,8.9944,38.7427,LOW,0.74
+2025-09-20 13:22:33,A3 Addis-Jimma,2,Repair,48.2,12.84,Heavy Truck,104,rain,bad,25,21,21,3,0.191,8.5526,38.1153,MODERATE,3.43
+2025-09-21 07:04:47,A9 Addis-Bahir Dar,1,Longitudinal crack,73.0,15.36,Heavy Truck,52,fog,worn,14,90,30,3,0.424,9.2795,38.5703,MODERATE,2.57
+2025-09-22 00:00:40,A9 Addis-Bahir Dar,0,Alligator crack,53.5,13.07,Truck,115,night,worn,30,83,19,1,0.476,9.2827,38.6033,CRITICAL,8.21
+2025-09-22 18:08:57,A3 Addis-Jimma,1,Longitudinal crack,91.5,4.71,Normal Car,80,heavyrain,worn,-2,23,6,7,0.206,8.5506,38.1674,LOW,2.46
+2025-09-23 11:34:40,A3 Addis-Jimma,0,Alligator crack,77.0,9.40,Motorcycle,109,rain,worn,3,94,30,7,0.299,8.5363,38.1211,HIGH,6.72
+2025-09-24 04:27:44,A2 Addis-Adama,1,Longitudinal crack,89.1,4.18,Normal Car,122,snow,good,25,46,2,4,0.246,9.0167,38.7492,MODERATE,2.84
+2025-09-24 21:58:28,A1 Addis-Dire Dawa,2,Repair,87.3,1.34,Bicycle,49,night,good,36,77,30,3,0.702,9.0993,39.1272,LOW,0.23
+2025-09-25 15:47:56,A3 Addis-Jimma,3,Transverse crack,71.1,15.95,Bicycle,20,night,bad,35,83,14,8,0.305,8.5223,38.1076,LOW,1.62
+2025-09-26 09:06:00,R2 Ring Road,3,Transverse crack,48.5,6.99,Normal Car,20,snow,good,17,63,18,3,0.241,9.0006,38.7752,LOW,0.84
+2025-09-27 02:29:04,A2 Addis-Adama,3,Transverse crack,92.1,14.08,Truck,114,rain,bad,-2,68,17,9,0.191,9.0401,38.7758,CRITICAL,9.39
+2025-09-27 20:22:09,A2 Addis-Adama,3,Transverse crack,74.9,11.94,Minibus,72,heavyrain,worn,33,61,21,6,0.199,9.067,38.753,HIGH,5.67
+2025-09-28 14:04:04,A1 Addis-Dire Dawa,2,Repair,54.5,6.29,Heavy Truck,116,snow,good,32,85,10,10,0.243,9.1042,39.1207,LOW,1.96
+2025-09-29 07:38:01,A1 Addis-Dire Dawa,3,Transverse crack,94.8,13.18,Truck,52,clear,good,35,25,7,2,0.761,9.0861,39.1485,LOW,2.01
+2025-09-30 01:28:40,A9 Addis-Bahir Dar,2,Repair,64.5,11.70,Truck,88,clear,bad,10,45,29,6,0.339,9.2391,38.5769,LOW,2.07
+2025-09-30 18:22:06,A9 Addis-Bahir Dar,1,Longitudinal crack,63.8,17.75,Heavy Truck,29,night,bad,12,84,18,10,0.304,9.2368,38.5934,LOW,2.02
+2025-10-01 11:40:42,A1 Addis-Dire Dawa,1,Longitudinal crack,47.9,16.08,Bicycle,42,night,worn,41,57,30,1,0.469,9.0947,39.1749,LOW,2.26
+2025-10-02 05:44:14,A3 Addis-Jimma,0,Alligator crack,81.4,10.99,Minibus,93,heavyrain,bad,44,61,26,4,0.128,8.5627,38.0978,CRITICAL,10
+2025-10-02 23:26:16,A2 Addis-Adama,2,Repair,91.8,5.84,Normal Car,16,heavyrain,worn,25,34,2,3,0.206,8.994,38.7166,LOW,0.31
+2025-10-03 16:25:17,R2 Ring Road,0,Alligator crack,59.7,14.63,Motorcycle,123,fog,good,33,95,4,6,0.617,8.9848,38.7656,HIGH,7.11
+2025-10-04 09:50:47,A3 Addis-Jimma,2,Repair,97.7,17.69,Normal Car,23,fog,bad,-5,47,8,4,0.276,8.5295,38.155,LOW,0.84
+2025-10-05 03:46:01,A2 Addis-Adama,0,Alligator crack,55.8,16.26,Normal Car,18,clear,worn,5,37,27,5,0.522,9.0696,38.7182,LOW,1.35
+2025-10-05 21:37:15,A1 Addis-Dire Dawa,0,Alligator crack,70.4,16.84,Motorcycle,13,clear,bad,35,40,28,6,0.336,9.1435,39.1116,LOW,1.2
+2025-10-06 15:02:45,R2 Ring Road,0,Alligator crack,58.5,10.65,Truck,64,fog,worn,35,32,3,2,0.438,9.0475,38.767,MODERATE,3.69
+2025-10-07 08:34:05,A1 Addis-Dire Dawa,2,Repair,66.8,11.43,Minibus,124,night,bad,-5,58,11,8,0.309,9.1345,39.1583,MODERATE,3.28
+2025-10-08 01:14:30,A3 Addis-Jimma,1,Longitudinal crack,72.9,15.31,Normal Car,71,rain,worn,33,42,22,1,0.295,8.5284,38.1382,MODERATE,4.13
+2025-10-08 19:22:39,R2 Ring Road,0,Alligator crack,89.3,6.16,Normal Car,40,night,bad,26,22,18,1,0.314,9.0029,38.7514,LOW,1.89
+2025-10-09 12:22:19,A9 Addis-Bahir Dar,1,Longitudinal crack,52.4,5.04,Minibus,8,snow,worn,-1,68,14,10,0.17,9.2137,38.6142,LOW,0.27
+2025-10-10 06:02:38,A1 Addis-Dire Dawa,2,Repair,77.1,2.28,Truck,11,snow,bad,20,74,23,3,0.11,9.0941,39.1239,LOW,0.16
+2025-10-10 23:41:17,A3 Addis-Jimma,3,Transverse crack,45.2,16.87,Motorcycle,112,rain,good,39,16,15,9,0.423,8.5633,38.1379,HIGH,6.96
+2025-10-11 17:42:29,A1 Addis-Dire Dawa,2,Repair,52.2,7.79,Heavy Truck,107,fog,worn,12,78,1,5,0.443,9.1025,39.1176,LOW,1.68
+2025-10-12 10:19:53,A9 Addis-Bahir Dar,0,Alligator crack,48.7,15.31,Motorcycle,21,night,good,12,71,11,8,0.679,9.2817,38.6121,LOW,1.32
+2025-10-13 04:01:52,A2 Addis-Adama,1,Longitudinal crack,62.4,14.31,Normal Car,21,rain,good,11,76,20,7,0.423,9.0018,38.7021,LOW,0.89
+2025-10-13 21:57:05,A1 Addis-Dire Dawa,3,Transverse crack,73.9,17.92,Heavy Truck,6,clear,bad,38,28,15,7,0.339,9.1209,39.1644,LOW,0.47
+2025-10-14 15:09:03,A2 Addis-Adama,0,Alligator crack,63.1,13.12,Normal Car,28,night,good,0,76,9,7,0.684,8.9915,38.7349,LOW,1.54
+2025-10-15 08:26:02,A3 Addis-Jimma,1,Longitudinal crack,96.0,14.36,Truck,86,rain,good,-4,36,25,9,0.421,8.5538,38.0911,MODERATE,3.64
+2025-10-16 02:50:15,A2 Addis-Adama,0,Alligator crack,92.9,6.01,Minibus,50,clear,worn,24,21,15,5,0.543,9.0108,38.7704,LOW,1.7
+2025-10-16 19:41:17,A2 Addis-Adama,1,Longitudinal crack,81.7,14.59,Truck,121,fog,good,28,27,5,1,0.616,9.0414,38.7648,MODERATE,4.4
+2025-10-17 13:19:23,R2 Ring Road,1,Longitudinal crack,51.3,16.23,Minibus,124,heavyrain,good,15,26,2,7,0.285,9.0303,38.7808,HIGH,7.63
+2025-10-18 07:05:52,A1 Addis-Dire Dawa,2,Repair,89.6,12.25,Normal Car,18,snow,good,7,88,4,2,0.239,9.101,39.1717,LOW,0.51
+2025-10-19 00:09:02,A1 Addis-Dire Dawa,3,Transverse crack,88.1,17.59,Bicycle,24,night,good,17,17,25,5,0.673,9.1259,39.1361,LOW,1.37
+2025-10-19 18:22:53,A2 Addis-Adama,0,Alligator crack,94.0,13.77,Motorcycle,126,rain,bad,34,68,17,5,0.191,9.0412,38.7212,CRITICAL,10
+2025-10-20 11:17:08,R2 Ring Road,0,Alligator crack,53.2,5.86,Bicycle,32,fog,good,18,85,22,3,0.628,9.0052,38.7651,LOW,0.9
+2025-10-21 04:57:11,A2 Addis-Adama,2,Repair,97.4,10.82,Minibus,49,rain,good,32,18,9,1,0.431,8.9954,38.7485,LOW,0.91
+2025-10-21 22:50:07,R2 Ring Road,3,Transverse crack,86.9,5.29,Motorcycle,12,night,worn,-2,72,27,6,0.486,8.9846,38.7782,LOW,0.34
+2025-10-22 16:18:39,A3 Addis-Jimma,3,Transverse crack,73.7,7.52,Truck,95,heavyrain,bad,28,92,4,4,0.131,8.5447,38.1151,HIGH,6.19
+2025-10-23 09:58:13,A2 Addis-Adama,0,Alligator crack,96.6,7.72,Bicycle,69,fog,good,26,46,16,5,0.627,9.012,38.7424,LOW,2.38
+2025-10-24 02:44:49,A1 Addis-Dire Dawa,0,Alligator crack,64.7,8.12,Bicycle,70,snow,good,26,82,4,5,0.243,9.105,39.1344,MODERATE,4.1
+2025-10-24 21:05:39,A9 Addis-Bahir Dar,3,Transverse crack,92.3,9.38,Truck,85,snow,bad,0,24,30,8,0.107,9.2152,38.5679,HIGH,6.95
+2025-10-25 14:38:19,R2 Ring Road,1,Longitudinal crack,80.6,2.19,Normal Car,104,fog,worn,4,61,22,2,0.445,9.0263,38.7888,LOW,1.35
+2025-10-26 07:39:59,A2 Addis-Adama,1,Longitudinal crack,69.6,2.37,Heavy Truck,52,rain,bad,31,34,3,3,0.2,9.0413,38.7357,LOW,0.99
+2025-10-27 01:20:17,A9 Addis-Bahir Dar,3,Transverse crack,71.0,9.01,Motorcycle,81,rain,bad,17,21,15,3,0.194,9.2308,38.6075,MODERATE,4.63
+2025-10-27 19:12:04,A3 Addis-Jimma,1,Longitudinal crack,79.4,16.43,Normal Car,44,clear,bad,17,81,1,8,0.342,8.5719,38.1269,LOW,2.5
+2025-10-28 12:42:10,A3 Addis-Jimma,0,Alligator crack,91.0,15.45,Normal Car,80,fog,good,41,44,28,4,0.606,8.5606,38.1233,MODERATE,4.84
+2025-10-29 05:50:42,A1 Addis-Dire Dawa,0,Alligator crack,78.9,3.15,Normal Car,58,clear,good,25,85,21,10,0.781,9.1262,39.1005,LOW,1
+2025-10-29 22:49:31,A9 Addis-Bahir Dar,2,Repair,90.4,9.16,Motorcycle,102,rain,good,10,59,6,9,0.435,9.2298,38.6348,LOW,1.65
+2025-10-30 16:34:27,R2 Ring Road,2,Repair,61.9,8.33,Minibus,20,fog,bad,-2,49,2,8,0.284,9.0399,38.7579,LOW,0.39
+2025-10-31 10:47:11,A1 Addis-Dire Dawa,1,Longitudinal crack,76.7,14.88,Minibus,110,fog,good,38,19,12,5,0.613,9.1112,39.1512,MODERATE,4.07
+2025-11-01 03:43:00,A3 Addis-Jimma,1,Longitudinal crack,64.0,6.31,Minibus,33,heavyrain,worn,28,58,11,10,0.204,8.5733,38.1421,LOW,1.24
+2025-11-01 21:18:09,A1 Addis-Dire Dawa,1,Longitudinal crack,80.5,15.33,Heavy Truck,87,rain,good,4,15,16,6,0.423,9.0823,39.1173,MODERATE,3.9
+2025-11-02 14:56:50,A3 Addis-Jimma,0,Alligator crack,60.1,9.96,Motorcycle,20,night,bad,29,26,7,1,0.312,8.5534,38.0914,LOW,1.36
+2025-11-03 08:48:42,R2 Ring Road,2,Repair,63.2,2.56,Heavy Truck,45,snow,good,27,25,12,7,0.246,9.0438,38.7997,LOW,0.44
+2025-11-04 01:48:45,R2 Ring Road,3,Transverse crack,89.5,9.85,Minibus,80,night,good,25,57,3,9,0.695,9.0076,38.748,MODERATE,2.8
+2025-11-04 19:21:40,R2 Ring Road,2,Repair,61.2,13.86,Minibus,26,heavyrain,worn,-4,31,19,3,0.198,8.9924,38.7586,LOW,1
+2025-11-05 12:31:59,A9 Addis-Bahir Dar,1,Longitudinal crack,81.4,15.90,Bicycle,101,clear,worn,8,88,3,6,0.531,9.2174,38.6073,MODERATE,4.67
+2025-11-06 06:52:36,A2 Addis-Adama,2,Repair,84.8,3.95,Normal Car,62,fog,bad,9,34,30,1,0.283,9.0436,38.7035,LOW,0.73
+2025-11-07 00:19:42,A1 Addis-Dire Dawa,0,Alligator crack,91.0,6.41,Truck,119,rain,bad,36,31,5,8,0.198,9.1228,39.107,HIGH,6.55
+2025-11-07 17:46:21,R2 Ring Road,2,Repair,93.8,10.26,Bicycle,125,fog,worn,29,46,26,8,0.432,9.0179,38.7627,LOW,2.43
+2025-11-08 11:05:19,A9 Addis-Bahir Dar,1,Longitudinal crack,82.4,16.18,Truck,12,snow,bad,19,20,13,8,0.106,9.274,38.6254,LOW,1.21
+2025-11-09 04:16:00,A3 Addis-Jimma,3,Transverse crack,79.6,13.02,Truck,11,snow,bad,13,32,9,1,0.107,8.5447,38.109,LOW,1.17
+2025-11-09 21:42:35,A1 Addis-Dire Dawa,1,Longitudinal crack,65.9,17.79,Normal Car,99,clear,good,25,75,10,6,0.755,9.0935,39.1487,MODERATE,3.88
+2025-11-10 15:39:35,A3 Addis-Jimma,1,Longitudinal crack,61.9,3.96,Bicycle,113,snow,bad,13,46,1,2,0.111,8.5287,38.1499,MODERATE,3.94
+2025-11-11 08:45:13,R2 Ring Road,2,Repair,89.0,15.37,Truck,15,night,good,14,47,17,1,0.676,9.0249,38.759,LOW,0.33
+2025-11-12 02:31:08,R2 Ring Road,3,Transverse crack,53.8,11.93,Normal Car,60,night,bad,22,21,15,4,0.308,9.0558,38.7234,MODERATE,3.81
+2025-11-12 20:09:28,A2 Addis-Adama,2,Repair,79.3,5.04,Normal Car,48,fog,good,2,47,20,7,0.631,9.0532,38.7394,LOW,0.42
+2025-11-13 13:54:14,A3 Addis-Jimma,1,Longitudinal crack,75.8,15.55,Motorcycle,127,night,worn,19,21,19,1,0.473,8.5966,38.1502,HIGH,6.63
+2025-11-14 07:02:39,A3 Addis-Jimma,1,Longitudinal crack,98.0,13.37,Minibus,50,night,bad,19,60,25,4,0.304,8.5511,38.1298,MODERATE,2.73
+2025-11-15 00:59:04,A9 Addis-Bahir Dar,1,Longitudinal crack,95.2,16.10,Normal Car,43,clear,worn,29,65,12,8,0.528,9.2488,38.622,LOW,2.01
+2025-11-15 17:55:12,A2 Addis-Adama,2,Repair,86.8,12.08,Motorcycle,25,rain,good,11,18,8,4,0.43,9.0208,38.7133,LOW,0.51
+2025-11-16 12:06:50,R2 Ring Road,1,Longitudinal crack,82.0,3.19,Motorcycle,121,snow,good,42,42,30,3,0.242,8.9952,38.7338,LOW,2.4
+2025-11-17 05:28:45,R2 Ring Road,0,Alligator crack,50.1,15.53,Normal Car,57,night,good,7,95,14,9,0.678,9.0443,38.7735,MODERATE,3.62
+2025-11-17 22:46:56,A2 Addis-Adama,2,Repair,52.3,16.19,Motorcycle,23,night,good,29,45,24,9,0.673,9.0105,38.7096,LOW,0.53
+2025-11-18 16:35:06,A2 Addis-Adama,1,Longitudinal crack,49.9,2.86,Bicycle,97,night,good,44,41,27,10,0.7,9.0489,38.7,LOW,1.16
+2025-11-19 10:08:35,A9 Addis-Bahir Dar,1,Longitudinal crack,78.2,10.93,Truck,86,heavyrain,good,8,58,3,5,0.288,9.2548,38.5757,MODERATE,3.8
+2025-11-20 03:10:48,A1 Addis-Dire Dawa,1,Longitudinal crack,62.0,4.18,Truck,16,night,good,30,45,8,6,0.706,9.144,39.1068,LOW,0.24
+2025-11-20 20:43:52,A2 Addis-Adama,2,Repair,73.5,8.03,Normal Car,7,fog,bad,34,85,8,9,0.283,9.0573,38.7405,LOW,0.13
+2025-11-21 14:38:32,A3 Addis-Jimma,3,Transverse crack,82.2,12.69,Motorcycle,66,snow,good,39,33,18,10,0.237,8.5313,38.0914,MODERATE,4.45
+2025-11-22 07:59:39,A3 Addis-Jimma,0,Alligator crack,77.9,15.86,Motorcycle,90,clear,bad,-1,15,6,7,0.341,8.5242,38.091,HIGH,7.85
+2025-11-23 01:05:35,A3 Addis-Jimma,1,Longitudinal crack,81.8,12.63,Minibus,126,heavyrain,worn,31,64,2,9,0.201,8.5726,38.1235,CRITICAL,8.15
+2025-11-23 18:46:50,A9 Addis-Bahir Dar,0,Alligator crack,46.8,11.56,Motorcycle,16,night,good,-5,45,19,9,0.683,9.2565,38.6018,LOW,0.79
+2025-11-24 12:13:47,A1 Addis-Dire Dawa,3,Transverse crack,80.9,10.63,Normal Car,52,clear,bad,24,17,15,2,0.344,9.0818,39.1291,MODERATE,2.61
+2025-11-25 06:03:17,R2 Ring Road,3,Transverse crack,70.4,15.17,Bicycle,55,heavyrain,bad,1,57,29,3,0.126,9.026,38.7374,HIGH,6.32
+2025-11-25 23:58:39,A1 Addis-Dire Dawa,3,Transverse crack,68.2,15.13,Bicycle,14,clear,worn,12,21,21,9,0.525,9.1415,39.1141,LOW,0.79
+2025-11-26 17:18:46,A2 Addis-Adama,0,Alligator crack,71.8,13.63,Truck,44,rain,bad,14,98,12,8,0.192,8.9954,38.7384,MODERATE,4.39
+2025-11-27 10:44:45,A3 Addis-Jimma,0,Alligator crack,80.6,2.90,Minibus,6,fog,bad,24,59,13,4,0.287,8.5368,38.1228,LOW,0.17
+2025-11-28 04:00:26,A2 Addis-Adama,1,Longitudinal crack,92.5,6.64,Motorcycle,42,snow,good,28,40,15,10,0.242,9.064,38.7235,LOW,1.34
+2025-11-28 21:48:35,A1 Addis-Dire Dawa,1,Longitudinal crack,59.9,3.93,Heavy Truck,14,fog,bad,29,50,16,9,0.286,9.1037,39.1342,LOW,0.3
+2025-11-29 15:37:33,A1 Addis-Dire Dawa,0,Alligator crack,73.3,10.69,Minibus,99,night,good,-4,89,15,8,0.687,9.094,39.1607,MODERATE,4.61
+2025-11-30 08:57:28,A2 Addis-Adama,3,Transverse crack,64.9,13.30,Heavy Truck,47,fog,good,-5,48,9,10,0.617,9.0515,38.726,LOW,2.01
+2025-12-01 02:28:40,A9 Addis-Bahir Dar,1,Longitudinal crack,51.9,7.15,Minibus,11,night,bad,18,29,9,2,0.314,9.2899,38.5685,LOW,0.37
+2025-12-01 20:03:43,A1 Addis-Dire Dawa,0,Alligator crack,85.1,1.03,Normal Car,103,night,worn,32,36,12,5,0.498,9.1116,39.1505,LOW,1.67
+2025-12-02 12:52:04,A1 Addis-Dire Dawa,2,Repair,82.3,11.22,Motorcycle,11,night,good,10,84,16,4,0.686,9.0861,39.1383,LOW,0.19
+2025-12-03 06:24:09,A1 Addis-Dire Dawa,1,Longitudinal crack,53.3,15.44,Normal Car,68,fog,good,38,16,10,9,0.613,9.0941,39.1275,MODERATE,2.59
+2025-12-04 00:33:02,A9 Addis-Bahir Dar,1,Longitudinal crack,74.8,1.34,Minibus,122,heavyrain,good,31,76,10,4,0.297,9.2373,38.5913,LOW,1.54
+2025-12-04 17:29:29,A2 Addis-Adama,1,Longitudinal crack,91.7,4.19,Heavy Truck,23,rain,worn,16,84,25,9,0.305,9.0206,38.7242,LOW,0.5
+2025-12-05 11:15:10,A2 Addis-Adama,0,Alligator crack,80.9,6.62,Motorcycle,70,clear,good,-3,94,19,1,0.772,9.0466,38.7677,LOW,1.96
+2025-12-06 05:01:55,A1 Addis-Dire Dawa,2,Repair,75.4,16.19,Heavy Truck,15,fog,worn,35,88,1,5,0.432,9.126,39.1454,LOW,0.43
+2025-12-06 22:13:31,A9 Addis-Bahir Dar,3,Transverse crack,70.4,17.04,Truck,89,night,worn,23,78,9,10,0.476,9.2182,38.6285,HIGH,6.41
+2025-12-07 15:58:48,A2 Addis-Adama,0,Alligator crack,53.1,14.21,Normal Car,102,rain,bad,43,73,7,6,0.192,9.0018,38.7415,CRITICAL,10
+2025-12-08 09:11:28,R2 Ring Road,2,Repair,68.6,6.61,Truck,21,night,good,0,48,21,6,0.694,8.993,38.7258,LOW,0.23
+2025-12-09 03:21:44,A9 Addis-Bahir Dar,2,Repair,85.2,12.01,Truck,80,heavyrain,worn,42,21,30,5,0.198,9.2273,38.5785,MODERATE,2.74
+2025-12-09 20:30:48,A2 Addis-Adama,1,Longitudinal crack,90.6,17.43,Motorcycle,88,clear,bad,9,50,26,9,0.336,9.0478,38.7214,HIGH,5.26
+2025-12-10 13:48:11,A3 Addis-Jimma,2,Repair,66.5,6.38,Truck,99,clear,bad,22,51,12,10,0.35,8.5558,38.0916,LOW,1.45
+2025-12-11 07:09:00,R2 Ring Road,2,Repair,58.7,7.73,Motorcycle,33,clear,good,-2,54,17,2,0.771,9.0039,38.7817,LOW,0.36
+2025-12-12 00:30:51,A3 Addis-Jimma,3,Transverse crack,76.2,17.22,Heavy Truck,25,snow,worn,25,26,9,1,0.165,8.5752,38.0939,MODERATE,2.85
+2025-12-12 18:28:36,A1 Addis-Dire Dawa,1,Longitudinal crack,46.7,16.28,Minibus,77,heavyrain,worn,43,37,14,10,0.198,9.0977,39.1631,HIGH,6.18
+2025-12-13 12:06:46,A2 Addis-Adama,0,Alligator crack,75.1,9.96,Heavy Truck,61,fog,worn,24,92,27,4,0.432,8.9914,38.7727,MODERATE,3.33
+2025-12-14 05:27:03,A2 Addis-Adama,0,Alligator crack,80.0,5.44,Heavy Truck,112,fog,bad,-3,78,6,2,0.286,9.0095,38.743,MODERATE,4.65
+2025-12-14 22:49:22,A1 Addis-Dire Dawa,1,Longitudinal crack,83.4,7.12,Motorcycle,91,night,bad,3,63,6,7,0.315,9.1448,39.1436,MODERATE,3.02
+2025-12-15 16:29:54,R2 Ring Road,1,Longitudinal crack,56.4,17.26,Motorcycle,50,snow,bad,36,17,8,3,0.106,9.0021,38.7242,HIGH,5.33
+2025-12-16 09:39:05,R2 Ring Road,2,Repair,61.8,9.96,Truck,66,rain,bad,-1,96,2,1,0.196,8.9937,38.7309,LOW,1.77
+2025-12-17 03:29:01,A3 Addis-Jimma,0,Alligator crack,68.5,1.01,Heavy Truck,112,night,worn,1,88,20,5,0.496,8.5673,38.123,LOW,1.8
+2025-12-17 20:41:46,A1 Addis-Dire Dawa,2,Repair,94.2,13.15,Normal Car,108,rain,worn,41,69,7,3,0.3,9.093,39.1385,MODERATE,3.05
+2025-12-18 14:57:03,A1 Addis-Dire Dawa,0,Alligator crack,56.2,4.36,Heavy Truck,91,rain,good,9,21,13,7,0.44,9.1172,39.1608,LOW,2.49
+2025-12-19 07:44:02,R2 Ring Road,0,Alligator crack,89.9,16.64,Normal Car,43,heavyrain,worn,25,18,29,10,0.196,9.0374,38.7548,HIGH,5.58
+2025-12-20 01:30:20,A1 Addis-Dire Dawa,1,Longitudinal crack,50.3,15.16,Bicycle,59,heavyrain,worn,2,72,16,8,0.197,9.1374,39.1127,MODERATE,4.45
+2025-12-20 19:17:05,A2 Addis-Adama,3,Transverse crack,58.7,15.12,Minibus,55,heavyrain,bad,38,77,6,6,0.128,9.0662,38.7123,HIGH,6.3
+2025-12-21 13:07:49,A3 Addis-Jimma,3,Transverse crack,94.0,17.87,Minibus,54,night,good,37,98,24,3,0.673,8.578,38.1535,MODERATE,3.12
+2025-12-22 06:32:11,A9 Addis-Bahir Dar,3,Transverse crack,97.3,7.61,Minibus,27,clear,bad,-4,24,18,9,0.347,9.2531,38.5986,LOW,1.04
+2025-12-23 00:03:16,A1 Addis-Dire Dawa,0,Alligator crack,58.6,5.17,Minibus,84,night,worn,19,64,9,3,0.492,9.0863,39.1675,MODERATE,2.95
+2025-12-23 17:17:47,A3 Addis-Jimma,3,Transverse crack,79.4,15.69,Motorcycle,33,night,worn,33,24,8,9,0.476,8.5351,38.1223,LOW,2.21
+2025-12-24 10:33:46,A3 Addis-Jimma,3,Transverse crack,72.5,3.66,Bicycle,114,night,good,28,82,20,6,0.702,8.5215,38.0949,LOW,1.99
+2025-12-25 04:13:12,R2 Ring Road,1,Longitudinal crack,59.2,10.59,Bicycle,87,fog,good,34,56,24,8,0.617,8.9903,38.7244,LOW,2.42
+2025-12-25 21:28:49,R2 Ring Road,3,Transverse crack,73.1,0.70,Truck,99,heavyrain,worn,35,75,15,10,0.207,9.0048,38.7416,LOW,1.73
+2025-12-26 15:29:38,A9 Addis-Bahir Dar,2,Repair,55.5,14.19,Bicycle,44,night,good,8,52,17,6,0.678,9.2522,38.5982,LOW,0.9
+2025-12-27 08:24:07,R2 Ring Road,1,Longitudinal crack,94.8,10.41,Heavy Truck,79,snow,bad,37,32,19,7,0.107,9.0053,38.7282,HIGH,5.5
+2025-12-28 01:57:11,A9 Addis-Bahir Dar,2,Repair,82.3,11.15,Motorcycle,11,heavyrain,good,34,82,17,3,0.286,9.2623,38.5847,LOW,0.27
+2025-12-28 19:42:26,A1 Addis-Dire Dawa,0,Alligator crack,66.5,6.20,Motorcycle,97,clear,worn,6,61,21,6,0.541,9.1012,39.1007,MODERATE,3.36
+2025-12-29 13:10:55,A3 Addis-Jimma,0,Alligator crack,55.2,7.53,Normal Car,42,night,bad,21,85,18,10,0.312,8.5884,38.1055,LOW,2.3
+2025-12-30 06:46:47,R2 Ring Road,2,Repair,78.2,16.19,Minibus,71,clear,worn,4,32,14,5,0.527,9.04,38.7842,LOW,1.84
